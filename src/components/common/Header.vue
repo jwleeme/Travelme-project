@@ -1,20 +1,56 @@
 <template>
   <header>
-    <router-link to="/" class="logo">
-    <span>TravelME</span>
-    </router-link>
+    <div class="inner">
+      <router-link to="/" class="logo">
+        <span>TravelME!</span>
+      </router-link>
 
-    <ul class="right_area">
-      <li>
-        <router-link :to="{name: 'About'}">About</router-link>
-      </li>
-      <li>
-      <router-link :to="{name:'Course'}">Travel Course</router-link>
-      </li>
-      <li>
-        <router-link :to="{name:'Review'}">Trip Story&amp;Stars</router-link>
-      </li>
-    </ul>
+      <div class="middle_area">
+        <ul class="main-menu">
+          <li>
+            <router-link :to="{name: 'About'}">About</router-link>
+          </li>
+          <!-- SUBMENU -->
+          <li class="drop_menu">
+            <router-link :to="{name:'Course'}">Travel Course</router-link>
+            <div class="sub_menu">
+                <ul class="sub_items">
+                  <li><router-link :to="{name:'Course'}">계절별 코스</router-link></li>
+                  <li><router-link :to="{name:'Course'}">테마별 코스</router-link></li>
+                  <li><router-link :to="{name:'Course'}">지역별 코스</router-link></li>
+                </ul>
+            </div>
+          </li>
+          <li>
+            <router-link :to="{name:'Review'}">Trip Story&amp;Stars</router-link>
+          </li>
+        </ul>
+        
+        <!-- MYPAGE & PICKLIST, LOGIN -->
+        <div class="right_area">
+          <router-link :to="{name:'Mypage'}">
+            <span class="material-icons my-page">face</span>
+          </router-link>
+          <router-link :to="{name:'PickList'}">
+            <img src="../../assets/img/pick.png" alt="찜목록" data-cart="5"/>
+          </router-link>
+          <form v-on:submit="onSubmit">
+            <input v-model="id"
+              class="id_on"
+              type="text"
+              placeholder=" ID 입력"/>
+            <input v-model="pw"
+              class="pw_on"
+              type="password"
+              placeholder=" PASSWORD 입력"/>
+          </form>
+             <button class="loginbtn" @click="submit">Login</button>
+        </div>
+             
+      </div>
+
+    </div>
+
   </header>
 </template>
 
@@ -25,13 +61,139 @@ export default {
 </script>
 
 <style scoped>
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100px;
+  border-bottom: 5px solid #00491E;
+  background:rgba(255, 255, 255, .3);
+}
+header > .inner {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .logo {
-    font-family: 'Quarto Black','serif';
-    font-weight: bold;
-    font-size: 40px;
-    color: #000;
-    text-decoration: none;
+header>.inner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
-  }
+.logo {
+  float: left;
+  margin-top: 30px;
+  font-family: 'Quarto Black','serif';
+  font-weight: bold;
+  font-size: 40px;
+  color: #F74C25;
+  text-decoration: none;
+}
+
+.middle_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 0;
+}
+
+.main-menu {
+  position: relative;
+  margin-top: 20px;
+}
+.main-menu>li {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #283a2c;
+}
+.main-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main-menu>li:first-child {
+  margin-left: 0;
+}
+
+.right_area {
+  position: relative;
+  top: 10px;
+  left: 25%;
+}
+
+.right_area .my-page {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.right_area img {
+  width: 30px;
+  height: 27px;
+  border-radius: 10%;
+  margin-left: 30px;
+}
+.right_area form input {
+  display: block;
+  width: 150px;
+  height: 18px;
+  font-size: 13px;
+  border-radius: 10px;
+  color: #00491E;
+  outline: none;
+  
+}
+.right_area form input:first-child {
+  margin-bottom: 5px;
+}
+
+.loginbtn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  right: -45%;
+  border: 1px solid #FFB025;
+  border-radius: 20px;
+  background-color: #FFB025;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+.sub_menu {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 2;
+  background-color: #FDF6E6;
+  border: 2px solid #02411c79;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #00491E;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub_menu>.sub_items {
+  margin: 20px auto;
+  text-align: center;
+}
+.sub_items>li {
+  line-height: 2.0;
+}
+
+.drop_menu a {
+  padding-bottom: 45px;
+}
+.main-menu>.drop_menu:hover .sub_menu {
+  display: block;
+}
+
 </style>

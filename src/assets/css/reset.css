@@ -53,6 +53,7 @@ address,
 button {
   color: inherit;
   font-family: inherit;
+	font-weight: inherit;
   text-decoration: inherit;
   outline: none;
 }

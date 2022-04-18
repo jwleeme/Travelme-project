@@ -1,4 +1,13 @@
 html,
 body {
-  font-family: 'SeoulNamsan'
+  width: 100%;
+  height: 3000px;
+  font-family: 'SeoulNamsan','serif';
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
