@@ -1,28 +1,43 @@
 <template>
   <header>
     <div class="inner">
-      <router-link to="/" class="logo">
+      <router-link
+        to="/"
+        class="logo">
         <span>TravelME!</span>
       </router-link>
 
       <div class="middle_area">
+        <!-- MAiN MENU -->
         <ul class="main-menu">
           <li>
-            <router-link :to="{name: 'About'}">About</router-link>
+            <router-link :to="{name: 'About'}">
+              About
+            </router-link>
           </li>
-          <!-- SUBMENU -->
+
+          <!-- SUB MENU -->
           <li class="drop_menu">
-            <router-link :to="{name:'Course'}">Travel Course</router-link>
+            <router-link :to="{name: 'CourseMain'}">
+              Travel Course
+            </router-link>
             <div class="sub_menu">
-                <ul class="sub_items">
-                  <li><router-link :to="{name:'Course'}">계절별 코스</router-link></li>
-                  <li><router-link :to="{name:'Course'}">테마별 코스</router-link></li>
-                  <li><router-link :to="{name:'Course'}">지역별 코스</router-link></li>
-                </ul>
+              <ul class="sub_items">
+                <li
+                  v-for="(course , index) in courses"
+                  :key="`courseID_${index}`">
+                  <router-link :to="{name: 'Course', params:{courseID:course.courseID}}">
+                    {{ course.name }}
+                  </router-link>
+                </li>
+              </ul>
             </div>
           </li>
+
           <li>
-            <router-link :to="{name:'Review'}">Trip Story&amp;Stars</router-link>
+            <router-link :to="{name:'Review'}">
+              Trip Story&amp;Stars
+            </router-link>
           </li>
         </ul>
         
@@ -32,31 +47,54 @@
             <span class="material-icons my-page">face</span>
           </router-link>
           <router-link :to="{name:'PickList'}">
-            <img src="../../assets/img/pick.png" alt="찜목록" data-cart="5"/>
+            <img
+              src="../../assets/img/pick.png"
+              alt="찜목록"
+              data-cart="5" />
           </router-link>
-          <form v-on:submit="onSubmit">
-            <input v-model="id"
+          <form @submit="onSubmit">
+            <input
+              v-model="id"
               class="id_on"
               type="text"
-              placeholder=" ID 입력"/>
-            <input v-model="pw"
+              placeholder=" ID 입력" />
+            <input
+              v-model="pw"
               class="pw_on"
               type="password"
-              placeholder=" PASSWORD 입력"/>
+              placeholder=" PASSWORD 입력" />
           </form>
-             <button class="loginbtn" @click="submit">Login</button>
+          <button
+            class="loginbtn"
+            @click="submit">
+            Login
+          </button>
         </div>
-             
       </div>
-
     </div>
-
   </header>
 </template>
 
 <script>
 export default {
-
+  data() {
+    return {
+      courses: [
+        {
+          name: '계절별코스',
+          courseID : 'season'
+        },
+        {
+          name: '테마별코스',
+          courseID : 'thema'
+        },
+        {
+          name: '지역별코스',
+          courseID : 'area'
+        }
+      ]
+    }
+  }
 }
 </script>
 

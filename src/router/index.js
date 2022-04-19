@@ -1,6 +1,7 @@
 // 페이지 구성 관리
 import { createWebHistory, createRouter } from "vue-router";
 
+
 export default createRouter ({
   history: createWebHistory(),
   routes: [
@@ -51,9 +52,14 @@ export default createRouter ({
     },
     {
       path: '/course',
-      name: 'Course',
-      component: ()=> import ('@/pages/Course.vue')
+      name: 'CourseMain',
+      component: () => import('@/pages/Course.vue')
     },
+    {
+      path: '/course/:courseID',
+      name: 'Course',
+      component: () => import('@/pages/Course.vue')
+    }
     
   ]
 })

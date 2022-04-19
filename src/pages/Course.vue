@@ -1,12 +1,24 @@
 <template>
   <div>
-    <p>추천코스페이지(계절,지역,테마)</p>
+    <p>{{ courseID }}</p>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'CoursePage'
+  name: 'CoursePage',
+  data() {
+    return {
+      courseID : this.$route.params.courseID
+    }
+  },
+  watch: {
+    $route() {
+        this.courseID = this.$route.params.courseID
+    }
+  }
+
 }
 </script>
 
