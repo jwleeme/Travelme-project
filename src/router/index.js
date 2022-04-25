@@ -2,7 +2,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 
-export default createRouter ({
+export default createRouter({
   history: createWebHistory(),
   routes: [
     {
@@ -60,7 +60,9 @@ export default createRouter ({
       name: 'Course',
       component: () => import('@/pages/Course.vue')
     }
-    
-  ]
+  ],
+  scrollBehavior() {
+    return { top: 0 }
+  }
 })
 

@@ -1,46 +1,79 @@
 <template>
   <section class="marquee-area">
-    <marquee class="marquee-text" scrollamount="20" scrollmount="100">
-       Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!
+    <marquee
+      class="marquee-text"
+      scrollamount="20"
+      scrollmount="100">
+      Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Let's choose our own fun travel course.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TravelME!
     </marquee>
   </section>
   <section class="type-filters">
     <div class="inner">
       <!-- 선호 지역 -->
-      <div class="location-type typeSelect" :class="{active: selected1}">
-        <button class="selectButton" @click="selectToggle(1)">
-          <img src="../../assets/img/location.png" alt="가고싶은 지역" />
+      <div
+        class="location-type typeSelect"
+        :class="{active: selected1}">
+        <button
+          class="selectButton"
+          @click="selectToggle(1)">
+          <img
+            src="../../assets/img/location.png"
+            alt="가고싶은 지역" />
           <div class="textBox">
-            <p class="select-text-en">A Travel area</p>
-            <p class="select-text">선호하는 특정 지역을 선택하기!</p>
+            <p class="select-text-en">
+              A Travel area
+            </p>
+            <p class="select-text">
+              선호하는 특정 지역을 선택하기!
+            </p>
           </div>
           <div class="arrow"></div>
         </button>
 
         <ul class="selectbox">
-          <li class="options" v-for="(option, index) in selectedOptions1" :key="`locationOption_${index}`">
-            <button @click="bestlist(option.value)">{{ option.name }}</button>
+          <li
+            class="options"
+            v-for="(option, index) in selectedOptions1"
+            :key="`locationOption_${index}`">
+            <button @click="bestlist(option.value)">
+              {{ option.name }}
+            </button>
           </li>
         </ul>
       </div>
       <!-- 선호 테마 -->
-      <div class="thema-type typeSelect" :class="{active: selected2}">
-        <button class="selectButton" @click="selectToggle(2)">
-          <img src="../../assets/img/thema.png" alt="가고싶은 테마" />
+      <div
+        class="thema-type typeSelect"
+        :class="{active: selected2}">
+        <button
+          class="selectButton"
+          @click="selectToggle(2)">
+          <img
+            src="../../assets/img/thema.png"
+            alt="가고싶은 테마" />
           <div class="textBox">
-            <p class="select-text-en">My favorite travel theme</p>
-            <p class="select-text">선호하는 여행 테마를 선택하기!</p>
+            <p class="select-text-en">
+              My favorite travel theme
+            </p>
+            <p class="select-text">
+              선호하는 여행 테마를 선택하기!
+            </p>
           </div>
           <div class="arrow"></div>
         </button>
 
         <ul class="selectbox">
-          <li class="options" v-for="(option, index) in selectedOptions2" :key="`themaOption_${index}`">
-            <button @click="bestlist(option.value)">{{ option.name }}</button>
+          <li
+            class="options"
+            v-for="(option, index) in selectedOptions2"
+            :key="`themaOption_${index}`">
+            <button @click="bestlist(option.value)">
+              {{ option.name }}
+            </button>
           </li>
         </ul>
       </div>
@@ -110,7 +143,8 @@ export default {
 
     bestlist (key) { // 메소드 동작 시 KEY값 확인을 위한 임시 메소드, 추후 데이터로 받아올예정!
       console.log(key)
-    }
+    },
+    
   }
 }
 </script>
@@ -132,10 +166,10 @@ section>.marquee-text {
 }
 .type-filters {
   width: 100%;
-  height: 150px;
   background-color: #faf0e1;
 }
 .type-filters>.inner {
+  height: auto;
   margin-top: 20px;
   padding: 15px;
   box-sizing: border-box;
@@ -158,6 +192,8 @@ section>.marquee-text {
   margin-left:15px;
 }
 .typeSelect {
+  position: relative;
+  z-index: 8;
   transition: all .4s linear;
 }
 .typeSelect.active {
@@ -184,7 +220,7 @@ section>.marquee-text {
 }
 .selectButton .textBox {
   display:inline-block;
-  margin:0 40px;
+  margin: 0 40px;
   vertical-align: middle;
   text-align: left;
 }
@@ -199,21 +235,24 @@ section>.marquee-text {
 }
 
 .selectButton ~ .selectbox {
+  position: absolute;
+  left: 0;
+  top: 135px;
+  z-index: 9;
   overflow: hidden;
   width: 100%;
-  height: 200px;
-  margin-top: 15px;
+  height: 0;
   border: 3px solid #f5bc86;
   background-color: #fff;
   border-radius: 3px;
   border-top: none;
   box-sizing: border-box;
-  transition: transform .3s linear;
-  transform: scaleY(0);
-  transform-origin: 50% 0;
+  transition: all .3s linear;
+  opacity: 0;
 }
 .active .selectButton ~ .selectbox {
-  transform: scaleY(1);
+  height: 200px;
+  opacity: 1;
 }
 
 .selectbox li {

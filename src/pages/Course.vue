@@ -17,7 +17,10 @@ export default {
     $route() {
         this.courseID = this.$route.params.courseID
     }
-  }
+  },
+    scrollBehavior() { 
+    return { x: 0, y: 0 } 
+  },
 
 }
 </script>
