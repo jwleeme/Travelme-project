@@ -229,9 +229,10 @@ section>.marquee-text {
   font-size: 13px;
 }
 .selectButton .select-text {
+  font-family: 'Noto Sans KR','돋움';
   margin-top:20px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .selectButton ~ .selectbox {

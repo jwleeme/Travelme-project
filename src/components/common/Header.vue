@@ -168,13 +168,21 @@ header>.inner::after {
 .right_area .my-page {
   font-size: 30px;
   margin-left: 30px;
+  transition: all .2s ease-in;
 }
 .right_area img {
   width: 30px;
   height: 27px;
   border-radius: 10%;
   margin-left: 30px;
+  transition: all .2s ease-in;
 }
+
+.right_area .my-page:hover,
+.right_area img:hover {
+  transform: scale(1.2);
+}
+
 .right_area form input {
   display: block;
   width: 150px;
@@ -202,7 +210,12 @@ header>.inner::after {
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
-
+}
+.loginbtn:hover {
+  background: #F1F0ED;
+  border: 2px solid #FFB025;
+  color: #283a2c;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0,.24);
 }
 .sub_menu {
   display: none;

@@ -4,6 +4,7 @@
   <TripType />
   <TripListSort />
   <TripBestStory />
+  <Footer />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Banner from '@/components/banner/Banner'
 import TripType from '@/components/main/TripType'
 import TripListSort from '@/components/main/TripListSort'
 import TripBestStory from '@/components/main/TripBestStory'
+import Footer from '@/components/common/Footer'
 
 export default {
   components: { 
@@ -19,7 +21,8 @@ export default {
     Banner,
     TripType,
     TripListSort,
-    TripBestStory
+    TripBestStory,
+    Footer
   },
  name: 'HomePage'
 }

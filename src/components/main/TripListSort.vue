@@ -1,9 +1,9 @@
 <template>
   <section class="bg-destinations">
-    <div class="swiper">
+    <div class="swiper cardswiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage1.jpg"
               alt="테스트1" />
@@ -15,12 +15,11 @@
             <p class="destination">
               춘천레일기차
             </p>
-            <p></p>
           </div>
         </div>
         
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage2.jpg"
               alt="슬라이드2" />
@@ -35,7 +34,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage3.jpg"
               alt="테스트3" />
@@ -50,7 +49,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage4.jpg"
               alt="슬라이드4" />
@@ -65,7 +64,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage5.jpg"
               alt="테스트5" />
@@ -80,7 +79,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage6.jpg"
               alt="슬라이드6" />
@@ -95,7 +94,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage7.jpg"
               alt="슬라이드테스트7" />
@@ -110,7 +109,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="imgBox">
+          <div class="imgbox">
             <img
               src="../../assets/img/testimage8.jpg"
               alt="슬라이드테스트8" />
@@ -146,11 +145,16 @@
       }
     },
     mounted() {
-      this.swiper = new window.Swiper(".swiper", {
+      this.swiper = new window.Swiper(".cardswiper", {
         slidesPerView: 4,
         spaceBetween: 60,
-        centeredSlides: true
+        centeredSlides: true,
+        navigation: {
+          nextEl: '.hotpink-next',
+          prevEl: '.orange-prev'
+        },
       })
+    
     },
     methods: {
       btnPrev() {
@@ -179,15 +183,15 @@
 }
 .swiper-slide {
   text-align: center;
-
+  cursor: pointer;
+  transition: all .3s ease-in;
 }
 .swiper-slide:hover {
   box-shadow: 0 2px 16px rgb(0 0 0 / 14%);
   transform: scale(1.2);
-  transition: .8s;
 }
 
-.swiper-slide .imgBox {
+.swiper-slide .imgbox {
   position: relative;
   width: 100%;
   padding-top: 61.6%;
@@ -232,11 +236,11 @@
 
 .orange-prev {
   background-color: #FF9C00;
-  left: calc(35.5% - 10px);
+  left: calc(((25% - 60px) / 2) + 25% - 3px);
 }
 .hotpink-next {
   background-color: #FF384B;
-  right: calc(11.8% - 40px);
+  right: calc(12.5% - 50px);
 }
 
 .orange-prev::before,
