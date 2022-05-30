@@ -65,15 +65,29 @@
 
       <!-- footer banner -->
       <div class="reference-banner">
-        <img
-          src="https://cdn.visitkorea.or.kr/resources/images/common/logo_foot_mg.png"
-          alt="문화체육관광부" />
-        <img
-          src="../../assets/img/reference-logo1.png"
-          alt="행정안전부" />
-        <img
-          src="https://cdn.visitkorea.or.kr/resources/images/common/logo_foot_gg.png"
-          alt="한국관광공사" />
+        <a
+          href="https://www.mcst.go.kr/kor/main.jsp"
+          target="_blank"
+          title="새창열기">        
+          <img
+            src="../../assets/img/reference-logo2.png"
+            alt="문화체육관광부" /></a>
+        <a
+          href="https://www.mois.go.kr/frt/a01/frtMain.do"
+          target="_blank"
+          title="새창열기">
+          <img
+            src="../../assets/img/reference-logo1.png"
+            alt="행정안전부" />
+        </a>
+        <a
+          href="https://kto.visitkorea.or.kr/kor.kto"
+          target="_blank"
+          title="새창열기">
+          <img
+            src="http://tong.visitkorea.or.kr/ktobiz/images/common/head/logoTop.gif"
+            alt="한국관광공사" />
+        </a>
         <img
           src="../../assets/img/copyright-logo.jpg"
           alt="공공데이터 저작권표시" />

@@ -1,4 +1,5 @@
 <template>
+  <!-- 여행 타입 검색 영역 -->
   <section class="marquee-area">
     <marquee
       class="marquee-text"
@@ -13,7 +14,7 @@
   </section>
   <section class="type-filters">
     <div class="inner">
-      <!-- 선호 지역 -->
+      <!-- 선호 지역 선택 -->
       <div
         class="location-type typeSelect"
         :class="{active: selected1}">
@@ -28,23 +29,25 @@
               A Travel area
             </p>
             <p class="select-text">
-              선호하는 특정 지역을 선택하기!
+              선호하는 여행 지역을 선택하기!
             </p>
           </div>
           <div class="arrow"></div>
         </button>
 
+        <!-- PLACE SELECT BOX -->
         <ul class="selectbox">
           <li
             class="options"
             v-for="(option, index) in selectedOptions1"
             :key="`locationOption_${index}`">
-            <button @click="bestlist(option.value)">
+            <button @click="bestlist(option.value, 'region')">
               {{ option.name }}
             </button>
           </li>
         </ul>
       </div>
+
       <!-- 선호 테마 -->
       <div
         class="thema-type typeSelect"
@@ -57,7 +60,7 @@
             alt="가고싶은 테마" />
           <div class="textBox">
             <p class="select-text-en">
-              My favorite travel theme
+              My favorite travel thema
             </p>
             <p class="select-text">
               선호하는 여행 테마를 선택하기!
@@ -66,12 +69,13 @@
           <div class="arrow"></div>
         </button>
 
+        <!-- THEMA SELECT BOX -->
         <ul class="selectbox">
           <li
             class="options"
             v-for="(option, index) in selectedOptions2"
             :key="`themaOption_${index}`">
-            <button @click="bestlist(option.value)">
+            <button @click="bestlist(option.value, 'thema')">
               {{ option.name }}
             </button>
           </li>
@@ -82,11 +86,20 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 export default {
   data () {
     return {
-      // 임시형태로 추후 데이터 형식으로 받아 올 예정!
+      areaname: '',
+      themaname: '',
+      number: 10,
+      
       selectedOptions1: [
+        {
+          name: '전체',
+          value: ''
+        },
         {
           name: '서울',
           value: 'seoul'
@@ -109,6 +122,10 @@ export default {
         }
       ],
       selectedOptions2: [
+        {
+          name: '전체',
+          value: ''
+        },
         {
           name: '어드벤처',
           value: 'adventure'
@@ -137,12 +154,17 @@ export default {
   },
 
   methods: {
+    ...mapMutations('triptypeStore', ['setChoiced']),
+
     selectToggle (num) {
       this[`selected${num}`] = !this[`selected${num}`];
     },
 
-    bestlist (key) { // 메소드 동작 시 KEY값 확인을 위한 임시 메소드, 추후 데이터로 받아올예정!
-      console.log(key)
+    bestlist (key, type) {
+      this.setChoiced({choicedType : type , choicedValue : key})
+      this.selected1 = false;
+      this.selected2 = false;
+      
     },
     
   }
@@ -254,6 +276,8 @@ section>.marquee-text {
 .active .selectButton ~ .selectbox {
   height: 200px;
   opacity: 1;
+  overflow:auto;
+  -ms-overflow-style: none;
 }
 
 .selectbox li {

@@ -2,7 +2,7 @@
   <MainVideo />
   <Banner />
   <TripType />
-  <TripListSort />
+  <TripTypeList />
   <TripBestStory />
   <Footer />
 </template>
@@ -11,7 +11,7 @@
 import MainVideo from '@/components/main/MainVideo'
 import Banner from '@/components/banner/Banner'
 import TripType from '@/components/main/TripType'
-import TripListSort from '@/components/main/TripListSort'
+import TripTypeList from '@/components/main/TripTypeList'
 import TripBestStory from '@/components/main/TripBestStory'
 import Footer from '@/components/common/Footer'
 
@@ -20,7 +20,7 @@ export default {
     MainVideo,
     Banner,
     TripType,
-    TripListSort,
+    TripTypeList,
     TripBestStory,
     Footer
   },

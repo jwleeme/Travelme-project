@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <RouterView />
+  <RouterView class="pagestyle" />
 </template>
 
 
@@ -13,3 +13,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.pagestyle {
+  margin-top: 100px;
+}
+
+</style>
