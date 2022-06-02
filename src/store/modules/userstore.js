@@ -1,4 +1,5 @@
 // 회원정보, 로그인 정보를 취급하는 용도의 모듈
+
 const userStore = {
   namespaced: true,
   state: {
@@ -24,6 +25,8 @@ const userStore = {
       }
       return alert("아이디와 패스워드를 체크해주세요.")
     }
+    }
   }
-}
+
 export default userStore
+

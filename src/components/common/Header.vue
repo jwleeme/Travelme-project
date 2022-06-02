@@ -21,17 +21,6 @@
             <router-link :to="{name: 'CourseMain'}">
               Travel Course
             </router-link>
-            <div class="sub_menu">
-              <ul class="sub_items">
-                <li
-                  v-for="(course , index) in courses"
-                  :key="`courseID_${index}`">
-                  <router-link :to="{name: 'Course', params:{courseID:course.courseID}}">
-                    {{ course.name }}
-                  </router-link>
-                </li>
-              </ul>
-            </div>
           </li>
 
           <li>
