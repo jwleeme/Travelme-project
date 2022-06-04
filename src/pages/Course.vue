@@ -1,12 +1,15 @@
 <template>
   <div>
+    <course-menu />
     <p>{{ courseID }}</p>
   </div>
 </template>
 
 <script>
+import courseMenu from '@/components/course/courseMenu.vue'
 
 export default {
+  components: { courseMenu },
   name: 'CoursePage',
   data() {
     return {
