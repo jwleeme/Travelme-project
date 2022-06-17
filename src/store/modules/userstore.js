@@ -5,7 +5,7 @@ const userStore = {
   state: {
     isLogin: false,
     tempUser: {
-      jiwony : 'jw321'
+      jiwony : 'jw123'
     }
     
   },

@@ -110,6 +110,11 @@ export default createRouter({
       path: '/course/:courseID',
       name: 'Course',
       component: () => import('@/pages/Course.vue')
+    },
+    {
+      path: '/courseview',
+      name: 'CourseView',
+      component: () => import('@/pages/CourseView.vue')
     }
   ],
   scrollBehavior() {

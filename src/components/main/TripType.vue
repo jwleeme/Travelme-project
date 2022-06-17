@@ -91,9 +91,6 @@ import { mapMutations } from 'vuex'
 export default {
   data () {
     return {
-      areaname: '',
-      themaname: '',
-      number: 10,
       
       selectedOptions1: [
         {

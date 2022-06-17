@@ -1,7 +1,7 @@
 html,
 body {
   width: 100%;
-  font-family: 'SeoulNamsan','serif';
+  font-family: 'SeoulNamsan',"NotoSansKR",'Sans-serif';
 }
 
 .inner {

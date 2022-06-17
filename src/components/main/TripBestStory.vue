@@ -228,7 +228,7 @@ export default {
   width: 100%;
   overflow: hidden; 
   text-overflow: ellipsis;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "NotoSansKR","Dotum",Sans-serif;
   color: #6A6C70;
   line-height: 1.4;
