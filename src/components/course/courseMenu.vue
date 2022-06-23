@@ -101,7 +101,7 @@
             <img :src="course.image" />
             <!-- course 상세페이지 -->
             <router-link
-              :to="{name: 'CourseView'}"
+              :to="{name: 'Course', params: {courseID : course.courseID }}"
               class="course_content">
               <p class="title">
                 {{ course.title }}
@@ -261,7 +261,7 @@ export default {
 }
 .mainmenu h3 {
   margin-left: 20px;
-  font-family: "NotoSansKR", "Sans-serif";
+  font-family: "Noto Sans KR", "Sans-serif";
   font-size: 28px;
   font-weight: bold;
   text-align: left; 
@@ -295,7 +295,7 @@ export default {
 /* SubMenu */
 .submenu ul li {
   display: inline-block;
-  font-family: "NotoSansKR", "Sans-serif";
+  font-family: "Noto Sans KR", "Sans-serif";
 }
 
 .submenu ul li .sub_buttons { 
@@ -326,7 +326,7 @@ export default {
   border: 1px solid #999;
   border-radius: 10px;
   font-size: 14px;
-  font-family: "NotoSansKR", "Sans-serif";
+  font-family: "Noto Sans KR", "Sans-serif";
 }
 
 .period-select .selected {
@@ -418,7 +418,7 @@ export default {
   margin-top: 5%;
   border-bottom: 1px solid #999;
   padding-bottom: 10px;
-  font-family: "NotoSansKR", "Sans-serif";
+  font-family: "Noto Sans KR", "Sans-serif";
 
 }
 .courses .course_box {
@@ -495,7 +495,7 @@ export default {
   background: url(https://cdn.visitkorea.or.kr/resources/images/sub/ico_leftobj.png) 0 50% no-repeat;
   font-size: 17px;
   font-weight: 700;
-  font-family: "NotoSansKR", Sans-serif;
+  font-family: "Noto Sans KR", Sans-serif;
   color: #333;
 
 }

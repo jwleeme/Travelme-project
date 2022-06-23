@@ -15,7 +15,7 @@
       <div class="swiper reviewSwiper">
         <div class="swiper-wrapper">
           <div
-            v-for="(review, index) in bestreviews" 
+            v-for="(review, index) in bestReviews" 
             :key="`bestreviews${index}`"
             class="swiper-slide">
             <div class="imgbox">
@@ -53,6 +53,7 @@
 
 
 <script>
+import bestreview from '@/assets/json/bestreview.json'
 
 export default {
   data() {
@@ -62,27 +63,19 @@ export default {
       bestreviews : []
     }
   },
+  computed: {
+    bestReviews() {
+      return bestreview.map((items) => {
+        return items;
+      });
+    }
+  },
   mounted() {
     window.addEventListener('scroll', this.titleon)
     this.titleon()
-    this.fetchData()
+    this.runSwiper()
   },
   methods: {
-    fetchData() {
-      // axios 통신을 통한 json 서버 내 데이터 내용 접근
-      this.axios.get('/arr')
-        .then((response) => {
-          console.log(response.data);
-          this.bestreviews = response.data
-          // json 서버 파일에 axios로 통신할때 Swiper 라이브러리와 동시에 실행되어 Swiper가 제대로 작동하지 않는 문제가 발생!
-          setTimeout(()=> {
-            this.runSwiper()
-          },500) // Swiper 로직 동작을 0.5초 지연시켜주었다.
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    },
     // Best Review Says 타이틀 스크롤 이벤트
     titleon() {
       if(!this.$refs.bestreview) {
@@ -229,7 +222,7 @@ export default {
   overflow: hidden; 
   text-overflow: ellipsis;
   font-size: 13px;
-  font-family: "NotoSansKR","Dotum",Sans-serif;
+  font-family: "Noto Sans KR","Dotum",Sans-serif;
   color: #6A6C70;
   line-height: 1.4;
 
