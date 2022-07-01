@@ -1,10 +1,12 @@
 <template>
-  <MainVideo />
-  <Banner />
-  <TripType />
-  <TripTypeList />
-  <TripBestStory />
-  <Footer />
+  <div>
+    <MainVideo />
+    <Banner />
+    <TripType />
+    <TripTypeList />
+    <TripBestStory />
+    <Footer />
+  </div>
 </template>
 
 <script>

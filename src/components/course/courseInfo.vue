@@ -1,9 +1,10 @@
 <template>
   <section
     id="CoursePrint"
-    class="info-contents inner">
+    class="info-contents">
     <div class="info_top_area ">
       <div class="course_backimage">
+        <!-- 임시 UI, 추가 수정 예정 -->
         <h1 class="course_title">
           구례 봄꽃 명소 코스
         </h1>
@@ -66,7 +67,6 @@
     <div class="course_intro">
       <p>
         지리산을 벗하고, 섬진강을 동무삼는 구례는 자연과 함께하는 최고의 여행지입니다.<br />
-
         요즘처럼 봄공기 훈훈한 4월에는 더더욱이요. 산수유, 벚꽃… 봄꽃이 가득 피어나 어디를 바라봐도 천혜의 절경인 구례의 봄 여행. 다양한 봄꽃을 즐길 수 있는 구례 명소를 전해드립니다.
       </p>
     </div>
@@ -227,7 +227,8 @@ section .schedule_area {
   line-height: 1.5;
 }
 .course_intro {
-  margin: 50px 0;
+  padding: 50px 0;
+  border-bottom: 1px solid #333;
 }
 .course_intro p {
   width: 700px;
