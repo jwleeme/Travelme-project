@@ -8,6 +8,7 @@
 <script>
 import courseMenu from '@/components/course/courseMenu.vue'
 
+
 export default {
   components: { courseMenu },
   name: 'CoursePage',

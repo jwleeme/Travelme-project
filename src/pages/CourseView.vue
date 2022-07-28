@@ -8,7 +8,9 @@
       :uvsensory="uvIndex"
       :rainpercent="pop"
       :rainfall="rn" />
-    <courseMap />
+    <courseMap :course-data="courseData" />
+    <courseDetailInfo />
+    <top-button />
   </div>
 </template>
 
@@ -18,12 +20,16 @@ import courseInfo from '@/components/course/courseInfo.vue'
 import weatherService from '@/service/weatherService.vue'
 import courseWeather from '@/components/course/courseWeather.vue'
 import courseMap from '@/components/course/courseMap.vue'
+import topButton from '@/components/banner/TopButton.vue'
+import courseDetailInfo from '@/components/course/courseDetailInfo.vue'
 
 export default {
   components: {
     courseInfo,
     courseWeather,
-    courseMap
+    courseMap,
+    courseDetailInfo,
+    topButton
   },
   name: 'CourseView',
   mixins: [weatherService],
@@ -94,8 +100,8 @@ export default {
       // spread 문법
       this.courseAPI = [...this.courseAPI, ...filterd , ...uvFilter]
       this.totalCount = res.data.response.body.totalCount
-      this.$nextTick(() => {
         this.loading = false
+      this.$nextTick(() => {
       })
     }
     

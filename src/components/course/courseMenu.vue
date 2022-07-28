@@ -350,7 +350,7 @@ export default {
   background: url("../../assets/img/dropdown-arrow.png") no-repeat 70% 50%;
   background-size: 57% 57%;
 }
-
+  
 /* 기간 옵션 하단 */
 .period-select .period_options {
   display: none;
