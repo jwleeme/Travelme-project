@@ -95,44 +95,46 @@
                 </li>
               </ul>
             </div>
+
             <div
               class="comforts_box">
               <p class="title">
                 <span>편의시설 안내</span>
               </p>
               <ul class="comfort_list">
-                <li class="toiletChecked">
-                  주차장
+                <li>
+                  <span>주차장</span>
                   <img
                     src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
                     alt="주차장" />
                 </li>
                 <li>
-                  화장실
+                  <span>화장실</span>
                   <img
                     src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
                     alt="화장실" />
                 </li>
                 <li>
-                  장애인주차장
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
-                    alt="장애인주차장" />
-                </li>
-                <li>
-                  휠체어대여
+                  <span>휠체어대여</span>
                   <img
                     src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
                     alt="휠체어대여" />
                 </li>
                 <li>
-                  유모차대여
+                  <span>장애인주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
+                    alt="장애인주차장" />
+                </li>
+                
+                <li>
+                  <span>유모차대여</span>
                   <img
                     src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
                     alt="유모차대여" />
                 </li>
                 <li>
-                  반려동물출입
+                  <span>반려동물출입</span>
                   <img
                     src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
                     alt="반려동물출입" />
@@ -206,12 +208,51 @@
                 </li>
               </ul>
             </div>
+
             <div
               class="comforts_box">
               <p class="title">
                 <span>편의시설 안내</span>
               </p>
-              111111111111
+              <ul class="comfort_list">
+                <li>
+                  <span>주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
+                    alt="주차장" />
+                </li>
+                <li>
+                  <span>화장실</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
+                    alt="화장실" />
+                </li>
+                <li>
+                  <span>휠체어대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
+                    alt="휠체어대여" />
+                </li>
+                <li>
+                  <span>장애인주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
+                    alt="장애인주차장" />
+                </li>
+                
+                <li>
+                  <span>유모차대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
+                    alt="유모차대여" />
+                </li>
+                <li>
+                  <span>반려동물출입</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+                    alt="반려동물출입" />
+                </li>
+              </ul>
             </div>
           </div>
         </transition>
@@ -290,7 +331,45 @@
               <p class="title">
                 <span>편의시설 안내</span>
               </p>
-              22222222222
+              <ul class="comfort_list">
+                <li>
+                  <span>주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
+                    alt="주차장" />
+                </li>
+                <li>
+                  <span>화장실</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
+                    alt="화장실" />
+                </li>
+                <li>
+                  <span>휠체어대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
+                    alt="휠체어대여" />
+                </li>
+                <li>
+                  <span>장애인주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
+                    alt="장애인주차장" />
+                </li>
+                
+                <li>
+                  <span>유모차대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
+                    alt="유모차대여" />
+                </li>
+                <li>
+                  <span>반려동물출입</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+                    alt="반려동물출입" />
+                </li>
+              </ul>
             </div>
           </div>
         </transition>
@@ -365,7 +444,45 @@
               <p class="title">
                 <span>편의시설 안내</span>
               </p>
-              3333333
+              <ul class="comfort_list">
+                <li>
+                  <span>주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
+                    alt="주차장" />
+                </li>
+                <li>
+                  <span>화장실</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
+                    alt="화장실" />
+                </li>
+                <li>
+                  <span>휠체어대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
+                    alt="휠체어대여" />
+                </li>
+                <li>
+                  <span>장애인주차장</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
+                    alt="장애인주차장" />
+                </li>
+                
+                <li>
+                  <span>유모차대여</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
+                    alt="유모차대여" />
+                </li>
+                <li>
+                  <span>반려동물출입</span>
+                  <img
+                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+                    alt="반려동물출입" />
+                </li>
+              </ul>
             </div>
           </div>
         </transition>
@@ -482,7 +599,7 @@ export default {
 .info_content_area {
   position: relative;
   width: 100%;
-  height: 1200px;
+  height: 1300px;
   background: #f3f2f2;
 }
 .fade-enter-active,
@@ -566,55 +683,9 @@ export default {
   font-family: "Noto Sans KR", "Sans-serif";
 }
 
-.usage_infobox,
-.comforts_box {
-  display: inline-block;
-  max-width: 50%;
-  float: left;
-  padding: 0 10px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-sizing: border-box;
-}
 .usage_infobox {
   margin-right: 30px;
   border: 1px solid #F74C25;
-}
-.comforts_box {
-  border: 1px solid #F74C25;
-}
-.usage_infobox >.title,
-.comforts_box >.title {
-  position: relative;
-  padding: 18px 15px;
-  font-size: 28px;
-  font-weight: 600;
-}
-.usage_infobox >.title>span,
-.comforts_box >.title>span {
-  padding-left: 10px;
-}
-
-.usage_infobox >.title>span::before,
-.comforts_box >.title>span::before {
-  content: '';
-  position: absolute;
-  top: 30px;
-  left: 5px;
-  width: 10px;
-  height: 10px;
-  padding-right: 10px;
-  background: url("../../assets/img/img_dot.png") center center no-repeat;
-}
-.usage_infobox >.title>span::after,
-.comforts_box >.title>span::after {
-  content: '';
-  position: absolute;
-  top: 30px;
-  width: 10px;
-  height: 10px;
-  padding-right: 10px;
-  background: url("../../assets/img/img_dot.png") center center no-repeat;
 }
 
 .usage_infobox .contents {
@@ -641,6 +712,73 @@ export default {
   color: rgb(56, 37, 231);
   text-decoration: underline;
 }
+
+.usage_infobox,
+.comforts_box {
+  display: inline-block;
+  max-width: 48%;
+  float: left;
+  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.comforts_box {
+  border: 1px solid #F74C25;
+}
+
+.usage_infobox >.title,
+.comforts_box >.title {
+  position: relative;
+  padding: 18px 15px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.usage_infobox >.title>span,
+.comforts_box >.title>span {
+  position: relative;
+  padding-left: 10px;
+}
+
+.usage_infobox >.title>span::before,
+.comforts_box >.title>span::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: -10px;
+  width: 11px;
+  height: 10px;
+  background: url("../../assets/img/img_dot.png") center center no-repeat;
+}
+.usage_infobox >.title>span::after,
+.comforts_box >.title>span::after {
+  content: '';
+  position: absolute;
+  top: 18px;
+  width: 10px;
+  height: 10px;
+  padding-right: 15px;
+  background: url("../../assets/img/img_dot.png") center center no-repeat;
+}
+
+.comforts_box .comfort_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 12px 0;
+  text-align: center;
+}
+.comforts_box .comfort_list li {
+  font-size: 18px;
+}
+.comforts_box .comfort_list li span {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 70px;
+  vertical-align: middle;
+}
+
 
 
 

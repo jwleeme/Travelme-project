@@ -783,7 +783,7 @@
         "sequence" : 30,
         "location" : {
           "address" : "전라남도 구례군 산동면 위안리",
-          "position": { "x":120, "y":34 }
+          "position": { "x":127.46297402531178, "y":35.29926818808557 }
         },
         
        
@@ -796,11 +796,11 @@
 
         },
         {
-          "name" : "섬진강 벚꽃길",
+          "name" : "천은사",
           "sequence" : 31,
           "location" : {
             "address" : "전라남도 구례군 산동면 위안리",
-            "position": { "x":138, "y":40 }
+            "position": { "x":127.47042744601805, "y":35.26492574702654 }
           },
           
          
@@ -812,7 +812,60 @@
           ]
   
           }
+      ],
+      "accoms" : [
+        {
+          "name" : "구례 유랑펜션타운",
+          "sequence" : 1,
+          "location" : {
+            "address" : "전라북도 남원시 주천면 정령치로 129",
+            "position": { "x":127.44986655265312, "y":35.391642389309034 }
+          },
+          "image" : [
+            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_227%2F1441112912473zDFbY_JPEG%2F166760496472161_0.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_130%2F1441112914293i6Mwm_JPEG%2F166760496475744_0.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20210706_132%2F1625570174535z1WA6_JPEG%2Fimage.jpg"
+          ],
+          "hashtag" : [
+            "친구들과함께", "섬진강벚꽃길", "드라이브", "봄", "벚꽃여행", "힐링", "자연", "전라도"
+          ]
+  
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "산수유고장북카페",
+          "sequence" : 1,
+          "location" : {
+            "address" : "전라남도 구례군 산동면 위안리 333-2",
+            "position": { "x":127.48670069394926, "y":35.331523610651075 }
+          },
+          "image" : [
+            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjRfMTI5%2FMDAxNjE5MjMwOTg1MTI4._otg16x0YGm0l9OpwaPKPBZg3VmzpFTg_t5E4SnnX90g.Ie8O3DMOvmsxIUFFvE4C0g1qSXdAn3G-BMlvJoqiJi0g.JPEG.nateccm%2FIMG_7843.JPG","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220303_8%2F1646308820361YIs8k_JPEG%2Fupload_d11de693a2a16995b2bbda4545828aca.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220202_206%2F1643782559608zqMoq_JPEG%2Fupload_e4ace6bc3aeec3bf09970fa71be662a7.jpeg"
+          ],
+          "hashtag" : [
+            "친구들과함께", "카페", "드라이브", "봄", "힐링", "자연", "전라도"
+          ]
+  
+        }
+      ],
+      "foods": [
+        {
+          "name" : "산동화덕구이",
+          "sequence" : 1,
+          "location" : {
+            "address" : "전라남도 구례군 산동면 탑정리 849번지 KR 산동화덕구이",
+            "position": { "x":127.44479161991877, "y":35.31224570472687 }
+          },
+          "image" : [
+            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA1MTVfNDEg%2FMDAxNTg5NTIwODY4MjEz.RZD8ucdr4iHZhD-5A6-QZ2KOChKjGhXAUwizAZHo318g.15rMk3LmJExxBR-K64EnHTPE6FPn8HJtDgmX90LyDuUg.JPEG.chlaldus29%2FIMG_1700.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210702_192%2F1625196068099D33vj_JPEG%2Fupload_a592ce128e81bc9ac30a5b483287307f.jpeg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20200323_54%2F1584922916996MHlI8_JPEG%2Fupload_d07edb0017e34ee0083e11b5bafce52f.jpeg"
+          ],
+          "hashtag" : [
+            "누구나함께", "화덕구이", "음식점", "봄", "벚꽃여행", "힐링", "자연", "전라도"
+          ]
+  
+        }
       ]
+
     }
   ]
 }

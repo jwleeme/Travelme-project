@@ -13,8 +13,8 @@
             :key="`map_selected${index}`">
             <button
               class="btn_tebmenu"
-              :class="{active: teb_on === index}"
-              @click.prevent="teb_on = index">
+              :class="{active: teb_on === mapmenu.value}"
+              @click.prevent="teb_on = mapmenu.value">
               {{ mapmenu.name }}
             </button>
           </li>
@@ -62,18 +62,22 @@ export default {
       mapSelectOption: [
         {
           name: "관광지",
+          value: "spotList"
         },
         {
           name: "숙박",
+          value: "accoms"
         },
         {
           name: "카페",
+          value: "cafes"
         },
         {
           name: "음식점",
+          value: "foods"
         }
       ],
-      teb_on: 0,
+      teb_on: "spotList"
       // 지도 영역 탭 버튼 활성화 여부 (기본값)
       // distanceOption: [
       //   {
@@ -87,31 +91,51 @@ export default {
       // ]
     }
   },
-  // mounted() {
-  //   this.initmap({
-  //     y: 35.30018858592251,
-  //     x: 127.4627016564301
-  //   })
-  // },
+  
   watch: {
-    teb_on: {
+    selectedList: {
       handler() {
-        this.$nextTick(() => {
 
-          // this.initmap()
+        this.removeMarkers();
+
+        this.$nextTick(() => {
+          this.setBounds();
+          this.setMarkers();
         })
       }
     },
-    courseData: {
-      deep: true,
-      handler(od, nd) {
-        if (!nd.courseID) { return false }
-
-        this.initmap(nd.spotList[0].location.position)
-      }
+    
+  },
+  computed: {
+    // 선택된 목록 가져오기
+    selectedList() {
+      if (!this.courseData.courseID) { return [] }
+      return this.courseData[this.teb_on]
     }
   },
+
+  mounted() {
+    if (!this.courseData.courseID) { return false }
+
+    this.initmap(this.courseData[this.teb_on][0].location.position)
+    this.setBounds();
+    this.setMarkers();
+
+  },
   methods: {
+    // 지도 바운더리 설정
+    setBounds() {
+      let points = this.selectedList.map(point => {
+        return new window.naver.maps.LatLng(point.location.position)
+        
+      })
+
+      console.log(points)
+      const bounds = new window.naver.maps.LatLngBounds(...points);
+
+      this.map.fitBounds(bounds)
+
+    },
 
     // 지도 만드는 함수
     initmap(points) {
@@ -131,14 +155,18 @@ export default {
         })
       
     },
-
+    // 기존의 선택된 마커 해제
+    removeMarkers() {
+      this.marker.map((m) => {
+        m.setMap(null);
+      })
+    },
     // 마커 셋팅 메소드
     setMarkers() {
-      // const tripspot = new window.naver.maps.LatLng(points.y, points.x);
-
-      this.marker = new window.naver.maps.Marker({
+      this.marker = this.selectedList.map(mk => {
+        return new window.naver.maps.Marker({
           map: this.map,
-          position: tripspot,
+          position: new window.naver.maps.LatLng(mk.location.position),
           icon: {
             url: "https://www.gurye.go.kr/images/homepage/site/tour/content/icon_course.png", //50, 68 크기의 원본 이미지
             size: new window.naver.maps.Size(40, 34),
@@ -149,6 +177,8 @@ export default {
           }
 
         });
+      })
+
     },
     
     // 정보창 메소드
