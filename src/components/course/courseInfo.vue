@@ -1,38 +1,40 @@
 <template>
   <section
-    id="CoursePrint"
     class="info-contents">
     <div class="info_top_area ">
-      <div class="course_backimage">
-        <!-- 임시 UI, 추가 수정 예정 -->
-        <h1 class="course_title">
-          구례 봄꽃 명소 코스
-        </h1>
-        <p class="area_name">
-          전남 구례군
-        </p>
-        <p class="distance">
-          코스 총 거리 : 61.8km
-        </p>
+      <div
+        class="course_backimage">
+        <img :src="courseData.image" />
+
+        <div class="contents_box">
+          <h1 class="course_title">
+            {{ courseData.title }}
+          </h1>
+          <p class="area_name">
+            {{ courseData.area }}
+          </p>
+          <p class="distance">
+            코스 총 거리 : {{ courseData.distance }}
+          </p>
+        </div>
       </div>
     </div>
 
     <!-- 찜, 찜목록, 인쇄영역 -->
     <div class="pick_print_area">
-      <button
-        class="btn_pick"
-        title="찜하기">
-        <span
-          @click="counter +=1"
-          class="pick_ico"></span>
-        <span class="pick_num">{{ counter }}</span>
-      </button>
-      <button>
+      <!-- 찜버튼 -->
+      <PickBtn
+        :course-data="courseData" />
+
+      <!-- 찜목록가기 버튼 -->
+      <router-link
+        class="picklist_icon"
+        :to="{name:'PickList'}">
         <img
           src="../../assets/img/picklist.png"
           alt="찜한 코스 목록으로 가기"
           title="담은 코스 리스트" />
-      </button>
+      </router-link>
       <div class="course_print">
         <button>
           <img
@@ -52,54 +54,104 @@
             src="../../assets/img/calender.png"
             alt="캘린더" />
           <p>일정</p>
-          <strong>당일여행</strong>
+          <strong>{{ courseData.schedule }}</strong>
         </li>
+
         <li>
-          <img
-            src="../../assets/img/person1.png"
-            alt="사람" />
+          <img :src="selectThemas.img" />
           <p>테마</p>
-          <strong>가족코스</strong>
+          <strong>{{ selectThemas.name }}</strong>
         </li>
       </ul>
     </div>
 
     <div class="course_intro">
-      <p>
-        지리산을 벗하고, 섬진강을 동무삼는 구례는 자연과 함께하는 최고의 여행지입니다.<br />
-        요즘처럼 봄공기 훈훈한 4월에는 더더욱이요. 산수유, 벚꽃… 봄꽃이 가득 피어나 어디를 바라봐도 천혜의 절경인 구례의 봄 여행. 다양한 봄꽃을 즐길 수 있는 구례 명소를 전해드립니다.
+      <p v-html="courseData.cosintroText">
       </p>
     </div>
   </section>
 </template>
 
 <script>
+import PickBtn from '../mypage/pickBtn.vue'
+
 export default {
+props: {
+  courseData: {
+    type: Object
+  }
+},
+  components: {
+    PickBtn
+  },
   data() {
     return {
-      counter: 0
+      
+      cosThemaNames: [
+          {
+              name: "힐링여행",
+              value: "healing",
+              img: require("@/assets/img/healing.png")
+          },
+          {
+              name: "가족여행",
+              value: "familytour",
+              img: require("@/assets/img/person3.png")
+          },
+          {
+              name: "어드벤처",
+              value: "adventure",
+              img: require("@/assets/img/adventure.png")
+          },
+          {
+              name: "먹거리여행",
+              value: "foodtour",
+              img: require("@/assets/img/foodtour.png")
+          },
+          {
+              name: "친구와함께",
+              value: "friends",
+              img: require("@/assets/img/person2.png")
+          }
+      ],
+      
+    };
+  },
+  computed: {
+    selectThemas() {
+        if (!this.courseData) {
+            return "";
+        }
+        const themaName = this.cosThemaNames.find(thema => thema.value === this.courseData.thema);
+        return themaName;
     }
   },
   methods: {
     coursePrint() {
-      var initBody = document.body.innerHTML;
-      window.onbeforeprint = function () {
-        document.body.innerHTML = document.getElementById('CoursePrint').innerHTML;
-      }
-      window.onafterprint = function () {
-        document.body.innerHTML = initBody;
-      }
-      window.print();
-    }
+        window.print();
+    },
+   
   }
+    
 }
 </script>
 
 <style scoped>
 .info-contents {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: 'Noto Sans KR', sans-serif;
+}
+@media print {
+  .info-contents {
+    margin-top: 0;
+  }
+  .pick_print_area {
+    display: none;
+  }
+  section .schedule_area {
+    margin-top: 20px;
+  }
 }
 .info-contents .info_top_area {
   padding-bottom: 20px;
@@ -109,14 +161,15 @@ export default {
 }
 .info_top_area .course_backimage {
   width: 100%;
-  height: 230px;
   position: relative;
-  background: url("https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7479df99-bb83-41e9-893b-0114e9421592") no-repeat center/cover;
   color: #fff;
-  border-radius: 2px;
 }
-
-.info_top_area .course_backimage::before {
+.info_top_area .course_backimage img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.info_top_area .course_backimage .contents_box {
   content: "";
   width: 100%;
   height: 100%;
@@ -125,9 +178,10 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.3);
   
 }
+
 .course_backimage .course_title {
   position: relative;
   font-size: 50px;
@@ -149,28 +203,15 @@ export default {
   text-align:center;
   overflow: hidden;
 }
-.pick_print_area > button {
+.pick_print_area .picklist_icon > img {
   float: left;
   height: 25px;
-  padding: 0 10px;
+  padding: 0 20px;
   border: 0 none;
   background: transparent;
   cursor: pointer;
 }
-.pick_print_area .btn_pick .pick_ico {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url("https://cdn.visitkorea.or.kr/resources/images/sub/ico_mpost01.png") 0 / 100% no-repeat;
-}
-.pick_print_area .btn_pick .pick_num {
-  display: inline-block;
-  color: #000;
-  vertical-align: top;
-  margin-left: 10px;
-  font-size: 15px;
- 
-}
+
 .pick_print_area button img {
   display: inline-block;
   width: 22px;

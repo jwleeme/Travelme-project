@@ -1,6 +1,9 @@
 <template>
-  <div class="inner coursepage">
-    <courseInfo />
+  <div
+    id="CoursePrint"
+    class="inner coursepage">
+    <courseInfo
+      :course-data="courseData" />
     <courseWeather
       :weathers="courseAPI"
       :loading="loading"
@@ -9,7 +12,7 @@
       :rainpercent="pop"
       :rainfall="rn" />
     <courseMap :course-data="courseData" />
-    <courseDetailInfo />
+    <courseDetailInfo :course-data="courseData" />
     <top-button />
   </div>
 </template>
@@ -29,8 +32,8 @@ export default {
     courseWeather,
     courseMap,
     courseDetailInfo,
-    topButton
-  },
+    topButton,
+},
   name: 'CourseView',
   mixins: [weatherService],
   data() {
@@ -104,8 +107,10 @@ export default {
       this.$nextTick(() => {
       })
     }
-    
-  }
+     
+ 
+  },
+ 
 
 }
 </script>
@@ -114,5 +119,10 @@ export default {
 <style scoped>
 .coursepage {
   padding-bottom: 60px;
+}
+@media print {
+  .coursepage {
+    padding-bottom: 0;
+  }
 }
 </style>

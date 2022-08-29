@@ -126,10 +126,6 @@ export default {
 
 <style scoped>
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
   width: 100%;
   height: 100px;
   border-bottom: 5px solid #00491E;
@@ -306,6 +302,11 @@ header>.inner::after {
 }
 .main-menu>.drop_menu:hover .sub_menu {
   display: block;
+}
+@media print {
+  header {
+    display: none;
+  }
 }
 
 </style>

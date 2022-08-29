@@ -1,22 +1,26 @@
 <template>
   <Header />
-  <RouterView class="pagestyle" />
+  <RouterView />
 </template>
 
 
 <script>
 import Header from '@/components/common/Header'
+import { mapActions } from 'vuex'
 
 export default {
   components: {
     Header
+  },
+
+  mounted() {
+    this.getPickList();
+  },
+
+  methods: {
+    ...mapActions('pickStore', {
+      getPickList: 'getPickList'
+    })
   }
 }
 </script>
-
-<style>
-.pagestyle {
-  margin-top: 100px;
-}
-
-</style>

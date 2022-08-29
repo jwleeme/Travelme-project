@@ -24,3 +24,13 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+@media print {
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: auto auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

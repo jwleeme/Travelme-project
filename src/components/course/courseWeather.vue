@@ -246,6 +246,7 @@ section {
   color: #333;
   border-right: 1px solid #888;
 }
+
 .weather-area  .weather_left::after,
 .weather-area  .weather_right::after {
   content: "";
@@ -267,12 +268,14 @@ section {
 }
 
 .weather_left .sky_condition {
+  display: inline-block;
+  vertical-align: middle;
   width: 140px;
   margin: 25px 25px 15px;
 }
 .weather_left .sky_text {
   display: inline-block;
-  transform: translateY(-70px);
+  vertical-align: middle;
   font-size: 30px;
   font-weight: 600;
 }
@@ -388,6 +391,42 @@ section {
 ::-webkit-scrollbar-thumb {
   background: #339c5f;
   border-radius: 6px;
+}
+
+@media print {
+  .weather-area .weather_left {
+    width: 200px;
+    height: 200px;
+  }
+  .weather-area .weather_right {
+    width: calc(100% - 201px);
+  }
+  .weather_left .wea_box {
+    width: 100%;
+    text-align: center;
+  }
+  .wea_box > h2 {
+    margin: 0 0;
+    font-size: 20px;
+  }
+  .wea_box .sky_condition {
+    width: 50%;
+    margin: 25px 10px 15px 0;
+
+  }
+  .wea_box .sky_text {
+    font-size: 20px;
+  }
+ 
+  .weather_right .row > div {
+    display: block;
+  }
+  .weather_times ul {
+    margin: 0 0;
+  }
+  .weather_times ul li {
+    width: 50px;
+  }
 }
 
 

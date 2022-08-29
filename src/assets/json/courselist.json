@@ -8,12 +8,13 @@
       "season" : "spring",
       "region": "seoul",
       "thema" : "healing",
-      "schedule" : "당일 코스",
+      "schedule" : "당일 여행",
       "period" : "oneday", 
       "updatedDate" : "2022-06-07 11:05:07",
       "viewCnt": 30,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7977c59f-093a-4a59-a08d-b61b9da15168",
+      "cosintroText" : "요 며칠 날이 부쩍 훈훈해졌죠. 이렇게 봄기운 일렁이는 날씨에는 반가운 손님이 찾아옵니다.바로바로 벚꽃! 벌써 빼꼼 고개 내민 꽃망울 목격담이 속속 들려오는 요즘, 꽃소풍 계획 중이신가요? 서울 사는 분들께 자신 있게 추천하는 벚꽃 나들이 명소를 소개해 드릴게요.",
       
       "spotList": [
         {
@@ -21,15 +22,30 @@
         "sequence" : 0,
         "location" : {
           "address" : "서울특별시 성동구 뚝섬로 273",
-          "position": { "x":128, "y":34 }
+          "position": { "x":127.03765283995031, "y":37.544326723967025 }
         },
         
        
         "image" : [
-          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=0edd1605-3944-4958-9a60-39479aa1aed0","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=805eff65-a978-4c63-9bf3-0c76eabcb8da","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=8beb6c1a-9f58-4e8d-b559-fe17ba246da9"
+          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=0edd1605-3944-4958-9a60-39479aa1aed0","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=2db7bb13-15a7-4907-a29a-f97250bf06a8","https://blog.kakaocdn.net/dn/bEVceh/btq1BxxdAU0/bYu519WKym3b8ng7AmUb9K/img.jpg"
         ],
         "hashtag" : [
           "가족과함께", "관광지", "나들이", "봄", "벚꽃여행", "힐링", "자연", "서울"
+        ],
+        "guideTexts": {
+          "contect" : "02-460-2905",
+          "operatingHours" : "* 휴일 : 연중무휴 (일부 시설 월요일 휴관)",
+          "usefee" : "무료",
+          "homepage" : "http://seoulforest.or.kr",
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
 
         },
@@ -38,19 +54,152 @@
           "sequence" : 1,
           "location" : {
             "address" : "서울특별시 송파구 올림픽로 424",
-            "position": { "x":128, "y":40 }
+            "position": { "x":127.12102798845417, "y":37.5207050330249 }
           },
           
          
           "image" : [
-            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d4ab4d5b-a5f9-47fd-907c-417357a4b756","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=eb2dba58-8ef0-4a35-b12c-3f1f390b8942","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=8beb6c1a-9f58-4e8d-b559-fe17ba246da9"
+            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d4ab4d5b-a5f9-47fd-907c-417357a4b756","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=eb2dba58-8ef0-4a35-b12c-3f1f390b8942","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=040618b9-d4bc-4d83-b7e3-1b2311aea7e9"
           ],
           "hashtag" : [
             "가족과함께", "관광지", "나들이", "봄", "벚꽃여행", "힐링", "자연", "서울"
+          ],
+          "guideTexts": {
+            "contect" : "02-410-1114",
+            "operatingHours" : "도보,자전거 출입 - 05:00 ~ 22:00 (광장지역은 24:00) 차량 출입 - 06:00 ~ 22:00 , ※ 시설물 안전과 방문객의 신변보호를 위해 밤 10시 이후에는 평화의 광장, 만남의 광장을 제외한 공원 안쪽으로의 출입을 금함",
+            "usefee" : "없음",
+            "homepage" : "http://www.olympicpark.co.kr",
+            "connectStatus" : "불가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
           ]
   
+          },
+          {
+            "name" : "어린이대공원 벚꽃길",
+            "sequence" : 2,
+            "location" : {
+              "address" : "서울특별시 광진구 능동로 216",
+              "position": { "x":127.08368727441295, "y":37.551497545591566 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=dd6e5a2a-6463-4ab3-bd6c-14976f68d4cd","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=43de4dc6-8f75-4290-a280-c923d5100925","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=e62fbd37-d246-4c86-ae55-047bad54cbbb"
+            ],
+            "hashtag" : [
+              "가족과함께", "관광지", "나들이", "봄", "벚꽃여행", "힐링", "자연", "서울"
+            ],
+            "guideTexts": {
+              "contect" : "02-450-9311",
+              "operatingHours" : "(연중무휴) * 이용시간 : 05:00 ~ 22:00 정문, 후문, 구의문, 능동문 개방시간 : 05:00 ~ 22:00 동물원 : 10:00 ~ 17:00",
+              "usefee" : "* 공원 입장료 : 무료 * 잔디구장 : 1회 2시간 156,000원 (02-450-9356) * 풋살경기장(5:5) : 1회 2시간 (02-457-8718)- 평일 25,000원 - 주말, 공휴일 : 32,500원 * 테니스장 1회,1면 2시간 (02-457-8718) - 실내 평일 25,000원 / 실내 주말,공휴일 및 야간 32,500원 - 실외 평일 8,000원 / 실외 주말,공휴일 및 야간 10,400원 * 야외무대 : 1회 2시간 (02-450-9356) - 주간 100,000원(초과 1시간당 25,000원) - 야간 200,000원(초과 1시간당 50,000원)",
+              "homepage" : "http://www.sisul.or.kr/open_content/childrenpark/",
+              "connectStatus" : "불가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+            ]
+    
+            }
+      ],
+      "accoms" : [
+        {
+          "name" : "톰지호텔",
+          "sequence" : 1,
+          "location" : {
+            "address" : "서울 송파구 오금로11길 21-12",
+            "position": { "x":127.10955564353466 , "y":37.515539969826854 }
           }
+        },
+        {
+          "name" : "호텔 더 디자이너스 프리미어 건대",
+          "sequence" : 2,
+          "location" : {
+            "address" : "서울 광진구 동일로 172",
+            "position": { "x":127.06729124330987, "y":37.54733865784219 }
+          }
+        },
+        {
+          "name" : "서울숲스테이",
+          "sequence" : 3,
+          "location" : {
+            "address" : "서울 성동구 왕십리로 108-1 2층",
+            "position": { "x":127.04477218446927, "y":37.54733357606665 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "옥루몽 어린이대공원점",
+          "sequence" : 1,
+          "location" : {
+            "address" : "서울 광진구 능동로 183",
+            "position": { "x":127.07368733236915, "y":37.54699246014672 }
+          }
+  
+        },
+        {
+          "name" : "보마켓 서울숲점",
+          "sequence" : 2,
+          "location" : {
+            "address" : "서울 성동구 왕십리로 83-21",
+            "position": { "x":127.04336148051178, "y": 37.544142313345446 }
+          }
+  
+        },
+        {
+          "name" : "서울제빵소 올림픽본점",
+          "sequence" : 3,
+          "location" : {
+            "address" : "서울 송파구 양재대로 1178",
+            "position": { "x":127.12892320019215, "y":37.51212588763972 }
+          }
+  
+        }
+      ],
+      "foods": [
+        {
+          "name" : "산들해 송파점",
+          "sequence" : 1,
+          "location" : {
+            "address" : "서울 송파구 위례성대로 6 현대토픽스 2층",
+            "position": { "x":127.11321382329484, "y":37.5167326018607 }
+          }
+  
+        },
+        {
+          "name" : "모모야 성수점",
+          "sequence" : 2,
+          "location" : {
+            "address" : "서울 성동구 왕십리로 50",
+            "position": { "x":127.04457100376146, "y":37.54204478675301 }
+          }
+  
+        },
+        {
+          "name" : "래빗홀 버거컴퍼니",
+          "sequence" : 3,
+          "location" : {
+            "address" : "서울 광진구 광나루로 424",
+            "position": { "x":127.07652098690447, "y":37.5459973066567 }
+          }
+  
+        }
       ]
+
     },
     {
       "courseID" : 2,
@@ -60,20 +209,21 @@
       "season" : "spring",
       "region": "gyeongi",
       "thema" : "healing",
-      "schedule" : "당일 코스",
+      "schedule" : "당일 여행",
       "period" : "oneday", 
       "updatedDate" : "2022-03-07 11:05:07",
       "viewCnt": 50,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4230bb08-7eca-4ecf-834b-9f9978a79aa2",
+      "cosintroText" : "이렇게 날씨가 좋은데 집에만 있으실 건가요? 멀리 떠나기엔 부담스럽고 집에만 있자니 답답한 여러분들을 위해 준비했습니다. 서울 근교에 위치한 파주는 볼거리가 풍부한 여행지입니다.<br/>당장 출발해도 좋을 만큼 가볍게 콧바람 쐴 수 있는 여행지가 잔뜩 모여있는 파주!<br/>우리 지금 함께 떠나볼까요?",
       
       "spotList": [
         {
         "name" : "도라 전망대",
-        "sequence" : 2,
+        "sequence" : 3,
         "location" : {
           "address" : "경기도 파주시 장단면 제3땅굴로 310",
-          "position": { "x":128, "y":34 }
+          "position": { "x":126.70607048039753, "y":37.91100111860564 }
         },
         
        
@@ -82,26 +232,112 @@
         ],
         "hashtag" : [
           "가족과함께", "역사", "걷기", "봄", "힐링", "자연", "경기도"
+        ],
+        "guideTexts": {
+          "contect" : "DMZ 매표소 031-954-0303<br>파주시 민북관광사업소 031- 940-8523",
+          "operatingHours" : "월요일, 공휴일(토/일요일, 설/추석 제외), 10:00~17:00 ※ 당일 매표 상황에 따라 조기 마감될 수 있음",
+          "usefee" : "망원경 관람료 1회 2분 500원",
+          "homepage" : "http://www.dmz.go.kr",
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
 
         },
         {
           "name" : "파주 출판단지 지혜의숲",
-          "sequence" : 3,
+          "sequence" : 4,
           "location" : {
             "address" : "경기도 파주시 교하읍 회동길 145",
-            "position": { "x":128, "y":40 }
+            "position": { "x":126.68706650235157 , "y":37.70834979384276 }
           },
           
          
           "image" : [
             "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=78ce56a2-fc5c-4c92-ac84-2097b15561c5","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=38d4722d-746e-4b8c-ae6b-e5066e7b8f6f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=51f585cc-3bf4-4593-a984-e8fc497e2af5"
           ],
-          "hashtag" : [
-            "가족과함께", "출판단지", "나들이", "봄", "힐링", "자연", "경기도"
+          "guideTexts": {
+            "contect" : "031-955-0050",
+            "operatingHours" : "각 시설별 시간 다양 (사이트 참고)",
+            "usefee" : "없음",
+            "homepage" : "http://www.pajubookcity.org",
+            "connectStatus" : "불가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
           }
+      ],
+      "accoms" : [
+        {
+          "name" : "파주 한옥마을 살림채 펜션",
+          "sequence" : 4,
+          "location" : {
+            "address" : "경기 파주시 소라지로327번길 126-20",
+            "position": { "x":126.68872152710206, "y":37.75458280805686 }
+          }
+        },
+        {
+          "name" : "오블라디 풀빌라",
+          "sequence" : 5,
+          "location" : {
+            "address" : "경기 파주시 문산읍 문현말길 113-14 오블라디",
+            "position": { "x": 126.77077709649568, "y":37.846934485035646 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "키스링 프로방스베이커리",
+          "sequence" : 4,
+          "location" : {
+            "address" : "경기 파주시 문산읍 임진각로 148-73",
+            "position": { "x":126.74026825528867, "y":37.891395963174105 }
+          }
+  
+        },
+        {
+          "name" : "카페오시",
+          "sequence" : 5,
+          "location" : {
+            "address" : "경기 파주시 직지길 194 1층 카페오시",
+            "position": { "x":126.68384653430554, "y": 37.70817677674331 }
+          }
+  
+        }
+      ],
+      "foods": [
+        {
+          "name" : "복많네해물칼국수 파주출판단지본점",
+          "sequence" : 4,
+          "location" : {
+            "address" : "경기 파주시 지목로 108 1층",
+            "position": { "x":127.11321382329484, "y":37.5167326018607 }
+          }
+  
+        },
+        {
+          "name" : "들메 한정식",
+          "sequence" : 5,
+          "location" : {
+            "address" : "경기 파주시 문산읍 사목로 63 들메 1층",
+            "position": { "x":126.75281250447432, "y":37.873820751041926 }
+          }
+  
+        }
       ]
     },
     {
@@ -112,37 +348,54 @@
       "season" : "spring",
       "region": "gangwon",
       "thema" : "foodtour",
-      "schedule" : "당일 코스",
+      "schedule" : "당일 여행",
       "period" : "oneday", 
       "updatedDate" : "2022-05-07 11:05:07",
       "viewCnt": 10,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c7abeaff-6dde-471f-9f0f-d64ba97f2a80",
+      "cosintroText" : "서울에서 KTX로 1시간 정도면 닿는 강원도 원주. 강원도 하면 가장 먼저 떠오르는 바다는 없지만, 원주에는 다채로운 매력이 숨어있습니다.​ 먹고, 보고, 즐기고! 당일치기 여행으로도 제격인 원주로 함께 떠나볼까요?",
       
       "spotList": [
         {
         "name" : "원주 만낭포 감자떡",
-        "sequence" : 4,
+        "sequence" : 5,
         "location" : {
           "address" : "강원도 원주시 지정면 지정로 97",
-          "position": { "x":128, "y":34 }
+          "position": { "x":127.84683634784578, "y":37.346626253254264 }
         },
         
        
         "image" : [
-          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c7abeaff-6dde-471f-9f0f-d64ba97f2a80","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4c6e91f3-a655-47a6-b454-57a04f2e30e3","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4c6e91f3-a655-47a6-b454-57a04f2e30e3"
+          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c7abeaff-6dde-471f-9f0f-d64ba97f2a80","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4c6e91f3-a655-47a6-b454-57a04f2e30e3","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20151209_145%2F1449632422117tM80v_JPEG%2F167159527039083_12.jpg"
         ],
         "hashtag" : [
           "누구나함께", "먹거리", "나들이", "봄", "당일치기", "자연", "강원도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "033-731-9953",
+          "operatingHours" : "매일 10:00 - 17:00",
+          "usefee" : "제공없음(현장가격표참고)",
+          "homepage" : null,
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
 
         },
         {
           "name" : "원주 예술시장",
-          "sequence" : 5,
+          "sequence" : 6,
           "location" : {
             "address" : "강원도 원주시 중앙시장길 6",
-            "position": { "x":128, "y":40 }
+            "position": { "x":127.94948393062269, "y":37.34975270169209 }
           },
           
          
@@ -151,9 +404,117 @@
           ],
           "hashtag" : [
             "누구나함께", "먹거리", "시장", "봄", "당일치기", "자연", "강원도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "033-743-2570 / 033-747-6082",
+            "operatingHours" : "오전 10시부터 오후 8시, 매장별로 상이",
+            "usefee" : "제공없음",
+            "homepage" : null,
+            "connectStatus" : "불가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "원주 소금산출렁다리",
+            "sequence" : 7,
+            "location" : {
+              "address" : "강원 원주시 지정면 소금산길 12",
+              "position": { "x":127.82466708736642, "y":37.36866599121894 }
+            },
+            
+           
+            "image" : [
+              "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210314_91%2F16157011376705nOmi_JPEG%2Fupload_60de2467c96d5e2f0fe7d9bf6d6b00af.jpeg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODAzMjRfMTMy%2FMDAxNTIxODk5Nzc4MjQx.Ohk5P7UdyAxrxGW1_STZW6wvPD6ljiQkSzy1p5-sm8Ag.gy0rMc01MjVYSed1Nas048Un3gciduWv-DpjnzC4uS0g.JPEG.theantyoon%2FP20180323_160624416_AA217154-601F-474A-8A7D-EA00ECD5D905.JPG%234032x3024","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20201106_79%2F1604620691086iefqz_JPEG%2Fupload_1db2aebc4fa917fa1c7d85c8fe16be16.jpg"
+            ],
+            "hashtag" : [
+              "누구나함께", "체험여행", "원주", "출렁다리", "당일치기", "자연", "강원도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "033-731-4088",
+              "operatingHours" : "운영시간 - 하절기（05월 ~ 10월）: 09:00 ~ 18:00 - 동절기（11월 ~ 04월）: 09:00 ~ 17:00 , 매표시간 - 하절기（05월 ~ 10월）: 09:00 ~ 17:00 - 동절기（11월 ~ 04월）: 09:00 ~ 16:00 / 휴일 - 첫째,셋째주 월요일, 명절당일",
+              "usefee" : "일반 : 3,000원 (만7세 이상) 징수 후 원주사랑상품권(2,000원) 반환. 원주시민 : 1,000원 (만7세 이상)",
+              "homepage" : "http://ganhyeon.wonju.go.kr/",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+            ]
+    
+            }
+      ],
+      "accoms" : [
+        {
+          "name" : "소금산민박",
+          "sequence" : 6,
+          "location" : {
+            "address" : "강원 원주시 지정면 장지길 125-7",
+            "position": { "x":127.81493352637231, "y":37.36634580505892 }
           }
+        },
+        {
+          "name" : "원주스테이호텔",
+          "sequence" : 7,
+          "location" : {
+            "address" : "강원 원주시 서원대로 174-1",
+            "position": { "x":127.93072812551745, "y":37.34370290039981 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "원주 스톤크릭",
+          "sequence" : 6,
+          "location" : {
+            "address" : "강원 원주시 지정면 지정로 1101",
+            "position": { "x":127.79618018456107 , "y":37.370600128931464 }
+          }
+  
+        },
+        {
+          "name" : "이상누각",
+          "sequence" : 7,
+          "location" : {
+            "address" : "강원도 원주시 원일로 85-6",
+            "position": { "x":127.94955442417185, "y": 37.34840514649892 }
+          }
+  
+        }
+      ],
+      "foods": [
+        {
+          "name" : "박순례손말이고기산정집",
+          "sequence" : 6,
+          "location" : {
+            "address" : "강원 원주시 원일로 148-3",
+            "position": { "x":127.94747685290451 , "y":37.352142919921405 }
+          }
+  
+        },
+        {
+          "name" : "회산막국수",
+          "sequence" : 7,
+          "location" : {
+            "address" : "강원 원주시 원문로 336",
+            "position": { "x":127.91965081014042, "y":37.36027329142109 }
+          }
+  
+        }
       ]
     },
     {
@@ -170,14 +531,15 @@
       "viewCnt": 7,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=eb666bb2-8d5d-4a8a-afd2-b98e24dda384",
+      "cosintroText" : "12㎢의 아담한 크기의 섬으로, 해안선을 따라 아기자기한 마을과 절경이 펼쳐지는 영도. 푸른 바다와 짭짤한 바다 향기에 오감을 맡길 수 있는 영도를 소개합니다. 흰여울길로 아름다운 바다를 감상하며 걷고, 절영로 골목골목 흰 여울 문화마을의 문화를 감상하며 걸어봅니다. 탁 트인 이송도전망대에서 영도와 부산 시내의 모습까지 조망할 수 있습니다. ",
       
       "spotList": [
         {
         "name" : "절영해안산책로",
-        "sequence" : 6,
+        "sequence" : 8,
         "location" : {
           "address" : "부산광역시 영도구 해안산책길 52",
-          "position": { "x":128, "y":34 }
+          "position": { "x":129.04119468920504, "y":35.08137167798089 }
         },
         
        
@@ -186,15 +548,31 @@
         ],
         "hashtag" : [
           "친구와함께", "관광지", "여름바다", "부산", "걷기좋은곳", "포토스팟", "자연", "경상도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "051-419-4064",
+          "operatingHours" : "연중무휴",
+          "usefee" : "무료",
+          "homepage" : "http://www.yeongdo.go.kr/tour.web",
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
 
         },
         {
           "name" : "영도대교",
-          "sequence" : 7,
+          "sequence" : 9,
           "location" : {
             "address" : "부산광역시 영도구 태종로 46",
-            "position": { "x":128, "y":40 }
+            "position": { "x":129.03645787242348, "y":35.09555474550988 }
           },
           
          
@@ -203,9 +581,172 @@
           ],
           "hashtag" : [
             "친구와함께", "관광지", "여름바다", "부산", "버스투어", "풍경", "경상도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "1670-8114",
+            "operatingHours" : "도개시간 : 14:00~14:15 (1일 1회 도개)",
+            "usefee" : "없음",
+            "homepage" : "http://www.bisco.or.kr/",
+            "connectStatus" : "불가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "흰여울문화마을",
+            "sequence" : 10,
+            "location" : {
+              "address" : "부산 영도구 영선동4가 605-3",
+              "position": { "x":129.04528742730395, "y":35.077893998068085 }
+            },
+            
+           
+            "image" : [
+              "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171228_197%2F1514451096257hdrvJ_JPEG%2FEUDU5oOqcz00HIt4wJD5lVp2.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171228_29%2F1514451152168O2NgK_JPEG%2FR9x_VRwE6Isknrrc2jw5ftNA.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171228_210%2F1514450162604pd4ar_JPEG%2Fs5SxOskBTfaoNx7xwUvQ4OJp.jpg"
+            ],
+            "hashtag" : [
+              "누구나함께", "관광지", "부산 1박2일", "부산", "걷기좋은곳", "포토스팟", "자연", "경상도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "051-419-4067",
+              "operatingHours" : "연중무휴, *안내소 운영시간 : 09:00 ~ 17:00",
+              "usefee" : "무료",
+              "homepage" : "http://www.ydculture.com",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+            ]
+    
+            },
+            {
+              "name" : "국립해양박물관",
+              "sequence" : 11,
+              "location" : {
+                "address" : "부산 영도구 해양로301번길 45",
+                "position": { "x":129.08032119641805 , "y":35.078582021247875 }
+              },
+             
+              "image" : [
+                "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_295%2F1441069666419kQNrD_JPEG%2FSUBMIT_1431321866159_16752569.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_182%2F1441069667687wEcXs_JPEG%2FSUBMIT_1431321891585_16752569.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_298%2F1620031918137r5ui9_JPEG%2FCEo21ZeZYXUiNUASW9CKVlOg.JPG.jpg"
+              ],
+              "hashtag" : [
+                "누구나함께", "체험여행", "관광지", "부산", "1박2일", "영도", "경상도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "051-309-1900",
+                "operatingHours" : "평일 09:00~18:00, 토요일(5~8월) 09:00~21:00,<br/>토요일(9~4월) 09:00~19:00, 일,공휴일 09:00~19:00 ※ 설·추석익일, 어린이날, 광복절 09:00~21:00 <br/>- 휴일 : 매주 월요일(공휴일일 경우 그 다음날 휴관)",
+                "usefee" : "무료 (4D영상관 및 유료기획전 등 제외)",
+                "homepage" : "http://www.knmm.or.kr",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "인스테이 영도 호텔",
+          "sequence" : 8,
+          "location" : {
+            "address" : "부산 영도구 태종로 45 인스테이 영도",
+            "position": { "x":129.03730523356506, "y":35.09380574354622 }
           }
+        },
+        {
+          "name" : "라발스 호텔",
+          "sequence" : 9,
+          "location" : {
+            "address" : "부산 영도구 봉래나루로 82",
+            "position": { "x":129.03913161950877, "y":35.094498222356734 }
+          }
+        },
+        {
+          "name" : "시타딘커넥트호텔 하리 부산",
+          "sequence" : 10,
+          "location" : {
+            "address" : "부산 영도구 동삼오션로 58",
+            "position": { "x":129.08246021700202, "y":35.06957866675082 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "카페드220볼트",
+          "sequence" : 8,
+          "location" : {
+            "address" : "부산 영도구 하나길 807",
+            "position": { "x":129.05618295837112, "y":35.0939014942384 }
+          }
+        },
+        {
+          "name" : "리케이온",
+          "sequence" : 9,
+          "location" : {
+            "address" : "부산 영도구 중리북로22번길 32 1층",
+            "position": { "x":129.0683527178424, "y":35.07129583580833 }
+          }
+        },
+        {
+          "name" : "카페마렌",
+          "sequence" : 10,
+          "location" : {
+            "address" : "부산 영도구 해안산책길 52 절영해안산책로",
+            "position": { "x":129.04120534641137, "y":35.08113944579146 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "재기돼지국밥",
+          "sequence" : 8,
+          "location" : {
+            "address" : "부산 영도구 절영로49번길 25",
+            "position": { "x":129.0398729698508, "y":35.089596875560915 }
+          }
+  
+        },
+        {
+          "name" : "달뜨네",
+          "sequence" : 9,
+          "location" : {
+            "address" : "부산 영도구 절영로 205",
+            "position": { "x":129.0449116612672, "y":35.07941881766379 }
+          }
+  
+        },
+        {
+          "name" : "명륜진사갈비 영도점",
+          "sequence" : 10,
+          "location" : {
+            "address" : "부산 영도구 절영로 544",
+            "position": { "x":129.07339441773695, "y":35.074740051677516 }
+          }
+  
+        }
       ]
     },
     {
@@ -222,14 +763,15 @@
       "viewCnt": 9,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=39ea9c6f-638b-4d6a-8639-06ac51caf172",
+      "cosintroText" : "온 세상이 푸릇한 풀빛으로 물든 요즘, 대한민국의 그 어느 지역보다 초록이 아름다운 곳이 있어요. 바로 국내 최대의 녹차 주산지인 전남 보성입니다. 보성에는 1년 내내 다향이 그득하지만 요맘때의 녹차는 특히, 잎 빛깔이 곱고 향이 깊어 최상품으로 꼽혀요. 제철에 만나는 차향과 함께하는 여행, 어딜 둘러봐도 그림 같은 여행, 여름의 전남 보성으로 떠나보세요!",
       
       "spotList": [
         {
         "name" : "전남 에코어드벤처",
-        "sequence" : 8,
+        "sequence" : 12,
         "location" : {
           "address" : "전남 보성군 웅치면 대산길 330",
-          "position": { "x":128, "y":34 }
+          "position": { "x":126.98503337368848, "y":34.699620182722 }
         },
         
        
@@ -238,15 +780,31 @@
         ],
         "hashtag" : [
           "누구나함께", "관광지", "체험학습", "여름", "어드벤처", "자연", "전라남도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "제암산자연휴양림 061-852-4434",
+          "operatingHours" : "[예약필요]<br/>* 입실시간 : (제암휴양관, 숲속휴양관, 숲속의 집)<br/>- 체크인 15:00~ 퇴실11:00<br/>* 숲속교육관 이용시간 : 오전 09:00~13:00까지, 오후 14:00~18:00까지, 야간 19:00~22:00까지, 1일 당일 09:00 ~ 당일 18:00까지입니다.<br/>(추가 자세한 내용 사이트참고)",
+          "usefee" : "* 개인 - 어른: 1000원, 청소년,군인: 600원,<br/>어린이: 400원, (자세한 이용요금은 사이트 정보 참고)",
+          "homepage" : "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030090",
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
 
         },
         {
           "name" : "제암산 자연휴양림",
-          "sequence" : 9,
+          "sequence" : 13,
           "location" : {
             "address" : "전남 보성군 웅치면 대산길 330",
-            "position": { "x":128, "y":40 }
+            "position": { "x":126.98952197672496, "y":34.69978290836989 }
           },
           
          
@@ -255,9 +813,91 @@
           ],
           "hashtag" : [
             "누구나함께", "관광지", "체험학습", "여름여행", "어드벤처", "자연", "전라남도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "061-852-4434",
+            "operatingHours" : "[예약필수!]<br/>* 입실시간 : (제암휴양관, 숲속휴양관, 숲속의 집)<br/> - 체크인 15:00~ 퇴실11:00<br/>* 숲속교육관 이용시간 : 오전 09:00~13:00까지, 오후 14:00~18:00까지, 야간 19:00~22:00까지, 1일 당일 09:00 ~ 당일 18:00까지입니다.<br/>(추가 자세한 내용 사이트참고)",
+            "usefee" : "* 개인 - 어른: 1000원, 청소년,군인: 600원,<br/>어린이: 400원, (자세한 이용요금은 사이트 정보 참고)",
+            "homepage" : "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030090",
+            "connectStatus" : "불가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
           }
+      ],
+      "accoms" : [
+        {
+          "name" : "보성봉강리정씨고택",
+          "sequence" : 11,
+          "location" : {
+            "address" : "전라남도 보성군 회천면 봉서동길 36-8",
+            "position": { "x":127.0450006048809, "y":34.66893712179208 }
+          }
+        },
+        {
+          "name" : "보성다비치콘도",
+          "sequence" : 12,
+          "location" : {
+            "address" : "전라남도 보성군 회천면 충의로 36",
+            "position": { "x":127.091130154423, "y":34.67116494733465 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "카페모던",
+          "sequence" : 11,
+          "location" : {
+            "address" : "전라남도 보성군 회천면 우암길 27-60",
+            "position": { "x":127.08952398191603, "y":34.6715830496418 }
+          }
+        },
+        {
+          "name" : "다예원",
+          "sequence" : 12,
+          "location" : {
+            "address" : "전남 장흥군 안양면 기산길 21",
+            "position": { "x":126.94864054515362 , "y":34.67452574123789 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "다향보성녹돈촌",
+          "sequence" : 11,
+          "location" : {
+            "address" : "전남 보성군 회천면 남부관광로 2320",
+            "position": { "x":127.08656582834281, "y":34.67033444923829 }
+          }
+  
+        },
+        {
+          "name" : "보성 바지락칼국수",
+          "sequence" : 12,
+          "location" : {
+            "address" : "전라남도 보성군 보성읍 봉화로 53",
+            "position": { "x":127.07762521777576, "y":34.76458672129595 }
+          }
+  
+        },
+        {
+          "name" : "정가네원조꼬막회관",
+          "sequence" : 13,
+          "location" : {
+            "address" : "전라남도 보성군 벌교읍 조정래길 55",
+            "position": { "x":127.34481872077619, "y":34.84809148885614 }
+          }
+  
+        }
       ]
     },
     {
@@ -274,42 +914,223 @@
       "viewCnt": 35,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9e420304-e178-4345-96dc-0b5940257c9f",
+      "cosintroText" : "한양의 중심지였던 경복궁과 청계천 일대는 서울에서 빠질 수 없는 관광지다. 어느 계절이나 매력적인 도심의 하천 청계천을 여유롭게 산책하면서 간간히 보이는 서울의 역사유적을 살펴보는 재미가 쏠쏠할 것이다. 누가 뭐래도 서울에 오면 한번쯤 들려보아야 할 경복궁과 민속박물관, 그리고 북촌 한옥마을과 인사동은 걷기에 좋은 코스가 되어줄 것이다.",
       
       "spotList": [
         {
-        "name" : "청계천",
-        "sequence" : 10,
-        "location" : {
-          "address" : "서울특별시 성동구 뚝섬로 273",
-          "position": { "x":128, "y":34 }
-        },
-        
-       
-        "image" : [
-          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9e420304-e178-4345-96dc-0b5940257c9f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c3a43040-9dcf-49a9-b345-aa63f2588e31","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=71761fd8-e0c5-456e-8377-d0b786ceb5fa"
-        ],
-        "hashtag" : [
-          "가족과함께", "관광지", "나들이", "산책길", "여름", "청계천", "자연", "서울"
-        ]
-
-        },
-        {
-          "name" : "북촌 한옥마을",
-          "sequence" : 11,
+          "name" : "동대문디자인플라자(DDP)",
+          "sequence" : 14,
           "location" : {
-            "address" : "서울특별시 송파구 올림픽로 424",
-            "position": { "x":128, "y":40 }
+            "address" : "서울특별시 중구 을지로7가 을지로 281",
+            "position": { "x":127.00988159101195, "y":37.567235672311185 }
           },
           
          
           "image" : [
-            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=faa8c18d-8fcb-4771-bffc-c5173b45c5ce","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=18216feb-3ca5-4f5e-a843-63d756e2c145","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3351ea48-bddd-4f85-9534-788e37285f44"
+            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b19d609a-039a-47b6-b0d4-ac259e49ccc6","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3d44ce78-8de5-402d-8692-3fd3fe957f33","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=946ac82c-3d20-4e84-b03b-878f817d4d35"
           ],
           "hashtag" : [
-            "가족과함께", "1박2일", "도심여행", "여름", "전통체험", "서울"
+            "누구나함께", "관광지", "문화체험", "실내스팟", "여름", "디자인", "포토스팟", "서울"
+          ],
+      
+          "guideTexts": {
+            "contect" : "02-2153-0000",
+            "operatingHours" : "[살림터] 10:00~21:00, [배움터/알림터] 프로그램에 따라 상이함.<br/>* 휴일 : 신정, 추석, 설날 당일(살림터는 매월 세번째주 월요일 휴무)",
+            "usefee" : "자유 관람 무료 (이벤트 및 체험 프로그램별 별도 요금 징수)",
+            "homepage" : "http://www.ddp.or.kr",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+          ]
+  
+          },
+        {
+        "name" : "청계천",
+        "sequence" : 15,
+        "location" : {
+          "address" : "서울특별시 종로구 창신동",
+          "position": { "x":127.00618610056641, "y":37.569677622006736 }
+        },
+        
+       
+        "image" : [
+          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=71761fd8-e0c5-456e-8377-d0b786ceb5fa","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c4ee5ec8-4647-40b4-b7e9-69a250e34f60","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=dba4022c-9200-4135-ab66-51c8ebb10a52"
+        ],
+        "hashtag" : [
+          "누구나함께", "관광지", "나들이", "산책길", "여름", "청계천", "자연", "서울"
+        ],
+      
+        "guideTexts": {
+          "contect" : "02-2290-6114",
+          "operatingHours" : "연중무휴 / 00:00~24:00",
+          "usefee" : "무료",
+          "homepage" : "http://www.sisul.or.kr/open_content/cheonggye",
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+        ]
+
+        },
+        {
+          "name" : "경복궁",
+          "sequence" : 16,
+          "location" : {
+            "address" : "서울특별시 종로구 사직로 161",
+            "position": { "x":126.97687235323858 , "y":37.575923918829346 }
+          },
+          
+         
+          "image" : [
+            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=f0415f1b-c707-4214-aa80-bed323a22c02","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c3c8df56-3c9f-4548-93fd-286eae14587f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=46080116-f455-43d3-9140-2999e65d1271"
+          ],
+          "hashtag" : [
+            "가족과함께", "역사체험", "관광지", "포토스팟", "사계절", "걷기좋은곳", "자연", "서울"
+          ],
+      
+          "guideTexts": {
+            "contect" : "경복궁 관리소 02-3700-3900",
+            "operatingHours" : "1월~2월 - 09:00~17:00(입장마감 16:00)<br/>3월~5월 - 09:00~18:00(입장마감 17:00)<br/>6월~8월 - 09:00~18:30(입장마감 17:30)<br/>9월~10월 - 09:00~18:00(입장마감 17:00)<br/>11월~12월 - 09:00~17:00(입장마감 16:00)<br/>* 휴일 : 매주 화요일(휴궁일)<br/>※ 기관사정에 따라 관람시간 단축 및 조정있을 수 있음",
+            "usefee" : "* 내국인 - 개인(만25세~만64세) : 3,000원<br/>- 단체 : 2,400원 - 무료 : 대상자(관련 증빙을 제시하여함. 자세한 내용은 홈페이지 참고),<br/>* 외국인 - 개인(만19세~만64세) : 3,000원(10인이상 2,400원) - 소인(만7세~만18세) : 1,500원(10인이상 1,200원)<br/>- 무료(만 6세이하, 만 65세이상, 한복착용자,<br/>매월 마지막 주 수요일(문화가 있는 날)",
+            "homepage" : "http://www.royalpalace.go.kr",
+            "connectStatus" : "신청 시 가능 (오디오가이드 대여도가능)"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+          ]
+  
+          },
+        {
+          "name" : "북촌 한옥마을",
+          "sequence" : 17,
+          "location" : {
+            "address" : "서울특별시 종로구 북촌로11길 49",
+            "position": { "x":126.98338570922175, "y":37.58291672838538 }
+          },
+          
+         
+          "image" : [
+            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=faa8c18d-8fcb-4771-bffc-c5173b45c5ce","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=75af821d-96c3-4f88-8cd7-7d6ff2092d02","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6b420f52-d1be-4159-990d-423686eb1707"
+          ],
+          "hashtag" : [
+            "누구나함께", "1박2일", "도심여행", "사계절", "전통체험", "서울"
+          ],
+      
+          "guideTexts": {
+            "contect" : "02-2148-4161",
+            "operatingHours" : "* 허용시간 : 10:00 ~17:00(주중,토)<br/>* 대상지역 : 북촌로 11길 일대 약 100m 구간.<br/>* 휴일 : (일요일) 골목길 쉬는 날.",
+            "usefee" : "무료",
+            "homepage" : "http://hanok.seoul.go.kr/front/index.do",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
           }
+      ],
+      "accoms" : [
+        {
+          "name" : "나인트리 호텔 동대문",
+          "sequence" : 13,
+          "location" : {
+            "address" : "서울특별시 중구 을지로 224",
+            "position": { "x":127.00294011536427, "y":37.5665783222445 }
+          }
+        },
+        {
+          "name" : "한옥에세이 서촌",
+          "sequence" : 14,
+          "location" : {
+            "address" : "서울 종로구 필운대로3길 12",
+            "position": { "x":126.96836957067042, "y":37.57861141470721 }
+          }
+        },
+        {
+          "name" : "청연재 한옥호텔",
+          "sequence" : 15,
+          "location" : {
+            "address" : "서울 종로구 북촌로6길 13-2 청연재 한옥호텔",
+            "position": { "x":126.98567881023716, "y": 37.580313157258715 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "카페레이어드 안국점",
+          "sequence" : 13,
+          "location" : {
+            "address" : "서울 종로구 북촌로2길 2-3",
+            "position": { "x":126.98593685497183 , "y":37.57770931552712 }
+          }
+        },
+        {
+          "name" : "레이크 삼청",
+          "sequence" : 14,
+          "location" : {
+            "address" : "서울 종로구 삼청로 22-9 Lake 삼청",
+            "position": { "x":126.98022268859042 , "y":37.57786391800101 }
+          }
+        },
+        {
+          "name" : "cafe de FESSONIA",
+          "sequence" : 15,
+          "location" : {
+            "address" : "서울 중구 을지로 281",
+            "position": { "x":127.00984775760847 , "y":37.56817721571399 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "골목집황포돛배",
+          "sequence" : 14,
+          "location" : {
+            "address" : "서울 중구 을지로44길 27 1층",
+            "position": { "x":127.00655073686333, "y":37.564913586880024 }
+          }
+  
+        },
+        {
+          "name" : "황생가칼국수",
+          "sequence" : 15,
+          "location" : {
+            "address" : "서울 종로구 북촌로5길 78",
+            "position": { "x":126.98064098864697, "y":37.5800534028445 }
+          }
+  
+        },
+        {
+          "name" : "백년토종삼계탕",
+          "sequence" : 16,
+          "location" : {
+            "address" : "서울 종로구 북촌로 41",
+            "position": { "x":126.98475325579342, "y":37.58058108700192 }
+          }
+  
+        }
       ]
     },
     {
@@ -326,31 +1147,46 @@
       "viewCnt": 25,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=099d8a0f-4e46-4760-8577-25e287ef344e",
+      "cosintroText" : "서울에서 차로 약 두 시간이면 도착할 수 있어 서울 근교 당일치기여행으로 좋은 이천! 맛 좋은 쌀과 도자기로 유명한 지역인데요. 그 밖에도 이천에는 색다른 볼거리가 가득합니다. 가을색으로 물든 이천을 2,000배 더 즐길 수 있는 여행코스를 지금 바로 소개합니다!",
       
       "spotList": [
         {
         "name" : "티하우스 에덴",
-        "sequence" : 12,
+        "sequence" : 18,
         "location" : {
           "address" : "경기 이천시 마장면 서이천로 449-79",
-          "position": { "x":130, "y":34 }
-        },
-        
+          "position": { "x":127.3945440775253, "y":37.261435042763175 }
+        },    
        
         "image" : [
           "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=099d8a0f-4e46-4760-8577-25e287ef344e","https://www.edenparadisehotel.com/theme/renew/img/DINING1-2.jpg","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9be3c1dc-7f5f-48e9-93b2-0a8033cb9e82"
         ],
         "hashtag" : [
           "먹거리", "관광지", "포토스팟", "가을", "2박3일", "이천여행"
+        ],
+      
+        "guideTexts": {
+          "contect" : "031-645-9190",
+          "operatingHours" : "매일 9:30-20:00(연중무휴)",
+          "usefee" : "제공없음(현장가격표참고)",
+          "homepage" : null,
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
-
         },
         {
           "name" : "별빛정원 우주",
-          "sequence" : 13,
+          "sequence" : 19,
           "location" : {
             "address" : "경기도 이천시 마장면 덕이로154번길 287-76",
-            "position": { "x":138, "y":40 }
+            "position": { "x":127.39284015798773, "y":37.24211568927171 }
           },
           
          
@@ -359,9 +1195,174 @@
           ],
           "hashtag" : [
             "별빛정원우주", "포토스팟", "야경맛집", "가을", "2박3일", "이천여행"
+          ],
+      
+          "guideTexts": {
+            "contect" : "031-645-0002",
+            "operatingHours" : "- 3월~10월 : 주간 11:00 ~ 17:30 / 야간 18:00 ~ 23:00<br/>- 11월~2월 : 주간 11:00 ~ 16:30 / 야간 17:00 ~ 23:00",
+            "usefee" : "- 대인(14세 이상) 12,000원<br/>- 소인(36개월~13세 이하) 6,000원<br/>- 무료 : 국가유공자(본인), 영유아(36개월 미만)",
+            "homepage" : "",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "이천 도자예술마을(예스파크)",
+            "sequence" : 20,
+            "location" : {
+              "address" : "경기도 이천시 신둔면 도자예술로5번길 109",
+              "position": { "x":127.38566715730734, "y":37.293059071774344 }
+            },
+            
+           
+            "image" : [
+              "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220329_5%2F1648539761737CaGYN_JPEG%2F%25BF%25B9%25BD%25BA%25C6%25C4%25C5%25A9_40.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220329_246%2F1648539757031PdbxH_JPEG%2F%25BF%25B9%25BD%25BA%25C6%25C4%25C5%25A9_11.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220329_171%2F1648539759298Tqwhq_JPEG%2F%25BF%25B9%25BD%25BA%25C6%25C4%25C5%25A9_28.jpg"
+            ],
+            "hashtag" : [
+              "체험여행", "관광지", "포토스팟", "누구나함께", "2박3일", "이천여행"
+            ],
+      
+            "guideTexts": {
+              "contect" : "031-638-1994",
+              "operatingHours" : "연중무휴(월요일만 휴무)<br/>- 관광안내소 : (화~일) 오전 10시 ~ 오후 5시까지<br/>운영.",
+              "usefee" : "* 하루종일권 : 성인 : 3000원,<br/>유아(초등학생이하) : 2000원",
+              "homepage" : "https://www.instagram.com/artstar_icheon/",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "도예촌막국수",
+              "sequence" : 21,
+              "location" : {
+                "address" : "경기 이천시 신둔면 도자예술로62번길 27-18",
+                "position": { "x":127.38285136115273, "y":37.293225893963815 }
+              },
+              
+             
+              "image" : [
+                "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMjA1MzFfMjky%2FMDAxNjUzOTcxNDAwMzk2.afy9ZuSJF8ZZO1xbMm9KhPjfbLV1jxQ2LvBgDMnHx9kg.wXEPZEAfTYe9w-yO5BVE8grs1UFYMZYuncCG4exUm5gg.JPEG%2Fupload_af5101106b7cc9242ef2448801321f23.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MDlfNjcg%2FMDAxNjI4NDg5MDEzMzk5.wxeVvjLntOsOm441NRp3XcKIa-acMbBJxAKaUDU3BGMg.sm6EZfm16IFYRVXKtUiQgj5uBkwRgLuse1xw1gFcRawg.JPEG.0o01226%2FIMG_8934.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA2MTRfMTg4%2FMDAxNTYwNDc2NDIyMjQw.8fnZqx5LAZ2XogcJH-ZTo5z32aUwYYGFU25JQ3cYk-sg.5kKYk5hw0WyfSCwzq1_pe5uGhWpk9FL7tNgQZ8LpG0Yg.JPEG.syhkjh%2F1560475384203.jpg"
+              ],
+              "hashtag" : [
+                "먹거리", "누구나함께", "맛집투어", "가을", "이천여행"
+              ],
+      
+              "guideTexts": {
+                "contect" : "031-637-9797",
+                "operatingHours" : "- 영업시간 : 오전 11시 ~ 오후 7시30분까지<br/>(매주 월요일휴무) <br/>- 브레이크타임(평일) : 오후 3시30분 ~ 오후 5시",
+                "usefee" : "제공없음(현장 가격표참고)",
+                "homepage" : null,
+                "connectStatus" : "불가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "에덴파라다이스호텔",
+          "sequence" : 16,
+          "location" : {
+            "address" : "경기 이천시 마장면 서이천로 449-79",
+            "position": { "x":127.39405098082781, "y":37.261454705673025 }
           }
+        },
+        {
+          "name" : "스테이272",
+          "sequence" : 17,
+          "location" : {
+            "address" : "경기 이천시 마장면 이장로60번길 34-42",
+            "position": { "x":127.38557192683865, "y":37.26002294221208 }
+          }
+        },
+        {
+          "name" : "우리산장",
+          "sequence" : 18,
+          "location" : {
+            "address" : "경기 이천시 마장면 지산로 238-25",
+            "position": { "x":127.3512078799143, "y":37.21722001764216 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "토비즈 커피",
+          "sequence" : 16,
+          "location" : {
+            "address" : "경기 이천시 마장면 중앙로10번길 9 1층",
+            "position": { "x":127.35533167681842 , "y":37.25208705271501 }
+          }
+        },
+        {
+          "name" : "커피베이 이천덕평점",
+          "sequence" : 17,
+          "location" : {
+            "address" : "경기 이천시 마장면 덕평로 973 1층",
+            "position": { "x":127.36193791024743 , "y":37.2446357185693 }
+          }
+        },
+        {
+          "name" : "카페담",
+          "sequence" : 18,
+          "location" : {
+            "address" : "경기 이천시 마장면 억만리로 107 카페담",
+            "position": { "x":127.36646250641857 , "y":37.26197355794904 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "닭사부일체 이천본점",
+          "sequence" : 17,
+          "location" : {
+            "address" : "경기 이천시 부발읍 대산로 379",
+            "position": { "x":127.47200452269124, "y":37.25332157922832 }
+          }
+  
+        },
+        {
+          "name" : "수향가",
+          "sequence" : 18,
+          "location" : {
+            "address" : "경기 이천시 부발읍 경충대로2050번길 15-87",
+            "position": { "x":127.4914168243764 , "y":37.251913576532594 }
+          }
+  
+        },
+        {
+        
+          "name" : "소문난칼국수",
+          "sequence" : 19,
+          "location" : {
+            "address" : "경기 이천시 설봉로58번길 30",
+            "position": { "x":127.43991458044901, "y":37.28113169132985 }
+          }
+  
+        }
       ]
     },
     {
@@ -378,14 +1379,15 @@
       "viewCnt": 35,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=5ea3047d-7c70-4971-a2be-ad8a8db6a302",
+      "cosintroText" : "‘하늘이 우릴 향해 열려 있는’ 여름이다. 쪽빛 하늘을 이고 강릉으로 달려간다. 다음 순서로 ‘바다에 풍덩’을 상상했다면 죄송하다. 올여름은 ‘꽃밭에 퐁당’ 하려 한다. 선교장에 피어오른 탐스러운 연꽃과 능소화, 경포가시연습지에 수줍게 고개 내민 가시연이 강릉의 여름을 활짝 꽃피우고 있다.",
       
       "spotList": [
         {
         "name" : "노추산 모정탑길",
-        "sequence" : 14,
+        "sequence" : 22,
         "location" : {
           "address" : "강원도 강릉시 왕산면 대기리 산 716",
-          "position": { "x":130, "y":34 }
+          "position": { "x":128.73929050286705, "y":37.57010296416264 }
         },
         
        
@@ -394,15 +1396,32 @@
         ],
         "hashtag" : [
           "친구들과함께", "등산", "나들이", "가을", "자연", "강릉여행", "강원도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "033-640-5420",
+          "operatingHours" : "연중개방",
+          "usefee" : "무료",
+          "homepage" : null,
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
+
 
         },
         {
           "name" : "강릉솔향수목원",
-          "sequence" : 15,
+          "sequence" : 23,
           "location" : {
             "address" : "강원도 강릉시 구정면 수목원길 156",
-            "position": { "x":138, "y":40 }
+            "position": { "x":128.8614672674964, "y":37.69780136523619 }
           },
           
          
@@ -411,9 +1430,173 @@
           ],
           "hashtag" : [
             "친구들과함께", "수목원", "나들이", "가을", "자연", "강릉여행", "강원도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "033-660-2322",
+            "operatingHours" : "* 3월~10월(하절기) - 입장 : 오전9시 ~ 오후5시,<br/>- 관람 : 오전 9시 ~ 오후 6시까지<br/>* 11월~2월(동절기) - 입장 : 오전9시 ~ 오후4시,<br/>- 관람 : 오전 9시 ~ 오후 5시까지 ",
+            "usefee" : "무료",
+            "homepage" : "www.gn.go.kr/solhyang",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "하슬라아트월드",
+            "sequence" : 24,
+            "location" : {
+              "address" : "강원도 강릉시 강동면 율곡로 1441",
+              "position": { "x":129.0095030658017, "y":37.70584962488753 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3717f2cf-666c-4b07-bb53-48bebc1657f6","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=27a2b202-f205-4666-8631-9c52c1dd3e8e","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=fb3b9b04-1b2d-4004-914f-24dd361c2291"
+            ],
+            "hashtag" : [
+              "누구나함께", "문화생활", "포토스팟", "사계절", "자연", "강릉여행", "강원도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "033-644-9411",
+              "operatingHours" : "연중무휴, 09:00 ~ 18:00",
+              "usefee" : "* 도슨트 관람권 : 성인 19,000원, 청소년 17,000원, 소인 15,000원<br/>* 자유관람권 : 성인 15,000원, 청소년 13,000원,<br/>소인 11,000원",
+              "homepage" : "http://www.haslla.kr",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "강릉 선교장",
+              "sequence" : 25,
+              "location" : {
+                "address" : "강원도 강릉시 운정길 63",
+                "position": { "x":128.8851731522577, "y":37.78664438515666 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3a8a16f1-85a0-4b3d-8bce-e12c78b90ee2","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=ea1bb39e-2427-4feb-af72-919b541b9eb8","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9f97f570-e619-4c7b-bd50-e51564ca77e9"
+              ],
+              "hashtag" : [
+                "누구나함께", "역사체험", "산책", "사계절", "자연", "강릉여행", "강원도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "033-648-5303",
+                "operatingHours" : "하절기 09:00~18:00, 동절기 09:00~17:00",
+                "usefee" : "* 개인 - 어른(일반) : 5000원, 할인대상자(사이트참고) : 3000원, 어린이 : 2000원<br/>* 단체 - 어른(일반) : 3500원, 할인대상자(사이트참고) : 2000원, 어린이 : 1000원 ",
+                "homepage" : "http://www.knsgj.net",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "하슬라 아트 월드 뮤지엄 호텔",
+          "sequence" : 19,
+          "location" : {
+            "address" : "강원 강릉시 강동면 정동진리 산33-1",
+            "position": { "x":129.0122648170763, "y":37.70609077269099 }
           }
+        },
+        {
+          "name" : "물내치기펜션",
+          "sequence" : 20,
+          "location" : {
+            "address" : "강원 강릉시 왕산면 노추산로 1151-5",
+            "position": { "x":128.7302764221899, "y":37.56891791211996 }
+          }
+        },
+        {
+          "name" : "펜션 티케하우스",
+          "sequence" : 21,
+          "location" : {
+            "address" : "강원 강릉시 구정면 수목원길 45",
+            "position": { "x":128.86857554306084, "y":37.70524030442046 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "테루아르",
+          "sequence" : 19,
+          "location" : {
+            "address" : "강원 강릉시 구정면 수목원길 76-35",
+            "position": { "x":128.86531178433293 , "y":37.7010129445692 }
+          }
+        },
+        {
+          "name" : "Cafe PROUST",
+          "sequence" : 20,
+          "location" : {
+            "address" : "강원 강릉시 강동면 정동역길 18-2 2층",
+            "position": { "x":129.03229481994768 , "y":37.69117164390291 }
+          }
+        },
+        {
+          "name" : "카페파나마",
+          "sequence" : 21,
+          "location" : {
+            "address" : "강원 강릉시 운정길 17 1층",
+            "position": { "x":128.88019258432962 , "y":37.784167861068234 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "날밀보리뜰",
+          "sequence" : 20,
+          "location" : {
+            "address" : "강원 강릉시 난곡길22번길 5-8",
+            "position": { "x":128.87967200586996, "y":37.786916976769454 }
+          }
+  
+        },
+        {
+          "name" : "바다마을횟집",
+          "sequence" : 21,
+          "location" : {
+            "address" : "강원 강릉시 강동면 정동등명길 23",
+            "position": { "x":129.0161459641334, "y":37.70381064905328 }
+          }
+  
+        },
+        {
+          "name" : "배나드리선도식당",
+          "sequence" : 22,
+          "location" : {
+            "address" : "강원 강릉시 왕산면 노추산로 1359",
+            "position": { "x":128.74302503584178, "y":37.57615137804162 }
+          }
+  
+        }
       ]
     },
     {
@@ -430,14 +1613,15 @@
       "viewCnt": 55,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=e1aaf887-c72d-41fe-9230-5779acdaccc9",
+      "cosintroText" : "대구 달성군 대명유수지와 달성습지는 꽁꽁 숨겨놓은 보석 같은 가을여행지다. 은빛 물결 일렁이는 억새밭 사이로 산책로가 나있고, 광활한 습지에는 형형색색 나무들이 가을 숲길을 내어준다.<br/>때 묻지 않은 자연 그대로의 풍경은 복잡한 도심 한켠이라고 믿기 어렵게 만든다. 줄을 설 필요도 없고, 사람에 쫒길 필요도 없다. 진정한 ‘언택트 힐링!’ 대구 도심에서 누린다.",
       
       "spotList": [
         {
-        "name" : "대명 유수지",
-        "sequence" : 16,
+        "name" : "대명유수지",
+        "sequence" : 26,
         "location" : {
           "address" : "대구광역시 달서구 대천동 816",
-          "position": { "x":130, "y":34 }
+          "position": { "x":128.4910640836633, "y":35.82237588427014 }
         },
         
        
@@ -446,15 +1630,31 @@
         ],
         "hashtag" : [
           "가족과함께", "가을여행", "자연", "대구여행", "경상도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "053-803-7270",
+          "operatingHours" : "* 관람시간 : 오전8시~ 오후7시까지 (연중무휴)<br/>* 생태탐방로 개방시간 : 09:00~17:00<br/>(하절기는 18:00까지 개방)",
+          "usefee" : "무료",
+          "homepage" : "https://dalseo.daegu.kr/",
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
 
         },
         {
-          "name" : "달성습지 생태학습관",
-          "sequence" : 17,
+          "name" : "달성습지생태학습관",
+          "sequence" : 27,
           "location" : {
-            "address" : "충청남도 아산시 송악면 외암로1182번길 34-19",
-            "position": { "x":138, "y":40 }
+            "address" : "대구광역시 달성군 화원읍 구라1길 88",
+            "position": { "x":128.48695264144771, "y":35.816697673553875 }
           },
           
          
@@ -463,9 +1663,173 @@
           ],
           "hashtag" : [
             "가족과함께", "가을여행", "자연", "체험학습", "대구여행", "달성습지", "경상도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "053-631-0105",
+            "operatingHours" : "09:00~18:00 (입장마감 17:30)<br/>휴일은 매주 월요일, 1월 1일, 설/추석 당일.",
+            "usefee" : "무료",
+            "homepage" : "https://dswetland.daegu.go.kr/",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
           ]
   
+          },
+          {
+            "name" : "금호꽃섬(하중도)",
+            "sequence" : 28,
+            "location" : {
+              "address" : "대구광역시 북구 노곡동 665",
+              "position": { "x":128.55957564534788, "y":35.900498765589994 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4e91940b-9aab-4890-8e08-f2f554217057","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=190ed9a8-25a2-4120-854c-263f308f9f09","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=52a951e8-9361-46ee-8d55-16d345e5ba82"
+            ],
+            "hashtag" : [
+              "누구나함께", "포토스팟", "자연", "대구여행", "경상도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "대구 북구청 관광과 053-665-2342~4",
+              "operatingHours" : "00:00 ~ 24:00시<br/>※ 단, 폭우 등으로 안전 문제가 제기될 시 이용이 통제될 수 있음",
+              "usefee" : "무료",
+              "homepage" : "http://www.buk.daegu.kr/tour/index.do",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "동성로 스파크랜드",
+              "sequence" : 29,
+              "location" : {
+                "address" : "대구광역시 중구 동성로6길 61",
+                "position": { "x":128.59872323674776, "y":35.86871204826246 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4ae53af2-5532-42c6-a579-40f401fbe748","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3f8a49c4-2146-4bfe-acc2-9f406db48a8f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b1b4b901-cec9-4f37-9ff0-4776b04b5e22"
+              ],
+              "hashtag" : [
+                "누구나함께", "가을여행", "놀이공원", "도심여행", "대구여행", "어드벤쳐", "경상도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "053-230-2010",
+                "operatingHours" : "평일 : 12:00 ~ 22:00 / 주말, 공휴일 : 11:30 ~ 22:00",
+                "usefee" : "* ALL-DAY PASS(소인/대인): 29,000원/33,000원,<br/>* 자유이용권: 20,000원, BIG4 특가: 12,000원, BIG3 특가: 10,000원, BIG2 특가: 8,000원,<br/>* 대관람차/디스크오: 5,000원 ,트위스트타워/코페르니쿠스/미니바이킹/유로번지점프/점핑스타/범퍼카/<br/>자이로스콥: 4,000원, 로데오: 3,000원",
+                "homepage" : "https://d-spark.kr/",
+                "connectStatus" : "불가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "가창시크릿가든",
+          "sequence" : 22,
+          "location" : {
+            "address" : "대구 달성군 가창면 우록길 177-11",
+            "position": { "x":128.65078625844524, "y":35.722799441122675 }
           }
+        },
+        {
+          "name" : "토요코인호텔 동성로점",
+          "sequence" : 23,
+          "location" : {
+            "address" : "대구 중구 동성로1길 15",
+            "position": { "x":128.59463236838477, "y":35.86691458212769 }
+          }
+        },
+        {
+          "name" : "루바토 호텔",
+          "sequence" : 24,
+          "location" : {
+            "address" : "대구 북구 칠곡중앙대로 207",
+            "position": { "x":128.54811631853073 , "y":35.914637331491754 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "윤슬다",
+          "sequence" : 22,
+          "location" : {
+            "address" : "대구 북구 매전로 46-18",
+            "position": { "x":128.5469995029414 , "y":35.909195303959315 }
+          }
+        },
+        {
+          "name" : "커피매거진",
+          "sequence" : 23,
+          "location" : {
+            "address" : "대구 중구 동성로4길 85",
+            "position": { "x":128.59934061652865 , "y":35.86858217456223 }
+          }
+        },
+        {
+          "name" : "커피명가 루체215",
+          "sequence" : 24,
+          "location" : {
+            "address" : "대구 달성군 화원읍 구라로 89",
+            "position": { "x":128.49255950889508 , "y":35.81522460854057 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "풍년식당",
+          "sequence" : 23,
+          "location" : {
+            "address" : "대구 달성군 화원읍 구라1길 18-1",
+            "position": { "x":128.49171451052865, "y":35.8135251397627 }
+          }
+  
+        },
+        {
+          "name" : "대구전통따로식당",
+          "sequence" : 24,
+          "location" : {
+            "address" : "대구광역시 중구 국채보상로 563-1",
+            "position": { "x":128.59240548870724, "y":35.87098350229811 }
+          }
+  
+        },
+        {
+          "name" : "숲과오리 성서점",
+          "sequence" : 25,
+          "location" : {
+            "address" : "대구 달서구 달서대로91길 23 숲과오리",
+            "position": { "x":128.48897693847948, "y":35.83932784950332 }
+          }
+  
+        }
       ]
     },
     {
@@ -482,14 +1846,15 @@
       "viewCnt": 10,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=fc8ed6ff-99bd-4cbd-94a5-e88c2b982550",
+      "cosintroText" : "9 to 6로 힘들게 일하고, 붐비는 대중교통에 몸을 싣고, 집에 돌아와 녹아내린 아이스크림처럼 눕는 생활… 도시에서의 삶은 편하기도 하지만 때로 질릴 만큼 피로하기도 하죠. 티 없이 맑은 공기와 초록빛 풍경이 주는 자연의 힐링이 그리웠다면… 이 여행 코스를 눈여겨보셔도 좋겠어요.<br/>고창의 아름다운 자연을 테마로 한 자연 힐링 코스, 공개합니다~!",
       
       "spotList": [
         {
         "name" : "상하농원",
-        "sequence" : 18,
+        "sequence" : 30,
         "location" : {
           "address" : "전라북도 고창군 상하면 상하농원길 11-23",
-          "position": { "x":130, "y":34 }
+          "position": { "x":126.45041548995104, "y":35.44773510753799 }
         },
         
        
@@ -498,15 +1863,31 @@
         ],
         "hashtag" : [
           "가족과함께", "체험여행", "산책", "겨울", "자연", "전라북도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "1522-3698",
+          "operatingHours" : "연중무휴, 09:30~21:00까지",
+          "usefee" : "- 성인 8,000원, 청소년·어린이 5,000원,<br/>유아(48개월 미만) 무료, 경로(만65세 이상) 5,000원,<br/>- 소시지체험·밀크빵체험 30,000원(2인 기준),<br/>- 입장권+소시지·입장권+밀크빵 36,000원(2인 기준)",
+          "homepage" : "http://www.www.sanghafarm.co.kr/",
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
         ]
 
         },
         {
           "name" : "김정회 고가",
-          "sequence" : 19,
+          "sequence" : 31,
           "location" : {
             "address" : "전라북도 고창군 고창읍 도산1길 16",
-            "position": { "x":138, "y":40 }
+            "position": { "x":126.65989470234389 , "y":35.4400954813979 }
           },
           
          
@@ -514,10 +1895,174 @@
             "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c67a8c45-ac82-412b-8b17-c4200f5377cb","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=c5ef65c8-b64c-4585-b985-bc682577175e","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=a3435bed-af20-446c-8484-150fc68aa798"
           ],
           "hashtag" : [
-            "가족과함께", "체험여행", "역사문화재", "관광지", "겨울", "자연", "전라북도"
+            "가족과함께", "체험여행", "역사탐방", "관광지", "겨울", "자연", "전라북도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "063-564-4156",
+            "operatingHours" : "연중개방",
+            "usefee" : "무료",
+            "homepage" : "http://www.gochang.go.kr/culture",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "고창읍성",
+            "sequence" : 32,
+            "location" : {
+              "address" : "전라북도 고창군 고창읍 모양성로 1",
+              "position": { "x":126.70487606489496, "y":35.429742784693964 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=99fd493c-dda4-4dd7-8149-ec96bcf78ebd","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=239f2d6e-1672-4528-9e6c-ab5404f825c9","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9eec612a-328a-4a0a-a5b4-38922722cede"
+            ],
+            "hashtag" : [
+              "가족과함께", "역사관광지", "걷기좋은곳", "겨울", "자연", "전라북도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "고창읍성 063-560-8067",
+              "operatingHours" : "연중무휴",
+              "usefee" : "* 개인 - 어른 3,000원 / 청소년ㆍ군인 2,000원<br/> 어린이 1,500원",
+              "homepage" : "http://culture.gochang.go.kr",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "선운사",
+              "sequence" : 33,
+              "location" : {
+                "address" : "전라북도 고창군 아산면 선운사로 250",
+                "position": { "x":126.57814299879449, "y":35.49724392483456 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=5a46ffdb-8bf8-4a0b-b365-9aef7e555e08","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=5b3f84e1-7165-4ee3-aadb-05f4759ec27e","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6fb7f83b-f25d-452a-846b-d12d732cad34"
+              ],
+              "hashtag" : [
+                "누구나함께", "체험여행", "역사문화재", "관광지", "겨울", "자연", "전라북도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "063-561-1422",
+                "operatingHours" : "연중무휴",
+                "usefee" : "무료",
+                "homepage" : "http://www.seonunsa.org",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "상하농원 파머스빌리지",
+          "sequence" : 25,
+          "location" : {
+            "address" : "전라북도 고창군 상하면 상하농원길 6-36",
+            "position": { "x":126.45289976888327, "y":35.44521823541043 }
           }
+        },
+        {
+          "name" : "메르팡펜션",
+          "sequence" : 26,
+          "location" : {
+            "address" : "전라북도 고창군 해리면 명사십리로 550-5",
+            "position": { "x":126.46661099980832, "y":35.48922702110139 }
+          }
+        },
+        {
+          "name" : "쉐르펜션",
+          "sequence" : 27,
+          "location" : {
+            "address" : "전라북도 고창군 아산면 선운사로 16-16",
+            "position": { "x":126.59904632086642 , "y":35.50805194948697 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "넓은들",
+          "sequence" : 25,
+          "location" : {
+            "address" : "전라북도 고창군 공음면 학원농장길 150",
+            "position": { "x":126.54327978476661 , "y":35.37537494546716 }
+          }
+        },
+        {
+          "name" : "파머스카페 상하",
+          "sequence" : 26,
+          "location" : {
+            "address" : "전라북도 고창군 상하면 상하농원길 11-23",
+            "position": { "x":126.45042653473544 , "y": 35.44773065130163 }
+          }
+        },
+        {
+          "name" : "카페노을",
+          "sequence" : 27,
+          "location" : {
+            "address" : "전라북도 고창군 해리면 구동호1길 26 동호해수욕장",
+            "position": { "x":126.4846254488706 , "y":35.51867629856774 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "거북선숯불풍천장어",
+          "sequence" : 26,
+          "location" : {
+            "address" : "전라북도 고창군 상하면 고리포길 199 ",
+            "position": { "x":126.43365873826372 , "y":35.43293487470263 }
+          }
+  
+        },
+        {
+          "name" : "우정회관",
+          "sequence" : 27,
+          "location" : {
+            "address" : "전라북도 고창군 심원면 심원로 196",
+            "position": { "x":126.54961163585523, "y":35.52339110580876 }
+          }
+  
+        },
+        {
+          "name" : "모꼬지바지락요리전문점",
+          "sequence" : 28,
+          "location" : {
+            "address" : "전라북도 고창군 부안면 인촌로 60",
+            "position": { "x":126.59758364927484, "y":35.5322266662115 }
+          }
+  
+        }
       ]
     },
     {
@@ -534,14 +2079,15 @@
       "viewCnt": 30,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=da08a8c8-7684-450f-b792-0db21dad8651",
+      "cosintroText" : "인사동은 도심 속에서 낡지만 귀중한 전통의 물건들이 교류되는 소중한 공간이다. 인사동에는 큰 대로를 중심으로 사이사이 골목들이 미로처럼 얽혀 있다. 이 미로 속에는 화랑, 전통공예점, 고미술점, 전통찻집, 전통음식점, 카페 등이 밀집되어 있다. 특히 인사동의 가게들은 저마다의 독특한 멋으로 젊은이들은 물론 중년층에게까지 매우 인기가 많다. 그밖의 다양한 체험존들이 있어<br/>그 어디서도 느낄 수 없던 색다른 즐거움을 선사한다.",
       
       "spotList": [
         {
         "name" : "다이나믹 메이즈",
-        "sequence" : 20,
+        "sequence" : 34,
         "location" : {
           "address" : "서울특별시 종로구 인사동길 12",
-          "position": { "x":130, "y":34 }
+          "position": { "x":126.98715483006616, "y":37.57189128120531 }
         },
         
        
@@ -550,15 +2096,30 @@
         ],
         "hashtag" : [
           "누구나함께", "3박4일", "어드벤처", "도심여행" ,"겨울실내여행" ,"서울"
+        ],
+      
+        "guideTexts": {
+          "contect" : "1544-8506",
+          "operatingHours" : "연중무휴, 11:00 ~ 18:00",
+          "usefee" : "다이나믹 메이즈(1인 기준) 12,000원.<br/>다이나믹 메이즈+박물관은 살아있다(1인 기준) 18,000원<br/>※ 국가유공자 : 50% 할인 (동반 1인 포함)",
+          "homepage" : "http://www.dynamicmaze.com",
+          "connectStatus" : "불가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
-
         },
         {
-          "name" : "서울 뮤지엄 김치간",
-          "sequence" : 21,
+          "name" : "서울 뮤지엄김치간",
+          "sequence" : 35,
           "location" : {
             "address" : "충청남도 아산시 송악면 외암로1182번길 34-19",
-            "position": { "x":138, "y":40 }
+            "position": { "x":126.98489051909175, "y":37.57360515608669 }
           },
           
          
@@ -567,9 +2128,173 @@
           ],
           "hashtag" : [
             "누구나함께", "3박4일", "어드벤처", "도심여행" ,"실내체험", "겨울방학" ,"서울"
+          ],
+      
+          "guideTexts": {
+            "contect" : "[대표번호] 02-6002-6456<br/>[학예실] 02-2223-2573",
+            "operatingHours" : "화요일~일요일 10:00~18:00 (마지막 입장 17:30),<br/>· 휴관일 : 매주 월요일, 1월 1일,<br/>설/추석연휴 3일, 12월 25일",
+            "usefee" : "* 일반(19세이상) : 5000원, (8~18세) : 3000원,<br/> (36개월~7세) : 2000원.<br/>* 단체(20인 이상,사전예약필수) - (19세이상) : 4000원, (8~18세) : 2000원, (36개월~7세) : 1000원<br/>(추가 자세한 정보는 사이트 참고.)",
+            "homepage" : "www.kimchikan.com",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+          },
+          {
+            "name" : "놀이똥산",
+            "sequence" : 36,
+            "location" : {
+              "address" : "서울특별시 종로구 인사동5길 41",
+              "position": { "x":126.98412394019708, "y":37.57192469983363 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=ac7bb5e4-4f41-4930-861d-9c28241f42e0","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=42c6d546-80c3-4d0e-96f8-cf665dd2f7f9","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=a5afe05e-600f-4ab1-b43f-553d6860b54d"
+            ],
+            "hashtag" : [
+              "누구나함께", "3박4일", "어드벤처", "도심여행" ,"실내여행" ,"서울"
+            ],
+      
+            "guideTexts": {
+              "contect" : "02-2034-0606",
+              "operatingHours" : "연중무휴, 10:00 ~ 20:00(입장마감 19:00)",
+              "usefee" : "* 1인 9,000원 (대/소 구분없음),<br/>※ 만 5세 미만 영유아 입장 불가.<br/>※ 초등학생 이하 어린이는 보호자 동반 입장 필수",
+              "homepage" : "http://www.playpoop.com",
+              "connectStatus" : "제공안함"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "쌈지길",
+              "sequence" : 37,
+              "location" : {
+                "address" : "서울특별시 종로구 인사동길 44",
+                "position": { "x":126.9847403749460, "y":37.5743552149467 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=ffeda6c4-dc20-4fec-86b9-7eb9c244114f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=ce97aa15-cc4b-4130-aa3f-3af6fdaa26eb","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=126d00d6-2e5d-4f9b-9340-88a94bae2afc"
+              ],
+              "hashtag" : [
+                "누구나함께", "3박4일", "어드벤처", "도심여행" ,"걷기좋은곳", "인사동" ,"서울"
+              ],
+      
+              "guideTexts": {
+                "contect" : "02-736-0088",
+                "operatingHours" : "오전 10:30~ 오후 8:30 까지",
+                "usefee" : "무료",
+                "homepage" : "https://www.instagram.com/ssamzigil_official/",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "신라스테이 광화문",
+          "sequence" : 28,
+          "location" : {
+            "address" : "서울 종로구 삼봉로 71",
+            "position": { "x":126.98115515860076 , "y":37.57254594985591 }
           }
+        },
+        {
+          "name" : "오라카이 인사동 스위츠",
+          "sequence" : 29,
+          "location" : {
+            "address" : "서울 종로구 인사동4길 18 로담코 인사빌딩",
+            "position": { "x":126.9873498947148, "y":37.57308737317386 }
+          }
+        },
+        {
+          "name" : "센터마크호텔",
+          "sequence" : 30,
+          "location" : {
+            "address" : "서울 종로구 인사동5길 38",
+            "position": { "x":126.98425681304924 , "y":37.57256667661249 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "인사동찻집",
+          "sequence" : 28,
+          "location" : {
+            "address" : "서울 종로구 인사동길 33-1",
+            "position": { "x":126.9854423893489 , "y":37.57352188340501 }
+          }
+        },
+        {
+          "name" : "열시꽃",
+          "sequence" : 29,
+          "location" : {
+            "address" : "서울 종로구 인사동길 42-8 1,2층",
+            "position": { "x":126.98529791763963 , "y": 37.57423815638107 }
+          }
+        },
+        {
+          "name" : "태극당 인사점",
+          "sequence" : 30,
+          "location" : {
+            "address" : "서울 종로구 인사동길 32 2층",
+            "position": { "x":126.98592065425665 , "y":37.573564738669376 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "도마",
+          "sequence" : 29,
+          "location" : {
+            "address" : "서울 종로구 인사동8길 6-1",
+            "position": { "x":126.9858470328361 , "y":37.57378096863003 }
+          }
+  
+        },
+        {
+          "name" : "동원참치 인사점",
+          "sequence" : 30,
+          "location" : {
+            "address" : "서울 종로구 인사동7길 37 일정빌딩",
+            "position": { "x":126.98474922383865, "y":37.57259602358939 }
+          }
+  
+        },
+        {
+          "name" : "하나로회관",
+          "sequence" : 31,
+          "location" : {
+            "address" : "서울 종로구 인사동5길 25 지하1층 하나로회관",
+            "position": { "x":126.98543135668227, "y":37.57204650275558 }
+          }
+  
+        }
       ]
     },
     {
@@ -586,14 +2311,15 @@
       "viewCnt": 135,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=02dd58d5-fe84-4f6a-8a3f-12733574c5ac",
+      "cosintroText" : "용인에 위치한 에버랜드는 1년 365일, 계절별 다채롭게 펼쳐지는 축제와 어트랙션, 동물, 식물 등 다양한 시설로 즐거운 휴식과 기쁨을 선사하는 테마파크다. 경기도가 추천하고 한국관광공사가 선정한 안심관광지로, 넓은 야외 공간에서 다양한 즐거움을 경험할 수 있는 곳이다.<br/>그밖에 서울 근교 중 제일 많은 어드벤쳐를 즐기고 싶다면 지금 당장 용인으로 가보자!",
       
       "spotList": [
         {
         "name" : "다이노스타 테마파크",
-        "sequence" : 22,
+        "sequence" : 38,
         "location" : {
           "address" : "경기도 용인시 수지구 동천로 581",
-          "position": { "x":130, "y":34 }
+          "position": { "x":127.05192346914897 , "y":37.35450023740986 }
         },
         
        
@@ -601,16 +2327,32 @@
           "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=02dd58d5-fe84-4f6a-8a3f-12733574c5ac","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7a063cf1-fc65-4186-81a8-179fe77f02c2","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=790015d4-2847-4d91-a88a-cdb85f0994e3"
         ],
         "hashtag" : [
-          "누구나함께", "어드벤처", "겨울스포츠", "야외체험", "경기도"
+          "누구나함께", "테마파크", "어드벤처", "겨울스포츠", "야외체험", "경기도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "1661-2050",
+          "operatingHours" : "10:00 ~17:00 까지 (매주 월요일 휴무)<br/>※ 폐장 1시간전 입장 마감.",
+          "usefee" : "- 성인(중학생 이상) : 15,000원<br/>- 아동/초등(24개월~13세) : 20,000원<br/>- 유아(24개월 미만) : 무료<br/>- 야간 패밀리 골프(4세 이상) : 13,000원<br/>- 단체(20명) : 사전문의 및 예약 필수(1661-2050)",
+          "homepage" : "http://www.dinostar.co.kr/",
+          "connectStatus" : "제공안함"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
 
         },
         {
           "name" : "용인자연휴양림 에코어드벤처",
-          "sequence" : 23,
+          "sequence" : 39,
           "location" : {
             "address" : "경기도 용인시 처인구 모현면 초부로 220",
-            "position": { "x":138, "y":40 }
+            "position": { "x":127.26780919201862, "y":37.31490560505038 }
           },
           
          
@@ -618,10 +2360,152 @@
             "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=fff13a9e-7b52-464a-a703-3152bca4fb60","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=67d9932f-5e22-443e-bb0e-efe4740ee023","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=cdb85e78-55bc-48b1-9d93-c92201d33b50"
           ],
           "hashtag" : [
-            "누구나함께", "어드벤처", "겨울스포츠", "산책", "야외체험", "경기도"
+            "누구나함께", "어드벤처", "레포츠", "겨울스포츠", "서울근교", "야외체험", "경기도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "1588-5219, 031-335-9682",
+            "operatingHours" : "- 하절기(3월~10월) 09:20~ 17:00까지<br/>- 동절기(11월~2월) 09:20 ~ 16:00 까지 9:20분과 17:00시는 토요일, 일요일만 운영.",
+            "usefee" : "원숭이 코스 - 개인 10,000원 / 단체 8,000원,<br/>침팬치 코스 - 개인 10,000원 / 단체 8,000원, 어린이 패키지- 개인 14,000원 / 단체 11,000원 ,<br/>킹콩 코스- 개인 14,000원 / 단체 11,000원<br/>※휴양림 입장료, 주차료 별도. * 단체 20명 이상,<br/>어린이패키지는 원숭이+침팬치 코스 패키지",
+            "homepage" : "http://yongineco.co.kr/adventure.php",
+            "connectStatus" : "제공안함"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
+  
+          },
+          {
+            "name" : "용인 에버랜드",
+            "sequence" : 40,
+            "location" : {
+              "address" : "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+              "position": { "x":127.20219898383664, "y":37.29314526531005 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9b17964f-aa7a-461b-bec0-bba4b60ae0e8","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=fe7ceda8-4cfb-4219-a6db-7b27d719f80e","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=cc7483f7-8242-4fe3-9a89-5d279d607bb1"
+            ],
+            "hashtag" : [
+              "누구나함께", "어드벤처", "포토스팟", "야외체험", "놀이공원", "경기도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "031-320-5000",
+              "operatingHours" : "연중무휴,<br/>※ 월별 이용시간 홈페이지 참고.",
+              "usefee" : "[이용권] - 홈페이지 참고.<br/>* 당일 호암미술관 무료 입장.",
+              "homepage" : "http://www.everland.com",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+            ]
+    
+    
+            },
+            {
+              "name" : "용인 대장금파크",
+              "sequence" : 41,
+              "location" : {
+                "address" : "경기도 용인시 처인구 백암면 용천드라마길 25",
+                "position": { "x":127.33760153272726, "y":37.121227672990365 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=8bdc7ecf-e015-443f-8938-d4684c654936","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d859fea8-885a-4dfd-a806-787c6a107ce9","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=75d9a3b6-1d46-4e9d-a172-c335e0373234"
+              ],
+              "hashtag" : [
+                "가족과함께", "걷기좋은곳", "사계절", "산책", "야외체험", "경기도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "문의전화 : 031-337-3241<br/> -임대,대관 : 02-789-1691<br/>매표 :02-789-1674 / 02-789-1675",
+                "operatingHours" : "3월~10월(하절기) : 09:00 ~ 18:00<br/>11월~2월(동절기) : 09:00 ~ 17:00",
+                "usefee" : "성인 9,500원 / 중고등생 8,000원<br/>48개월~초등학생 7,000원 / 48개월 미만 영유아 무료.",
+                "homepage" : "http://djgpark.imbc.com/",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "라마다용인호텔",
+          "sequence" : 31,
+          "location" : {
+            "address" : "경기도 용인시 처인구 포곡읍 마성로 420",
+            "position": { "x":127.21660180428121, "y":37.286587269835174 }
           }
+        },
+        {
+          "name" : "에버리움펜션",
+          "sequence" : 32,
+          "location" : {
+            "address" : "경기도 용인시 처인구 포곡읍 곡현로 354-1",
+            "position": { "x":127.22090302572937, "y":37.31615803668601 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "커피품은곰",
+          "sequence" : 31,
+          "location" : {
+            "address" : "경기도 용인시 기흥구 평촌2로1번길 22 1층",
+            "position": { "x":127.15419093299407 , "y":37.280314680404295 }
+          }
+        },
+        {
+          "name" : "용인카페 노브133",
+          "sequence" : 32,
+          "location" : {
+            "address" : "경기도 용인시 처인구 포곡읍 곡현로133번길 21",
+            "position": { "x":127.22116180808689 , "y":37.29859190028433}
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "동백식탁",
+          "sequence" : 32,
+          "location" : {
+            "address" : "경기도 용인시 기흥구 동백중앙로 283 골드프라자 D동 2층",
+            "position": { "x":127.1531537276728 , "y":37.27762417279245 }
+          }
+  
+        },
+        {
+          "name" : "에버가참숯구이",
+          "sequence" : 33,
+          "location" : {
+            "address" : "경기도 용인시 처인구 포곡읍 성산로 650",
+            "position": { "x":127.21063393609964 , "y":37.286746711034425 }
+          }
+  
+        }
       ]
     },
     {
@@ -638,14 +2522,15 @@
       "viewCnt": 10,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=37290d46-140b-412d-aa16-2171f1893fae",
+      "cosintroText" : "화천은 산과 물이 고루 아름다운 고장이다. 북한강과 파로호, 평화의 댐 등 물이 풍부해 발길이 닿는 곳마다 그림 같은 풍광을 그려낸다. 북한강 물줄기를 따라 조성한 자전거 코스를 산소 100리 길이라 부른다. 자전거 라이딩을 즐겨도 좋고, 적당한 구간을 골라 걷기에도 최고다.<br/> 아를테마수목공원은 거례리 사랑나무 근처에 넓게 조성한 공원이다. 거대한 반지 조형물이 다리 한가운데를 장식하고 있는 칠석교가 거례리와 강 서쪽 원천리를 연결했었는데 수해를 입어 지금은 이용이 불가능하다. 사랑나무는 강에 바짝 붙어선 거대한 느티나무에 붙은 이름으로 이곳은 뮤직 비디오 촬영, 웨딩 스냅사진 등 사진촬영 명소로 이름나면서 찾는 이들이 늘었다.",
       
       "spotList": [
         {
         "name" : "파로호 자전거 100리길",
-        "sequence" : 24,
+        "sequence" : 42,
         "location" : {
           "address" : "강원도 화천군 하남면 춘화로 3331-50",
-          "position": { "x":120, "y":34 }
+          "position": { "x":127.70386099699694, "y":38.09664199657243 }
         },
         
        
@@ -654,15 +2539,32 @@
         ],
         "hashtag" : [
           "친구들과함께", "자전거여행", "봄", "파로호", "일주일이상", "강원도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "화천 관광안내소 033-440-2557",
+          "operatingHours" : "연중무휴",
+          "usefee" : "무료",
+          "homepage" : "http://tour.ihc.go.kr",
+          "connectStatus" : "제공안함"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
+
 
         },
         {
           "name" : "화천박물관",
-          "sequence" : 25,
+          "sequence" : 43,
           "location" : {
             "address" : "강원도 화천군 하남면 춘화로 3337",
-            "position": { "x":138, "y":40 }
+            "position": { "x":127.70414372728297, "y":38.097890298832354 }
           },
           
          
@@ -671,26 +2573,150 @@
           ],
           "hashtag" : [
             "친구들과함께", "박물관", "봄", "파로호", "일주일이상", "강원도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "033-440-2549",
+            "operatingHours" : "09:00~17:30 (입장마감 17:00)<br/>* 휴일 : 매주 월요일, 1월 1일, 설/추석 당일,<br/>법정공휴일 다음날.",
+            "usefee" : "무료",
+            "homepage" : "http://www.hcmuseum.kr/",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
+  
   
           },
           {
-            "name" : "파로호 안보전시관",
-            "sequence" : 26,
+            "name" : "붕어섬",
+            "sequence" : 44,
             "location" : {
-              "address" : "강원도 화천군 간동면 파로호로 208",
-              "position": { "x":138, "y":40 }
+              "address" : "강원도 화천군 화천읍 강변로 2-54",
+              "position": { "x":127.69379945807525, "y":38.09684147441209 }
             },
             
            
             "image" : [
-              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=f844c744-1804-487d-8c4d-4279dd5310c4","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=e0b01d51-d880-4def-b11f-59be14017ba1","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=e1071566-3cbd-4e6b-8eaf-2c2c7ef97bfd"
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=9fe335fc-d6be-4999-ac5b-0d0d459c768b","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=e43ff356-7f57-4efe-89cb-9857d5b244a4","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=deee86af-1736-45ff-bdcd-264b524f76ca"
             ],
             "hashtag" : [
               "친구들과함께", "전시관", "봄", "역사여행", "일주일이상", "강원도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "033-440-2557 /2575",
+              "operatingHours" : "연중무휴",
+              "usefee" : "무료",
+              "homepage" : "http://tour.ihc.go.kr/hb/portal",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
             ]
     
-            }
+    
+            },
+            {
+              "name" : "화천 반지교 & 아를테마수목공원",
+              "sequence" : 45,
+              "location" : {
+                "address" : "강원도 화천군 하남면 거례리 514-1",
+                "position": { "x":127.68837789041434, "y":38.07213912912962 }
+              },
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=635f1dff-f6c9-43c1-b023-b17e99ccd0cb","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b7a6032f-9681-4786-944c-d14676cb3d9f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=02a50eb3-ac5a-49ca-9d1e-e755008506ac"
+              ],
+              "hashtag" : [
+                "누구나함께", "포토스팟", "자연", "걷기좋은곳", "일주일이상", "강원도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "화천군 관광안내소 033-440-2575",
+                "operatingHours" : "연중개방",
+                "usefee" : "무료",
+                "homepage" : "http://tour.ihc.go.kr/hb/portal",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+              ]
+      
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "화천산천어펜션",
+          "sequence" : 33,
+          "location" : {
+            "address" : "강원 화천군 화천읍 노신로 82-88",
+            "position": { "x":127.70468493706463, "y":38.1198148718763}
+          }
+        },
+        {
+          "name" : "몽베르 리조트 펜션",
+          "sequence" : 34,
+          "location" : {
+            "address" : "강원 화천군 하남면 호수길 206-109",
+            "position": { "x":127.67342685905287 , "y":38.04799365044823 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "문릿",
+          "sequence" : 33,
+          "location" : {
+            "address" : "강원 화천군 화천읍 상승로3길 5",
+            "position": { "x":127.70482182083215 , "y":38.10617448936818 }
+          }
+        },
+        {
+          "name" : "카페정원",
+          "sequence" : 34,
+          "location" : {
+            "address" : "강원 화천군 화천읍 가손이길 36",
+            "position": { "x":127.72621608237995 , "y":38.100050990838305 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "화천삼나물밥상",
+          "sequence" : 32,
+          "location" : {
+            "address" : "강원 화천군 화천읍 중앙로1길 14-5",
+            "position": { "x":127.70573533725533  , "y":38.1054302705183}
+          }
+  
+        },
+        {
+          "name" : "화천장어랜드",
+          "sequence" : 33,
+          "location" : {
+            "address" : "강원 화천군 하남면 춘화로 3340",
+            "position": { "x":127.70523701566172 , "y":38.097178789443966 }
+          }
+  
+        }
       ]
     },
     {
@@ -707,14 +2733,15 @@
       "viewCnt": 105,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=741adf70-0a3d-4633-a0d6-46821e4cf2bb",
+      "cosintroText" : "일상에 치이며 살고 있으신가요. 사는 게 생각처럼 잘 되지만은 않죠.<br>모든 걸 훌훌 남겨둔 채 떠나고 싶은 마음이 가득한 요즘이라면 잘 찾아오셨습니다.<br/>여기는 경상남도 남해입니다. 남쪽 끝에 자리한 섬, 남해는 연륙교가 연결되어 있어 배를 타지 않고도 쉽게 오갈 수 있는 여행지예요.<br>아름다운 풍광과 고즈넉한 분위기를 두루 갖추고 있어 잠시 머물며 쉬어가기에 좋은 곳이랍니다.<br/>이 정도의 남해라면 여러분의 갑갑한 일상에 조금은 쉼표가 될 수 있을까요?<br>일단 한 번 살펴보세요! 분명히 이 중에 여러분이 좋아할 만한 공간이 있을거에요.",
       
       "spotList": [
         {
-        "name" : "평산 횟집",
-        "sequence" : 27,
+        "name" : "평산횟집",
+        "sequence" : 46,
         "location" : {
-          "address" : "경상남도 남해군 남면 남면로",
-          "position": { "x":120, "y":34 }
+          "address" : "경상남도 남해군 남면 남면로1739번길 55",
+          "position": { "x":127.84664553249604, "y":34.767975360414034 }
         },
         
        
@@ -723,15 +2750,31 @@
         ],
         "hashtag" : [
           "누구나함께", "먹거리", "남해맛집", "봄", "일주일이상", "경상도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "055-863-1047",
+          "operatingHours" : "오전 9시~ 오후 10시까지",
+          "usefee" : "제공없음(현장가격표참고)",
+          "homepage" : null,
+          "connectStatus" : "제공안함"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
 
         },
         {
           "name" : "해사랑 전복마을",
-          "sequence" : 28,
+          "sequence" : 47,
           "location" : {
             "address" : "경상남도 남해군 미조면 미송로 193",
-            "position": { "x":138, "y":40 }
+            "position": { "x":128.0369036407975, "y":34.70747963021968 }
           },
           
          
@@ -740,15 +2783,31 @@
           ],
           "hashtag" : [
             "누구나함께", "먹거리", "남해맛집", "봄", "일주일이상", "경상도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "0507-1313-3910",
+            "operatingHours" : "매일 8:30 ~ 21:00시 까지 영업 (라스트오더 : 19:30분)",
+            "usefee" : "제공없음(현장 가격표참고)",
+            "homepage" : null,
+            "connectStatus" : "제공없음"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
           },
           {
             "name" : "남해 독일마을",
-            "sequence" : 29,
+            "sequence" : 48,
             "location" : {
               "address" : "경상남도 남해군 삼동면 독일로 92",
-              "position": { "x":138, "y":40 }
+              "position": { "x":128.03855346966387 , "y":34.80006984825159 }
             },
             
            
@@ -757,9 +2816,132 @@
             ],
             "hashtag" : [
               "누구나함께", "멋진풍경", "산책", "봄", "독일남해마을", "일주일이상", "경상도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "055-867-8897",
+              "operatingHours" : "연중개방",
+              "usefee" : "무료",
+              "homepage" : "http://남해독일마을.com",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
             ]
     
-            }
+            },
+            {
+              "name" : "돌창고 프로젝트",
+              "sequence" : 49,
+              "location" : {
+                "address" : "경상남도 남해군 삼동면 봉화로 538-1",
+                "position": { "x":127.98169941573524 , "y":34.80953514989029 }
+              },
+              
+             
+              "image" : [
+                "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=fb3398da-7e40-4229-b179-ad5aae01fb51","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=2936aced-2662-49bc-9537-0fe79abd944f","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=07961200-2f12-4e4e-9fb8-b4ed7e1407fc"
+              ],
+              "hashtag" : [
+                "누구나함께", "포토스팟", "체험여행", "사계절", "남해여행", "일주일이상", "경상도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "0507-1333-1965",
+                "operatingHours" : "영업시간 : 오전 11시 ~ 오후 18시(화,수 정기휴무)",
+                "usefee" : "제공없음(현장가격표참고)",
+                "homepage" : "(인스타그램) https://www.instagram.com/dolchanggo_project/",
+                "connectStatus" : "제공안함"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal_on.png"
+              ]
+      
+              }
+      ],
+      "accoms" : [
+        {
+          "name" : "아난티 남해",
+          "sequence" : 35,
+          "location" : {
+            "address" : "경남 남해군 남면 남서대로1179번길 40-109",
+            "position": { "x":127.85175444820511, "y":34.776707920481876 }
+          }
+        },
+        {
+          "name" : "다무락",
+          "sequence" : 36,
+          "location" : {
+            "address" : "경남 남해군 이동면 남서대로 375-18 다무락",
+            "position": { "x":127.92419999228179 , "y":34.77486346267273 }
+          }
+        },
+        {
+          "name" : "케이프타운펜션",
+          "sequence" : 37,
+          "location" : {
+            "address" : "경남 남해군 삼동면 독일로 152-8",
+            "position": { "x":128.0332112818888 , "y":34.80213662556412 }
+          }
+        }
+
+      ],
+      "cafes": [
+        {
+          "name" : "남해의숲",
+          "sequence" : 35,
+          "location" : {
+            "address" : "경남 남해군 삼동면 독일로 152-8 1층 남해의숲",
+            "position": { "x":128.03294622987048 , "y":34.802350695630814 }
+          }
+        },
+        {
+          "name" : "물건너온 세모점빵",
+          "sequence" : 36,
+          "location" : {
+            "address" : "경남 남해군 삼동면 금암로 430",
+            "position": { "x":128.0148901229307 , "y":34.7692580100852 }
+          }
+        }
+      ],
+      "foods": [
+        {
+          "name" : "다랭이맛집",
+          "sequence" : 34,
+          "location" : {
+            "address" : "경남 남해군 남면 남면로679번길 31-10",
+            "position": { "x":127.89351840082062 , "y":34.72681226738266}
+          }
+  
+        },
+        {
+          "name" : "남해전복물회",
+          "sequence" : 35,
+          "location" : {
+            "address" : "경남 남해군 이동면 남해대로 2436",
+            "position": { "x":127.92523382794859 , "y":34.81754460704434 }
+          }
+  
+        },
+        {
+          "name" : "이터널저니",
+          "sequence" : 36,
+          "location" : {
+            "address" : "경남 남해군 남면 남서대로1179번길 40-109",
+            "position": { "x":127.85407388281489, "y":34.77784093075279 }
+          }
+  
+        }
       ]
     },
     {
@@ -776,92 +2958,234 @@
       "viewCnt": 5,
       "no" : "",
       "image": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7479df99-bb83-41e9-893b-0114e9421592",
+      "cosintroText" : "지리산을 벗하고, 섬진강을 동무삼는 구례는 자연과 함께하는 최고의 여행지입니다. 요즘처럼 봄공기 훈훈한 4월에는 더더욱이요. 산수유, 벚꽃… 봄꽃이 가득 피어나 어디를 바라봐도 천혜의 절경인 구례의 봄 여행. 다양한 봄꽃을 즐길 수 있는 구례 명소를 전해드립니다.",
       
       "spotList": [
         {
-        "name" : "산수유 마을",
-        "sequence" : 30,
+        "name" : "한국압화박물관",
+        "sequence" : 50,
         "location" : {
-          "address" : "전라남도 구례군 산동면 위안리",
-          "position": { "x":127.46297402531178, "y":35.29926818808557 }
+          "address" : "전라남도 구례군 구례읍 동산1길 29",
+          "position": { "x":127.45993976897431, "y":35.196676097769114 }
         },
         
        
         "image" : [
-          "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7479df99-bb83-41e9-893b-0114e9421592","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=f76e30a9-6ed0-4424-a0c8-db8121a833ee","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=567cf998-b7f6-4569-8d2b-35412272eeb6"
+          "https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020434&fileSn=3","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020976&fileSn=3","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020969&fileSn=3"
         ],
         "hashtag" : [
-          "친구들과함께", "관광지", "나들이", "봄", "산수유", "봄", "자연", "전라도"
+          "누구나함께", "관광지", "박물관", "실내관광지", "이색체험", "사계절", "전통문화", "전라도"
+        ],
+      
+        "guideTexts": {
+          "contect" : "061-781-7117",
+          "operatingHours" : "오전 10:00 ~오후 17:00까지<br>(휴일: 매주 월요일)",
+          "usefee" : "일반인 2,000원<br>청소년, 어린이 1,000원 (체험비 별도)",
+          "homepage" : "https://www.gurye.go.kr/tour/",
+
+          "connectStatus" : "신청 시 가능"
+        },
+        "guideimages": [
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+          "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
         ]
 
         },
         {
           "name" : "천은사",
-          "sequence" : 31,
+          "sequence" : 51,
           "location" : {
-            "address" : "전라남도 구례군 산동면 위안리",
-            "position": { "x":127.47042744601805, "y":35.26492574702654 }
+            "address" : "전라남도 구례군 광의면 노고단로 209",
+            "position": { "x":127.4763099350362, "y":35.27388451494681 }
           },
           
          
           "image" : [
-            "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d8d6aacb-149b-4bc6-bca5-f72a70aeb19e","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=8c7ce8fe-c738-47cb-9e07-08dcdadbf802","https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6b48483f-1f94-4144-bfcb-23fe652beb7f"
+            "https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021119&fileSn=5","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021109&fileSn=5","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021116&fileSn=5"
           ],
           "hashtag" : [
-            "친구들과함께", "섬진강벚꽃길", "드라이브", "봄", "벚꽃여행", "힐링", "자연", "전라도"
+            "가족과함께", "구례여행", "역사여행", "자연", "사계절", "힐링", "자연", "전라도"
+          ],
+      
+          "guideTexts": {
+            "contect" : "천은사 종무소 061-781-4800",
+            "operatingHours" : "연중무휴",
+            "usefee" : "무료",
+            "homepage" : "http://www.choneunsa.org/",
+            "connectStatus" : "신청 시 가능"
+          },
+          "guideimages": [
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+            "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
           ]
   
-          }
+          },
+          {
+            "name" : "지리산정원",
+            "sequence" : 52,
+            "location" : {
+              "address" : "전라남도 구례군 산동면 탑동1길 125",
+              "position": { "x":127.45066948063388 , "y":35.303895669158905 }
+            },
+            
+           
+            "image" : [
+              "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d410094e-4b5e-420e-821b-99db7d309a2e","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030475&fileSn=1","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030469&fileSn=1"
+            ],
+            "hashtag" : [
+              "누구나함께", "구례여행", "관광지", "나들이", "수목원", "걷기좋은곳", "자연", "전라도"
+            ],
+      
+            "guideTexts": {
+              "contect" : "지리산정원 061-780-2891",
+              "operatingHours" : "오전 09:00 ~ 오후 18:00",
+              "usefee" : "- 야생화테마랜드 * 개인 : 어른 2,600원<br>/ 청소년,군인 1,500원 / 어린이 1,000원<br>- 구례산수유자연휴양림 * 단체(20명이상) : 어른 1,600원 / 청소년,군인 1,200원 / 어린이 800원 ,<br>-구례수목원: 어른 2,000원 / 청소년,군인 1,500원 / 어린이 1,000원",
+              "homepage" : "https://ecopark.gurye.go.kr/",
+              "connectStatus" : "신청 시 가능"
+            },
+            "guideimages": [
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+              "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+            ]
+    
+            },
+            {
+              "name" : "섬진강 대숲길",
+              "sequence" : 53,
+              "location" : {
+                "address" : "전라남도 구례군 구례읍 원방리 1",
+                "position": { "x":127.46530787388318, "y":35.18632392447175 }
+              },
+              
+             
+              "image" : [
+                "https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030515&fileSn=1","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030513&fileSn=1","https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021061&fileSn=3"
+              ],
+              "hashtag" : [
+                "누구나함께", "관광지", "걷기좋은곳", "포토스팟", "힐링", "자연", "전라도"
+              ],
+      
+              "guideTexts": {
+                "contect" : "섬진강 대숲길 061-780-2390",
+                "operatingHours" : "연중무휴",
+                "usefee" : "무료",
+                "homepage" : "https://www.gurye.go.kr/",
+                "connectStatus" : "신청 시 가능"
+              },
+              "guideimages": [
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png",
+                "https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+              ]
+      
+              }
       ],
       "accoms" : [
         {
-          "name" : "구례 유랑펜션타운",
-          "sequence" : 1,
+          "name" : "쌍산재",
+          "sequence" : 38,
           "location" : {
-            "address" : "전라북도 남원시 주천면 정령치로 129",
-            "position": { "x":127.44986655265312, "y":35.391642389309034 }
-          },
-          "image" : [
-            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_227%2F1441112912473zDFbY_JPEG%2F166760496472161_0.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_130%2F1441112914293i6Mwm_JPEG%2F166760496475744_0.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20210706_132%2F1625570174535z1WA6_JPEG%2Fimage.jpg"
-          ],
-          "hashtag" : [
-            "친구들과함께", "섬진강벚꽃길", "드라이브", "봄", "벚꽃여행", "힐링", "자연", "전라도"
-          ]
-  
+            "address" : "전라남도 구례군 마산면 장수길 3-2",
+            "position": { "x":127.49804611779687, "y":35.21575097873472 }
+          }
+        },
+        {
+          "name" : "섬진강 파노라마펜션",
+          "sequence" : 39,
+          "location" : {
+            "address" : "전라남도 구례군 구례읍 섬진강로 960",
+            "position": { "x":127.37477826506715, "y":35.2052574904731 }
+          }
+        },
+        {
+          "name" : "지리산풍경펜션",
+          "sequence" : 40,
+          "location" : {
+            "address" : "전라남도 구례군 마산면 화엄사로 386-13",
+            "position": { "x":127.48946690532479, "y":35.24249261940102 }
+          }
         }
 
       ],
       "cafes": [
         {
-          "name" : "산수유고장북카페",
-          "sequence" : 1,
+          "name" : "목월빵집",
+          "sequence" : 37,
           "location" : {
-            "address" : "전라남도 구례군 산동면 위안리 333-2",
-            "position": { "x":127.48670069394926, "y":35.331523610651075 }
-          },
-          "image" : [
-            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjRfMTI5%2FMDAxNjE5MjMwOTg1MTI4._otg16x0YGm0l9OpwaPKPBZg3VmzpFTg_t5E4SnnX90g.Ie8O3DMOvmsxIUFFvE4C0g1qSXdAn3G-BMlvJoqiJi0g.JPEG.nateccm%2FIMG_7843.JPG","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220303_8%2F1646308820361YIs8k_JPEG%2Fupload_d11de693a2a16995b2bbda4545828aca.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220202_206%2F1643782559608zqMoq_JPEG%2Fupload_e4ace6bc3aeec3bf09970fa71be662a7.jpeg"
-          ],
-          "hashtag" : [
-            "친구들과함께", "카페", "드라이브", "봄", "힐링", "자연", "전라도"
-          ]
+            "address" : "전라남도 구례군 구례읍 서시천로 85",
+            "position": { "x":127.46589875025768, "y":35.21481762790618 }
+          }
+  
+        },
+        {
+          "name" : "카페흰구름가는길",
+          "sequence" : 38,
+          "location" : {
+            "address" : "전라남도 구례군 마산면 연기암길 393",
+            "position": { "x":127.50456590010276, "y":35.26873152880373 }
+          }
+  
+        },
+        {
+          "name" : "카페테일",
+          "sequence" : 39,
+          "location" : {
+            "address" : "전라남도 구례군 구례읍 중앙로 28 CAFE TALE",
+            "position": { "x":127.46792793976692, "y":35.20813311280207 }
+          }
   
         }
       ],
       "foods": [
         {
           "name" : "산동화덕구이",
-          "sequence" : 1,
+          "sequence" : 37,
           "location" : {
-            "address" : "전라남도 구례군 산동면 탑정리 849번지 KR 산동화덕구이",
-            "position": { "x":127.44479161991877, "y":35.31224570472687 }
-          },
-          "image" : [
-            "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA1MTVfNDEg%2FMDAxNTg5NTIwODY4MjEz.RZD8ucdr4iHZhD-5A6-QZ2KOChKjGhXAUwizAZHo318g.15rMk3LmJExxBR-K64EnHTPE6FPn8HJtDgmX90LyDuUg.JPEG.chlaldus29%2FIMG_1700.jpg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210702_192%2F1625196068099D33vj_JPEG%2Fupload_a592ce128e81bc9ac30a5b483287307f.jpeg","https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20200323_54%2F1584922916996MHlI8_JPEG%2Fupload_d07edb0017e34ee0083e11b5bafce52f.jpeg"
-          ],
-          "hashtag" : [
-            "누구나함께", "화덕구이", "음식점", "봄", "벚꽃여행", "힐링", "자연", "전라도"
-          ]
+            "address" : "전라남도 구례군 산동면 탑정리 849번지",
+            "position": { "x":127.44476411777094 , "y":35.312243552562926 }
+          }
+  
+        },
+        {
+          "name" : "지리산면옥",
+          "sequence" : 38,
+          "location" : {
+            "address" : "전라남도 구례군 구례읍 학교길 48",
+            "position": { "x":127.4624633245382 , "y":35.20359331323251 }
+          }
+  
+        },
+        {
+          "name" : "숲과식당",
+          "sequence" : 39,
+          "location" : {
+            "address" : "전라남도 구례군 광의면 노고단로 15",
+            "position": { "x":127.46835044514668, "y":35.26493605785967 }
+          }
+  
+        },
+        {
+          "name" : "민속마을",
+          "sequence" : 40,
+          "location" : {
+            "address" : "전라남도 구례군 구례읍 봉서산정길 4",
+            "position": { "x":127.46357690841899, "y":35.19857983835296 }
+          }
   
         }
       ]

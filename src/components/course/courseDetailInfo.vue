@@ -4,11 +4,11 @@
     <div class="cos_spotlist inner">
       <ul>
         <li
-          v-for="(coursetit, index) in cosListNames " 
+          v-for="(coursetit, index) in courseData.spotList " 
           :key="`costitle${index}`"
           class="cos_names"
           :class="{active: teb_on === index}">
-          <strong> {{ coursetit.num }}</strong>
+          <strong> {{ cosListNames[index].num }}</strong>
           <div>
             <button
               class="spottitle"
@@ -22,39 +22,35 @@
       <!-- 코스 상세정보 내용 -->
       <div
         class="info_content_area">
-        <transition name="fade">
+        <transition
+          v-for="(spot, index) in courseData.spotList"
+          :key="`spot_${spot.sequence}`"
+          name="fade">
           <div
-            v-if="teb_on === 0"
+            v-if="teb_on === index"
             class="middlebox">
-            <div
-              class="detailbox">
-              <p class="title">
-                ① 한국 압화 박물관
+            <div class="detailbox">
+              <p
+                class="title">
+                {{ cosListNames[index].num }} {{ spot.name }}
               </p>
               <p class="location">
-                전남 구례군 구례읍 동산1길 29
+                {{ spot.location.address }}
               </p>
 
               <div
                 class="cosimgbox">
                 <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020434&fileSn=3"
-                  alt="이미지1" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020976&fileSn=3"
-                  alt="이미지2" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000020969&fileSn=3"
-                  alt="이미지3" />
+                  v-for="(image, imgidx) in spot.image"
+                  :key="`image${imgidx}`"
+                  :src="image"
+                  alt="" />
               </div>
 
               <div class="tag_info">
-                <span>#가족과함께</span>
-                <span>#관광지</span>
-                <span>#나들이</span>
-                <span>#힐링</span>
-                <span>#자연</span>
-                <span>#전라남도</span>
+                <span
+                  v-for="(tag, tagidx) in spot.hashtag"
+                  :key="`tag${tagidx}`">#{{ tag }}</span>
               </div>
             </div>
 
@@ -65,33 +61,34 @@
               </p>
               <ul class="contents">
                 <li>
-                  ※ 문의 및 안내 :
-                  <span>문화관광과 041-630-1224</span>
+                  <span class="tit">※ 문의 및 안내 :</span>
+                  <span v-html="spot.guideTexts.contect"></span>
                 </li>
                 <li>
-                  ※ 운영시간 :
-                  <span>
-                    AM 10:00 ~ PM 17:00 (월요일 휴무) <br />
-                    &nbsp;&nbsp;- 제21회 대한민국 압화대전 준비기간 동안 휴관(2022. 1. 11. ~ 3. 27.)
+                  <span class="tit">※ 운영시간 :</span>
+                  <span v-html="spot.guideTexts.operatingHours">
+                    
                   </span>
                 </li>
                 <li>
-                  ※ 이용요금 : 
-                  <span>
-                    -개인(순천시민 50%할인)<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;어른 2,000원 / 청소년 1,000원 / 어린이 1,000원<br />
-                    &nbsp;&nbsp;&nbsp;- 단체(30인 이상)<br />
-                    &nbsp;&nbsp;&nbsp;어른 1,500원 / 청소년 500원 / 어린이 500원<br />
-                    &nbsp;&nbsp;&nbsp;-무료입장<br />
-                    &nbsp;&nbsp;&nbsp;국가유공자, 장애인, 현역군경, 경로우대자(65세 이상),기초생활수급자, 미취학 아동, 구례군민, '문화가 있는 날'(매월 마지막 주 수요일)
+                  <span class="tit">※ 이용요금 : </span>
+                  <span v-html="spot.guideTexts.usefee">
+                    
                   </span>
                 </li>
                 <li>
-                  ※ 홈페이지 :
-                  <a href="https://www.gurye.go.kr/tour/detail.do?tourId=TOUR_0000000051&menuNo=101001013000">https://gurye.go.kr/farmtech/</a>
+                  <span class="tit">※ 홈페이지 :</span>
+                  <a
+                    v-if="spot.guideTexts.homepage"
+                    :href="spot.guideTexts.homepage"
+                    target="_blank">{{ spot.guideTexts.homepage }}</a>
+                  <span v-else>
+                    없음
+                  </span>
                 </li>
                 <li>
-                  ※ 가이드연결 : 신청 시 가능
+                  <span class="tit">※ 가이드연결 :</span> 
+                  <span>{{ spot.guideTexts.connectStatus }}</span>
                 </li>
               </ul>
             </div>
@@ -105,387 +102,45 @@
                 <li>
                   <span>주차장</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
+                    :src="spot.guideimages[0]"
                     alt="주차장" />
                 </li>
                 <li>
                   <span>화장실</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
+                    :src="spot.guideimages[1]"
                     alt="화장실" />
                 </li>
                 <li>
                   <span>휠체어대여</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
+                    :src="spot.guideimages[2]"
                     alt="휠체어대여" />
                 </li>
                 <li>
                   <span>장애인주차장</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
+                    :src="spot.guideimages[3]"
                     alt="장애인주차장" />
                 </li>
                 
                 <li>
                   <span>유모차대여</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
+                    :src="spot.guideimages[4]"
                     alt="유모차대여" />
                 </li>
                 <li>
                   <span>반려동물출입</span>
                   <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
+                    :src="spot.guideimages[5]"
                     alt="반려동물출입" />
                 </li>
               </ul>
             </div>
           </div>
         </transition>
-        <transition name="fade">
-          <div
-            v-if="teb_on == 1"
-            class="middlebox">
-            <div
-            
-              class="detailbox">
-              <p class="title">
-                ② 천은사
-              </p>
-              <p class="location">
-                전남 구례군 광의면 노고단로 209
-              </p>
-              <div class="cosimgbox">
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021119&fileSn=5"
-                  alt="이미지1" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021116&fileSn=5"
-                  alt="이미지2" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021109&fileSn=5"
-                  alt="이미지3" />
-              </div>
-              <div class="tag_info">
-                <span>#가족과함께</span>
-                <span>#역사</span>
-                <span>#걷기</span>
-                <span>#구례여행</span>
-                <span>#자연</span>
-                <span>#전라남도</span>
-              </div>
-            </div>
-
-            <div
-              class="usage_infobox">
-              <p class="title">
-                <span>이용안내 </span>
-              </p>
-              <ul class="contents">
-                <li>
-                  ※ 문의 및 안내 :
-                  <span>천은사 종무소 061-781-4800</span>
-                </li>
-                <li>
-                  ※ 운영시간 :
-                  <span>
-                    연중무휴
-                  </span>
-                </li>
-                <li>
-                  ※ 이용요금 : 
-                  <span>
-                    무료
-                  </span>
-                </li>
-                <li>
-                  ※ 홈페이지 :
-                  <a href="http://www.choneunsa.org/">http://www.choneunsa.org/</a>
-                </li>
-                <li>
-                  ※ 가이드연결 : 신청 시 가능
-                </li>
-              </ul>
-            </div>
-
-            <div
-              class="comforts_box">
-              <p class="title">
-                <span>편의시설 안내</span>
-              </p>
-              <ul class="comfort_list">
-                <li>
-                  <span>주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
-                    alt="주차장" />
-                </li>
-                <li>
-                  <span>화장실</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
-                    alt="화장실" />
-                </li>
-                <li>
-                  <span>휠체어대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
-                    alt="휠체어대여" />
-                </li>
-                <li>
-                  <span>장애인주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
-                    alt="장애인주차장" />
-                </li>
-                
-                <li>
-                  <span>유모차대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
-                    alt="유모차대여" />
-                </li>
-                <li>
-                  <span>반려동물출입</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
-                    alt="반려동물출입" />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </transition>
-        <transition name="fade">
-          <div
-            v-if="teb_on == 2"
-            class="middlebox">
-            <div
-            
-              class="detailbox">
-              <p class="title">
-                ③ 지리산 정원
-              </p>
-              <p class="location">
-                전남 구례군 산동면 탑동1길 125
-              </p>
-              <div class="cosimgbox">
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030481&fileSn=1"
-                  alt="이미지1" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030475&fileSn=1"
-                  alt="이미지2" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030469&fileSn=1"
-                  alt="이미지3" />
-              </div>
-              <div class="tag_info">
-                <span>#누구나함께</span>
-                <span>#관광지</span>
-                <span>#걷기좋은곳</span>
-                <span>#힐링</span>
-                <span>#자연</span>
-                <span>#전라남도</span>
-              </div>
-            </div>
-            <div
-              class="usage_infobox">
-              <p class="title">
-                <span>이용안내 </span>
-              </p>
-              <ul class="contents">
-                <li>
-                  ※ 문의 및 안내 :
-                  <span>지리산정원 061-780-2891</span>
-                </li>
-                <li>
-                  ※ 운영시간 :
-                  <span>
-                    AM 09:00~ PM 18:00
-                  </span>
-                </li>
-                <li>
-                  ※ 이용요금 : 
-                  <span>
-                    - 야생화테마랜드
-                    개인
-                    어른 2,600원 / <br />&nbsp;&nbsp;&nbsp;&nbsp;청소년,군인 1,500원 / 어린이 1,000원<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;- 구례산수유자연휴양림 단체(20명이상)<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;어른 1,600원 / 청소년,군인 1,200원 / 어린이 800원<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;-구례수목원<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;어른 2,000원 / 청소년,군인 1,500원 / 어린이 1,000원
-                  </span>
-                </li>
-                <li>
-                  ※ 홈페이지 :
-                  <a href="https://ecopark.gurye.go.kr/">ecopark.gurye.go.kr(지리산정원)</a>
-                </li>
-                <li>
-                  ※ 가이드연결 : 신청 시 가능
-                </li>
-              </ul>
-            </div>
-            <div
-              class="comforts_box">
-              <p class="title">
-                <span>편의시설 안내</span>
-              </p>
-              <ul class="comfort_list">
-                <li>
-                  <span>주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
-                    alt="주차장" />
-                </li>
-                <li>
-                  <span>화장실</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
-                    alt="화장실" />
-                </li>
-                <li>
-                  <span>휠체어대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
-                    alt="휠체어대여" />
-                </li>
-                <li>
-                  <span>장애인주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
-                    alt="장애인주차장" />
-                </li>
-                
-                <li>
-                  <span>유모차대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
-                    alt="유모차대여" />
-                </li>
-                <li>
-                  <span>반려동물출입</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
-                    alt="반려동물출입" />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </transition>
-        <transition name="fade">
-          <div
-            v-if="teb_on == 3"
-            class="middlebox">
-            <div 
-            
-              class="detailbox">
-              <p class="title">
-                ④ 섬진강 대숲길
-              </p>
-              <p class="location">
-                전남 구례군 구례읍 원방리 1
-              </p>
-              <div class="cosimgbox">
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030515&fileSn=1"
-                  alt="이미지1" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000030513&fileSn=1"
-                  alt="이미지2" />
-                <img
-                  src="https://www.gurye.go.kr/board/getImage.do?atchFileId=FILE_000000000021061&fileSn=3"
-                  alt="이미지3" />
-              </div>
-              <div class="tag_info">
-                <span>#누구나함께</span>
-                <span>#관광지</span>
-                <span>#나들이</span>
-                <span>#힐링</span>
-                <span>#포토스팟</span>
-                <span>#전라남도</span>
-              </div>
-            </div>
-
-            <div
-              class="usage_infobox">
-              <p class="title">
-                <span>이용안내 </span>
-              </p>
-              <ul class="contents">
-                <li>
-                  ※ 문의 및 안내 :
-                  <span>섬진강 대숲길 061-780-2390</span>
-                </li>
-                <li>
-                  ※ 운영시간 :
-                  <span>
-                    연중무휴
-                  </span>
-                </li>
-                <li>
-                  ※ 이용요금 : 
-                  <span>
-                    무료
-                  </span>
-                </li>
-                <li>
-                  ※ 홈페이지 :
-                  <a href="https://www.gurye.go.kr/tour/detail.do?tourId=TOUR_0000000044&menuNo=101001005000">https://www.gurye.go.kr/ (섬진강 대숲길)</a>
-                </li>
-                <li>
-                  ※ 가이드연결 : 불가
-                </li>
-              </ul>
-            </div>
-
-            <div
-              class="comforts_box">
-              <p class="title">
-                <span>편의시설 안내</span>
-              </p>
-              <ul class="comfort_list">
-                <li>
-                  <span>주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_parking_on.png"
-                    alt="주차장" />
-                </li>
-                <li>
-                  <span>화장실</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledToilets_on.png"
-                    alt="화장실" />
-                </li>
-                <li>
-                  <span>휠체어대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_wheelchair.png"
-                    alt="휠체어대여" />
-                </li>
-                <li>
-                  <span>장애인주차장</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_disabledParking_on.png"
-                    alt="장애인주차장" />
-                </li>
-                
-                <li>
-                  <span>유모차대여</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_babyCarriage.png"
-                    alt="유모차대여" />
-                </li>
-                <li>
-                  <span>반려동물출입</span>
-                  <img
-                    src="https://www.gurye.go.kr/images/homepage/site/tour/sub/icon_animal.png"
-                    alt="반려동물출입" />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </transition>
+    
         <!-- 상단으로 이동 버튼 -->
         <div class="btn_top"></div>
       </div>
@@ -498,24 +153,26 @@
 
 
 export default {
+  props: {
+    courseData: {
+      type : Object
+    }
+  },
   data() {
     return {
       cosListNames: [
         {
-          num : "01",
-          name: "한국압화박물관"
+          num : "01"
         },
         {
-          num : "02",
-          name: "천은사"
+          num : "02"
         },
         {
-          num : "03",
-          name: "지리산 정원"
+          num : "03"
         },
         {
           num : "04",
-          name: "섬진강 대숲길"
+
         },
       ],
       teb_on: 0,
@@ -533,6 +190,13 @@ export default {
   padding-top: 40px;
   font-family: "Noto Sans KR", "Sans-serif";
 }
+.detail-info-area::after {
+  content: "";
+  display: block;
+  margin-top: 40px;
+  border: 1px solid #777;
+}
+
 .cos_spotlist ,
 .info_contentbox{
   background: #f3f2f2;
@@ -599,7 +263,7 @@ export default {
 .info_content_area {
   position: relative;
   width: 100%;
-  height: 1300px;
+  height: 1100px;
   background: #f3f2f2;
 }
 .fade-enter-active,
@@ -693,13 +357,20 @@ export default {
   
 }
 .usage_infobox .contents>li {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
   color: #222;
 
-  
+}
+
+.usage_infobox .contents>li>.tit {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  font-weight: 700;
 }
 .usage_infobox .contents>li>span {
   font-size: 16px;
@@ -716,7 +387,7 @@ export default {
 .usage_infobox,
 .comforts_box {
   display: inline-block;
-  max-width: 48%;
+  width: 48%;
   float: left;
   padding: 0 10px;
   background-color: #fff;
@@ -777,6 +448,49 @@ export default {
   margin-right: 10px;
   margin-bottom: 70px;
   vertical-align: middle;
+}
+
+@media print {
+  .detail-info-area {
+   page-break-before: always;
+   padding-top: 0;
+  }
+  .detail-info-area::after {
+    content: "";
+    display: none;
+  }
+  .info_content_area {
+    height: 850px;
+  }
+  .middlebox .usage_infobox {
+    height: calc(100% - 485px);
+    overflow-y: auto;
+  }
+  .cosimgbox img {
+    width: 30%;
+    height: auto;
+    margin: 0 1.6%;
+  }
+  .comforts_box .comfort_list {
+    
+  }
+  .comforts_box .comfort_list li {
+    flex: 0 0 50%;
+  }
+  .comforts_box .comfort_list li:nth-child(n + 3) {
+    margin-top: 15px;
+  }
+  .comforts_box .comfort_list li img {
+    width: 40%;
+  }
+  .comforts_box .comfort_list li span {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
 }
 
 
