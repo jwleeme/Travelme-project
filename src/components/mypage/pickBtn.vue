@@ -24,9 +24,7 @@ export default {
     }
   },
   computed: {
-    ...mapState("pickStore", {
-      pickList : "pickList"
-    }),
+    ...mapState("pickStore", {pickList : "pickList"}),
     picked() {
       const has = this.pickList.find(i => i.courseID === this.courseData.courseID)
       if (has) {

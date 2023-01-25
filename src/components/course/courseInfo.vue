@@ -33,7 +33,7 @@
         <img
           src="../../assets/img/picklist.png"
           alt="찜한 코스 목록으로 가기"
-          title="담은 코스 리스트" />
+          title="찜한 코스 리스트" />
       </router-link>
       <div class="course_print">
         <button>
@@ -120,7 +120,7 @@ props: {
   computed: {
     selectThemas() {
         if (!this.courseData) {
-            return "";
+            return {img : "", name : ""};
         }
         const themaName = this.cosThemaNames.find(thema => thema.value === this.courseData.thema);
         return themaName;

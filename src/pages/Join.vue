@@ -12,68 +12,120 @@
         <div>
           <label for="nickname">닉네임</label>
           <input
-            v-model="nickname"
+            v-model="formData.joinNickname"
             type="text"
             id="nickname" 
-            maxlength="15"
-            autocomplete="off" />
+            maxlength="10"
+            autocomplete="off"
+            @change="nickNameCheck"
+            oninvalid="this.setCustomValidity('필수 입력 값 입니다.')"
+            oninput="setCustomValidity('')"
+            required />
         </div>
         <div
           class="idarea">
           <label for="id">아이디</label>
           <input
-            v-model="userid"
+            v-model="formData.id"
             type="text"
             id="userid"
-            maxlength="10" 
-            autocomplete="off" />
-          <button class="idchk">
+            maxlength="10"
+            autocomplete="off"
+            @change="idChanged"
+            oninvalid="this.setCustomValidity('아이디는 필수 입력 값 입니다.')"
+            oninput="setCustomValidity('')"
+            required />
+
+          <button
+            class="idchk"
+            @click="idDuplicate">
             확인
           </button>
+          <p
+            v-if="idValid_1"
+            class="alertbox">
+            아이디에는 공백이 들어갈 수 없습니다.
+          </p>
+          <p
+            v-if="idValid_2"
+            class="alertbox">
+            유효하지 않은 형태의 아이디입니다.
+          </p>
+          <p
+            v-if="idValid_3"
+            class="alertbox">
+            아이디 중복체크는 필수입니다.
+          </p>
         </div>
         <div>
           <label for="pw">비밀번호</label>
           <input
-            v-model="userpw"
+            v-model="formData.pw"
             type="password"
             id="userpw" 
             maxlength="15"
-            :rules="userpw" />
+            autocomplete="off"
+            
+            oninvalid="this.setCustomValidity('비밀번호는 필수 입력 값 입니다.')"
+            oninput="setCustomValidity('')"
+            required />
+          <!-- <p
+            v-if="pwValid"
+            class="alertbox">
+            비밀번호는 최소 5글자 이상 15글자 이하로 작성해주세요.
+          </p> -->
         </div>
         <div>
           <label for="pwchk">비밀번호 확인</label>
           <input
-            v-model="pwchk"
+            v-model="joinPwchk"
             type="password"
             id="pwchk"
             maxlength="15"
-            :rules="userpw2" 
-            @change="validateCheckPw" />
+            autocomplete="off"
+            @change="validateCheckPw"
+            oninvalid="this.setCustomValidity('비밀번호 확인은 필수입니다.')"
+            oninput="setCustomValidity('')"
+            required />
         </div>
+        <p
+          v-if="pwMissMatch"
+          class="alertbox">
+          비밀번호가 맞지 않습니다.
+        </p>
 
         <div>
           <label
             for="email"
             class="emaillabel">이메일</label>
           <input
-            v-model="email"
+            v-model="formData.joinEmail"
             type="email"
             id="useremail"
             maxlength="25" 
-            autocomplete="off" />
+            autocomplete="off"
+            oninvalid="this.setCustomValidity('이메일은 필수 입력 값입니다.')"
+            oninput="setCustomValidity('')"
+            required />
         </div>
 
         <div class="agree-checkbox">
           <input
+            v-model="agree"
             type="checkbox"
             id="infoconsent" />
-          <label for="infoconsent"><span>개인정보수집에 동의합니다.</span></label>
+          <label for="infoconsent">
+            <span>개인정보수집에 동의합니다.</span></label>
         </div>
+
         <div>
-          <button class="joinbtn">
+          <button
+            class="joinbtn">
             회원가입
           </button>
-          <button class="backbtn">
+          <button
+            @click="backBtn"
+            class="backbtn">
             뒤로가기
           </button>
         </div>
@@ -86,23 +138,180 @@
 export default {
   data() {
     return {
+      formData: {
+        joinNickname: '',
+        id: '',
+        pw: '',
+        joinEmail : '' 
+      },
+      joinPwchk: '',
+      agree: false,
+      pwMissMatch: false,
+      // pwValid: false,
+      idValid_1: false,
+      idValid_2: false,
+      idValid_3: false,
+      idDuplicateCheck: false, // 버튼 중복체크를 눌렀는지 안눌렀는지 확인하기 위한 변수
     }
   },
+  computed: {
+    
+  },
   methods: {
-  validateCheckPw() {
-      let userpw = document.getElementById('userpw').value
-      let checkedPw = document.getElementById('pwchk').value
 
-      if(checkedPw.search(/\s/) !== -1) {
-        alert("비밀번호는 공백없이 입력해주세요!");
-        return false;
-      } else if(userpw !== checkedPw) {
-        alert("비밀번호가 맞지 않습니다.")
-      } else {
-        console.log("통과");
-        return true;
+    formSubmit() {
+      if (!this.formCheck()) {
+          return;
       }
+
+      if (!this.agree) {
+        return alert("개인정보 동의에 체크해주세요!");
+      }
+
+      // 저장
+      let userList = [];
+
+      if (localStorage.getItem('userList')) {
+        console.log(JSON.parse(localStorage.getItem('userList')))
+        userList = JSON.parse(localStorage.getItem('userList'))
+       
+      }
+      userList.push(this.formData)
+      localStorage.setItem('userList', JSON.stringify(userList))
+
+      this.formData.joinNickname = ''
+      this.formData.id = ''
+      this.formData.pw = ''
+      this.formData.joinEmail = ''
+      this.joinPwchk = ''
+      this.agree = false
+      this.pwMissMatch = false
+
+      this.$router.push({path: '/'}) // 루트 페이지로 이동 (라우팅)
+    },
+
+    nickNameCheck() {
+      let nullCheck = /\s/; // 공백체크
+      // let textLimit = /^[a-z0-9]+$/;
+
+      if (nullCheck.test(this.formData.joinNickname)) {
+        alert('공백없이 입력해주세요!') // 닉네임 알림창
+        document.getElementById('nickname').focus();
+        this.formData.joinNickname = '';
+        return false;
+      } 
+      return true;
+
+    },
+    idChanged() {
+      // 아이디가 바뀌었을때
+      this.idDuplicateCheck = false; // 중복체크 초기화
+      this.idValid_3 = false;
+
+      this.idCheck();
+
+    },
+    // 아이디 유효성 검사 (공백, 특수문자 체크)
+    idCheck() {
+      
+      // 알림문구 초기화
+      this.idValid_1 = false;
+      this.idValid_2 = false;
+      
+      
+      let nullCheck = /\s/; // 공백
+      let textCheck = /[~!@#$%^&*()_+|<>?:{}]/g; // 특수문자
+
+      if (nullCheck.test(this.formData.id)) {
+        this.idValid_1 = true
+        return false;
+      }
+      if (textCheck.test(this.formData.id)) {
+       console.log(textCheck.test(this.formData.id)) 
+        this.idValid_2 = true
+        return false;
+      }
+      return true;
+
+
+    },
+
+  // form을 submit 하기전 form 내 모든 유효성 검사 체크.
+  formCheck() {
+    
+    if (!this.nickNameCheck()) {
+      return false;
     }
+    if (!this.idCheck()) {
+      return false;
+    }
+
+    if (this.idDuplicateCheck !== true) {
+      this.idValid_3 = true // 중복체크해주세요!
+      return false;
+    }
+    return true;
+
+  },
+
+  // 아이디 중복체크
+  idDuplicate(e) {
+    e.preventDefault(); // 이벤트 전파방지
+
+    // 아이디 입력없이 중복체크(확인) 했을때
+    if (this.formData.id === '') {
+      return alert("아이디를 입력 후 중복확인해주세요!")
+    }
+    const userList = JSON.parse(localStorage.getItem('userList'))
+    const duplicated = userList.find((user) => {
+      if (this.formData.id === user.id) {
+        return user
+      }
+    })
+
+    if (duplicated) {
+      alert("중복되는 아이디가 있습니다!")
+      return;
+    } else {
+      alert("사용가능한 아이디입니다.")
+    }
+
+    this.idDuplicateCheck = true 
+    this.idValid_3 = false
+    
+
+  },
+  validateCheckPw() {
+    
+    this.pwMissMatch = false
+    // this.pwValid = false
+
+    // let passwordRegExp = /^[a-zA-z0-9]{5,15}$/;
+
+    // if (passwordRegExp.test(this.formData.id)) {
+    //   alert("로직 탐!!")
+    // } else {
+    //   return false;
+    // }
+    
+    if(this.formData.pw.search(/\s/) !== -1) {
+      alert("비밀번호는 공백없이 입력해주세요!");
+      this.formData.pw = ''
+      this.joinPwchk = ''
+      return false;
+    } else if (this.formData.pw !== this.joinPwchk) {
+      this.pwMissMatch = true
+    } else {
+      return true;
+    }
+  },
+    backBtn(e) {
+    
+    e.preventDefault(); // 이벤트 전파방지(submit 방지)
+    return this.$router.push({path: '/'})
+  }
+
+  
   },
   name: 'JoinPage'
 }
@@ -140,7 +349,7 @@ export default {
     text-align: center;
     
     div {
-      line-height: 3.5;
+      margin: 15px auto;
       label {
         display: inline-block;
         width: 100px;
@@ -184,6 +393,13 @@ export default {
         margin-left: 70px;
       }
       
+    }
+    .alertbox {
+      font-size: 14px;
+      color: red;
+      font-weight: 400;
+      margin-top: 10px;
+      margin-left: 85px;
     }
     #useremail {
       width: 250px;

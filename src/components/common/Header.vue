@@ -17,7 +17,7 @@
           </li>
 
           <!-- SUB MENU -->
-          <li class="drop_menu">
+          <li>
             <router-link :to="{name: 'CourseMain'}">
               Travel Course
             </router-link>
@@ -35,13 +35,26 @@
         <div class="icons_area">
           <router-link :to="{name:'Mypage'}">
             <span 
-              class="material-icons my-page">face</span>
+              class="material-icons my-page"
+              title="마이페이지">face</span>
           </router-link>
-          <router-link :to="{name:'PickList'}">
+          <router-link
+            :to="{name:'PickList'}"
+            class="picklink">
             <img
               src="../../assets/img/pick.png"
               alt="찜목록"
-              data-cart="5" />
+              title="코스 찜리스트" />
+
+            <p
+              v-if="!isLogin"
+              class="picknum">
+            </p>
+            <p
+              v-else
+              class="picknum">
+              {{ cartItemCount }}
+            </p>
           </router-link>
         </div>
 
@@ -68,7 +81,7 @@
         <div
           v-else
           class="checkout clearfix">
-          <p>지원님 환영합니다!</p>
+          <p>{{ loginUser.joinNickname }}님 환영합니다!</p>
           <button @click="setlogin(false)">
             LOGOUT
           </button>
@@ -103,7 +116,11 @@ export default {
     }
   },
   computed: {
-    ...mapState('userStore', ['isLogin'])
+    ...mapState('userStore', ['isLogin', 'loginUser']),
+    ...mapState("pickStore", { pickList: "pickList" }),
+    cartItemCount() {
+      return this.pickList.length || '';
+    }
   },
   methods: {
     ...mapMutations('userStore', {'setlogin': 'LOGIN' }),
@@ -126,27 +143,18 @@ export default {
 
 <style scoped>
 header {
-  width: 100%;
-  height: 100px;
   border-bottom: 5px solid #00491E;
   background:rgba(255, 255, 255, .3);
 }
 header > .inner {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto;
-}
-
-header>.inner::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .logo {
-  float: left;
-  margin-top: 30px;
+  flex-basis: 350px;
   font-family: 'Quarto Black','serif';
   font-weight: bold;
   font-size: 40px;
@@ -155,13 +163,12 @@ header>.inner::after {
 }
 
 .middle_area {
-  float: left;
-  transform: translate(50%, 200%);
+  flex-basis: 550px;
   font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
 }
 
 .main-menu {
-  position: relative;
+
 }
 .main-menu>li {
   display: inline-block;
@@ -179,12 +186,12 @@ header>.inner::after {
 }
 
 .right_area {
-  float: right;
-  position: relative;
+
   font-family: 'Noto Sans KR', 'Nanum Gothic'
 }
 .right_area .icons_area {
-  margin: 7px 0px 0px auto;
+  width: 140px;
+  margin: 10px 0px 0px 0px;
 }
 
 .right_area .my-page {
@@ -200,6 +207,17 @@ header>.inner::after {
   margin-left: 30px;
   transition: all .2s ease-in;
 }
+.right_area .picklink {
+  display: inline-block;
+}
+.right_area .picknum {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 6px;
+  margin-top: 2px;
+  font-weight: 700;
+  color: #ca3d1d;
+}
 
 .right_area .my-page:hover,
 .right_area img:hover {
@@ -210,17 +228,16 @@ header>.inner::after {
   display: inline-block;
 }
 .right_area form {
-  position: relative;
-  top: -2px;
+  margin: 5px auto 10px;
 }
 .right_area form input {
   display: block;
-  width: 140px;
-  height: 19px;
+  width: 150px;
+  height: 20px;
   padding-left: 10px;
   border-radius: 10px;
   color: #283a2c;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   outline: none;
   
@@ -228,7 +245,6 @@ header>.inner::after {
 .right_area form input:first-child {
   margin-bottom: 5px;
 }
-
 
 .loginbtn {
   display: inline-block;
@@ -268,6 +284,7 @@ header>.inner::after {
   font-size: 14px;
   font-weight: 700;
   padding: 3px 8px;
+  margin: 5px auto 8px;
 }
 .checkout button:hover {
   background: #f8ca7a;
@@ -296,13 +313,13 @@ header>.inner::after {
   line-height: 2.0;
   font-size: 20px;
 }
-
+/* 
 .drop_menu a {
-  padding-bottom: 45px;
+   padding-bottom: 45px; 
 }
 .main-menu>.drop_menu:hover .sub_menu {
   display: block;
-}
+} */
 @media print {
   header {
     display: none;

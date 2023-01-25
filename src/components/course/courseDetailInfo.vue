@@ -32,7 +32,7 @@
             <div class="detailbox">
               <p
                 class="title">
-                {{ cosListNames[index].num }} {{ spot.name }}
+                {{ cosListNames[index].num + '.' }} {{ spot.name }}
               </p>
               <p class="location">
                 {{ spot.location.address }}

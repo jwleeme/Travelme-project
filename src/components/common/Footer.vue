@@ -4,7 +4,7 @@
       <div class="footer-left">
         <div class="email">
           E-MAIL
-          <p>jeexxnlee @ gmail.com</p>
+          <p>imherejw @ gmail.com</p>
         </div>
 
         <div class="call_us">

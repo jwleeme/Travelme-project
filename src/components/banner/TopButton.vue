@@ -1,7 +1,6 @@
 <template>
   <div class="sidetoparea">
-    <span
-      onclick="window.scrollTo(0,0)">
+    <span>
       <img
         class="to_top"
         src="../../assets/img/btn_top.png"
@@ -25,6 +24,10 @@ export default {
 
       if (scrollTop >= imgShowLine) {
         imgToTop.classList.add('on');
+
+        imgToTop.onclick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        }
       }
     }
   }
@@ -40,14 +43,12 @@ export default {
   width: 60px;
   height: 60px;
   opacity: 0;
-  transform: translateX(40px);
   transition: .6s ease-in;
   cursor: pointer;
 }
 
 .to_top.on {
   opacity: 1;
-  transform: translateX(0);
 }
 
 </style>

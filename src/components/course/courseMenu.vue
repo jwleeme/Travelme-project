@@ -6,16 +6,19 @@
       <div class="line"></div>
       <button
         class="season"
+        :class="{on : mainmenu === 'season'}"
         @click="setMainMenu('season')">
         계절별
       </button>
       <button
         class="region"
+        :class="{on : mainmenu === 'region'}"
         @click="setMainMenu('region')">
         지역별
       </button>
       <button
         class="thema"
+        :class="{on : mainmenu === 'thema'}"
         @click="setMainMenu('thema')">
         테마별
       </button>
@@ -32,6 +35,7 @@
           class="sub_menus">
           <button
             class="sub_buttons"
+            :class="{on: submenu === menu.value}"
             @click="submenu = menu.value">
             {{ menu.name }}
           </button>
@@ -284,7 +288,10 @@ export default {
   font-size: 30px;
   font-weight: 800;
 }
-.mainmenu button:hover {
+
+.mainmenu button:hover,
+.mainmenu button.on {
+  /* background: #F6BB43; */
   background: #FAF0E1;
   border: 2px solid #F74C25;
   color: #283A2C;
@@ -316,6 +323,9 @@ export default {
   background: #FAF0E1;
   border: 1px solid #F74C25;
   
+}
+.submenu ul li .sub_buttons.on {
+  background: #FAF0E1;
 }
 
 /* 기간 설정 SelectBox */

@@ -59,8 +59,11 @@ export default {
       return {}
     }
   },
-  async created() {
+  created() {
     this.courseID = Number(this.$route.params.courseID)
+  },
+  
+  async mounted() {
     const res = await this.createAxios('vilage')
     const res2 = await this.createAxios('wthrIdx')
     
@@ -104,8 +107,6 @@ export default {
       this.courseAPI = [...this.courseAPI, ...filterd , ...uvFilter]
       this.totalCount = res.data.response.body.totalCount
         this.loading = false
-      this.$nextTick(() => {
-      })
     }
      
  

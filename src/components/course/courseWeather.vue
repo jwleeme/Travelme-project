@@ -3,29 +3,32 @@
     <div class="weather-area">
       <div class="weather_left">
         <div class="wea_box">
-          <h2>
+          <template v-if="!loading">
+            <h2>
+              <img
+                src="../../assets/img/img_dot.png"
+                alt="dot" />
+              여행지역 날씨
+              <img
+                src="../../assets/img/img_dot.png"
+                alt="dot" />
+            </h2>
             <img
-              src="../../assets/img/img_dot.png"
-              alt="dot" />
-            여행지역 날씨
-            <img
-              src="../../assets/img/img_dot.png"
-              alt="dot" />
-          </h2>
-          <img
-            v-if="spotsky > 0"
-            class="sky_condition"
-            :src="weatherIcon[spotsky].img"
-            :alt="weatherIcon[spotsky].alt" />
-          <p
-            v-if="spotsky > 0"
-            class="sky_text">
-            {{ weatherIcon[spotsky].alt }}
-          </p>
+              v-if="spotsky > 0"
+              class="sky_condition"
+              :src="weatherIcon[spotsky].img"
+              :alt="weatherIcon[spotsky].alt" />
+            <p
+              v-if="spotsky > 0"
+              class="sky_text">
+              {{ weatherIcon[spotsky].alt }}
+            </p>
+          </template>
+
           <p
             class="load_text"
-            v-if="loading">
-            날씨정보를 로딩중입니다...
+            v-else>
+            날씨 로딩중...
           </p>
         </div>
       </div>
@@ -42,8 +45,11 @@
               <h3>
                 체감온도
               </h3>
-              <p>
+              <p v-if="!loading">
                 26.5도
+              </p>
+              <p v-else>
+                날씨 로딩중...
               </p>
             </div>
           </div>
@@ -56,11 +62,16 @@
             </div>
             <div class="textbox">
               <h3>자외선 지수</h3>
-              <p>
+              <p v-if="!loading">
                 {{ uvSensory[uvsensory].uvtext }}
+              </p>
+
+              <p v-else>
+                날씨 로딩중...
               </p>
             </div>
           </div>
+
           <div class="percent_area">
             <div class="imgbox">
               <img
@@ -69,7 +80,13 @@
             </div>
             <div class="textbox">
               <h3>강수확률</h3>
-              <p>{{ rainpercent + `%` }}</p>
+              <p v-if="!loading">
+                {{ rainpercent + `%` }}
+              </p>
+
+              <p v-else>
+                날씨 로딩중...
+              </p>
             </div>
           </div>
           
@@ -83,7 +100,12 @@
               <h3 class="rain_text">
                 강수량
               </h3>
-              <p>10mm</p>
+              <p v-if="!loading">
+                10mm
+              </p>
+              <p v-else>
+                날씨 로딩중...
+              </p>
             </div>
           </div>
         </div>
@@ -92,7 +114,7 @@
         </div>
 
         <div class="weather_times">
-          <ul>
+          <ul v-if="!loading">
             <li
               v-for="(item, index) in weathers"
               :key="`weathers${index}`">
@@ -110,8 +132,8 @@
           </ul>
           <p
             class="load_text"
-            v-if="loading">
-            날씨정보를 로딩중입니다...
+            v-else>
+            날씨 로딩중...
           </p>
         </div>
       </div>
@@ -257,6 +279,7 @@ section {
   position: absolute;
   top: 22%;
   left: 5%;
+  width: 90%;
 }
 .weather_left h2 {
   margin: 0px 20px 0 33px;

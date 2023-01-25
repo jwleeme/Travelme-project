@@ -3,12 +3,15 @@ export default {
 
   state: {
     pickList: [],
+    count: 0,
     
   },
   mutations: {
     // 로컬스토리지에 업데이트 저장
     updatePickList(state) {
+      
       const list = JSON.stringify(state.pickList)
+     
       localStorage.setItem("pickList", list)
     }
     
@@ -44,7 +47,14 @@ export default {
 
         commit("updatePickList")
       }
+
+    },
+    // 전체삭제
+    pickListClear({ state, commit }) {
+      state.pickList.splice(0)
+      commit("updatePickList")
     }
+    
   }
 
 }
