@@ -103,13 +103,13 @@ const data = [
     thema: 'familytour',
   },
   {
-    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=13108661-1e25-4754-87e9-ac928308f3ce',
+    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=63d0076b-967a-4118-83c8-7f5004b1d0fe',
     title: '인천 석모도 미네랄온천',
     region: 'gyeongi',
     thema: 'familytour',
   },
   {
-    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6e60ae6b-1b2f-4283-a3e1-81aa6be14a17',
+    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=72048185-e17f-4135-87d6-9d3e843498d0',
     title: '광명 에디슨뮤지엄',
     region: 'gyeongi',
     thema: 'familytour',
@@ -127,7 +127,7 @@ const data = [
     thema: 'friends',
   },
   {
-    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d9823bce-d289-473f-8ffa-3a1bb7f807c6',
+    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6ba88095-71c7-4850-b97d-70ae4c178af7',
     title: '산너미목장',
     region: 'gangwon',
     thema: 'friends',
@@ -182,7 +182,7 @@ const data = [
   },
 
   {
-    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b1236b19-8cf0-4b4e-9dde-48afa1a21002',
+    image: 'https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=f394632d-8dd8-4839-b5fc-26a5232d1409',
     title: '낭만포차',
     region: 'jeonla',
     thema: 'friends'

@@ -133,7 +133,7 @@ export default {
         this.map = new window.naver.maps.Map('map', {
           center: tripspot.destinationPoint(0, 500),
           zoom: 10, //지도 초기 줌 레벨
-          minZoom: 5,
+          minZoom: 6,
           zoomControl: true,
           zoomControlOptions: { //줌 컨트롤 옵션
             position: window.naver.maps.Position.TOP_RIGHT

@@ -26,6 +26,8 @@ import courseMap from '@/components/course/courseMap.vue'
 import topButton from '@/components/banner/TopButton.vue'
 import courseDetailInfo from '@/components/course/courseDetailInfo.vue'
 
+import moment from 'moment';
+
 export default {
   components: {
     courseInfo,
@@ -65,10 +67,12 @@ export default {
   
   async mounted() {
     const res = await this.createAxios('vilage')
-    const res2 = await this.createAxios('wthrIdx')
-    
+    // 기존에 사용하던 공공 날씨 API의 업데이트로 사라져 주석처리
+    //const res2 = await this.createAxios('wthrIdx')
+
     // 데이터 접근 정상
-    if (res.data.response.header.resultCode === "00" && res2.data.response.header.resultCode === "00") {
+    if (res.data.response.header.resultCode === "00") {
+     
       // 초기값 설정
       let spotfilter = 0;
       let themafilter = "";
@@ -84,7 +88,7 @@ export default {
         if (this.spotsky === 0) {
           this.spotsky = item.sky // 여행지역날씨
         }
-        if (this.pop === 0) {
+        if (this.pop) {
           this.pop = item.pop // 강수확률
         }
         if (this.rn === 0) {
@@ -94,23 +98,25 @@ export default {
         return item.thema === themafilter && item.spotAreaId === spotfilter
       }).reverse();
 
-      const uvFilter = res2.data.response.body.items.item.filter((item) => {
-        if (this.uvIndex === 0) {
-          this.uvIndex = item.uvIndex // 자외선지수
-        }
-        // if (this.btIndex === 0) {   <- 체감온도 데이터 없음.
-        //   this.btIndex = item.btIndex
-        // }
-        return 
-      })
-      // spread 문법
-      this.courseAPI = [...this.courseAPI, ...filterd , ...uvFilter]
+      // 자외선지수
+      // const uvFilter = res2.data.response.body.items.item.filter((item) => {
+      //   if (this.uvIndex === 0) {
+      //     this.uvIndex = item.uvIndex 
+      //   }
+      //   return false;
+      // })
+      const uvFilter = [];
+      // this.courseAPI.push({
+      //   sky: 1,
+      //   tm: moment().format()
+      // })
+      this.courseAPI = [...filterd , ...uvFilter]
       this.totalCount = res.data.response.body.totalCount
         this.loading = false
     }
      
  
-  },
+  }
  
 
 }

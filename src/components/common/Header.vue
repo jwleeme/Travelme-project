@@ -63,11 +63,11 @@
           @submit.prevent="onSubmit">
           <div class="login_area">
             <input
-              v-model="id"
+              v-model="userid"
               type="text"
               placeholder="ID 입력" />
             <input
-              v-model="pw"
+              v-model="userpw"
               type="password"
               placeholder="PASSWORD 입력" />
           </div>

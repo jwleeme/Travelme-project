@@ -203,6 +203,9 @@ export default {
         }
       },
       uvSensory: {
+        0: {
+          uvtext : "-"
+        },
         1: {
           uvtext : "낮음"
         },

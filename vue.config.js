@@ -6,7 +6,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
       '/': {
-        target: 'https://apis.data.go.kr/1360000/TourStnInfoService',
+        target: 'http://apis.data.go.kr/1360000/TourStnInfoService1',
         changeOrigin: true
       }
     }

@@ -284,15 +284,6 @@ export default {
   validateCheckPw() {
     
     this.pwMissMatch = false
-    // this.pwValid = false
-
-    // let passwordRegExp = /^[a-zA-z0-9]{5,15}$/;
-
-    // if (passwordRegExp.test(this.formData.id)) {
-    //   alert("로직 탐!!")
-    // } else {
-    //   return false;
-    // }
     
     if(this.formData.pw.search(/\s/) !== -1) {
       alert("비밀번호는 공백없이 입력해주세요!");
@@ -306,7 +297,6 @@ export default {
     }
   },
     backBtn(e) {
-    
     e.preventDefault(); // 이벤트 전파방지(submit 방지)
     return this.$router.push({path: '/'})
   }
