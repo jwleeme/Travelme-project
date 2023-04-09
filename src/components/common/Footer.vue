@@ -17,15 +17,17 @@
         <ul>
           <li>
             <a
-              href="#"
-              title="PR 사이트">
+              href="https://github.com/jwleeme/JW_RESUME/blob/main/Jiwon_Resume.pdf"
+              target="_blank"
+              title="이력서">
               <img
                 src="../../assets/img/resume-icon96.png"
                 alt="Resume Site" /></a>
           </li>
           <li>
             <a
-              href="#"
+              href="https://github.com/jwleeme"
+              target="_blank"
               title="Github 저장소">
               <img
                 src="../../assets/img/github-icon96.png"

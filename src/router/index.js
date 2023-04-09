@@ -23,11 +23,6 @@ export default createRouter({
       component: () => import ('@/pages/About.vue')
     },
     {
-      path: '/login',
-      name: 'Login',
-      component: () => import('@/pages/Login.vue')
-    },
-    {
       path: '/mypage',
       name: 'Mypage',
       component: () => import('@/pages/Mypage.vue'),

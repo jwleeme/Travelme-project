@@ -65,7 +65,7 @@
             id="userpw" 
             maxlength="15"
             autocomplete="off"
-            
+            @change="validateCheckPw"
             oninvalid="this.setCustomValidity('비밀번호는 필수 입력 값 입니다.')"
             oninput="setCustomValidity('')"
             required />
@@ -187,6 +187,7 @@ export default {
       this.agree = false
       this.pwMissMatch = false
 
+      alert("회원가입이 완료되었습니다!")
       this.$router.push({path: '/'}) // 루트 페이지로 이동 (라우팅)
     },
 

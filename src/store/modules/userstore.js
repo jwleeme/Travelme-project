@@ -14,7 +14,7 @@ const userStore = {
     LOGIN: (state, payload) => {
       state.isLogin = payload
       if (!payload) {
-        state.loginUser.joinNickname = ''; // 초기화!!
+        state.loginUser.joinNickname = ''; 
       }
     }
   },
