@@ -147,11 +147,10 @@ export default {
       joinPwchk: '',
       agree: false,
       pwMissMatch: false,
-      // pwValid: false,
       idValid_1: false,
       idValid_2: false,
       idValid_3: false,
-      idDuplicateCheck: false, // 버튼 중복체크를 눌렀는지 안눌렀는지 확인하기 위한 변수
+      idDuplicateCheck: false, // 중복체크 버튼 작동 여부 체크변수
     }
   },
   computed: {
@@ -172,7 +171,7 @@ export default {
       let userList = [];
 
       if (localStorage.getItem('userList')) {
-        console.log(JSON.parse(localStorage.getItem('userList')))
+        
         userList = JSON.parse(localStorage.getItem('userList'))
        
       }
@@ -246,11 +245,10 @@ export default {
     if (!this.idCheck()) {
       return false;
     }
-
     if (this.idDuplicateCheck !== true) {
       this.idValid_3 = true // 중복체크해주세요!
       return false;
-    }
+    } 
     return true;
 
   },
@@ -263,11 +261,14 @@ export default {
     if (this.formData.id === '') {
       return alert("아이디를 입력 후 중복확인해주세요!")
     }
-    const userList = JSON.parse(localStorage.getItem('userList'))
+
+    // 아이디 중복체크 (+예외처리)
+    const userList = JSON.parse(localStorage.getItem('userList')) || [] 
+
     const duplicated = userList.find((user) => {
       if (this.formData.id === user.id) {
         return user
-      }
+      } 
     })
 
     if (duplicated) {
@@ -302,7 +303,6 @@ export default {
     return this.$router.push({path: '/'})
   }
 
-  
   },
   name: 'JoinPage'
 }
